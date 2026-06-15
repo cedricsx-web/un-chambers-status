@@ -1,9 +1,9 @@
 {
-  "date": "2026-06-12",
-  "fetched_at": "2026-06-12T17:22:51.772Z",
-  "ny_date": "2026-06-12",
+  "date": "2026-06-15",
+  "fetched_at": "2026-06-15T13:17:23.112Z",
+  "ny_date": "2026-06-15",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 9 meetings",
+  "note": "Live from journal-api.un.org -- 18 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -14,37 +14,65 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10170th meeting",
+          "title": "Security Council -- 10171st meeting",
           "agenda": [],
-          "id": "3e595784-a33c-497c-a1c7-d23ce6eae2d4"
+          "id": "90d1d750-222d-4e4e-b29e-cd98ab556fa5"
+        },
+        {
+          "time": "Followed By",
+          "title": "Security Council -- 10172nd meeting",
+          "agenda": [],
+          "id": "6501d1f8-ee1e-4e3e-a26e-3cf29970aeb5"
         }
       ]
     },
     {
       "room": "Trusteeship Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "General Assembly, Eightieth session -- Informal meeting of the plenary on the intergovernmental negotiations on the question of equitable representation on and increase in the membership of the Security Council and other matters related to the Council",
+          "agenda": [],
+          "id": "08ed2c51-0596-4159-ba1e-8fb39fac330b"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "General Assembly, Eightieth session -- Informal dialogue with a candidate for the position of the next Secretary-General",
+          "agenda": [],
+          "id": "e9a12031-f666-4044-9842-60face9850e3"
+        }
+      ]
     },
     {
       "room": "Economic and Social Council",
       "meetings": [
         {
           "time": "3:00 PM",
-          "title": "Permanent Mission of the Republic of Korea,United Nations Office on Drugs and Crime (UNODC) -- Event entitled “Launch of the Group of Friends for Combating Technology-facilitated Trafficking in Persons” (co-organized by the Permanent Mission of the Republic of Korea and the United Nations Office on Drugs and Crime (UNODC))",
+          "title": "Security Council -- 10173rd meeting",
           "agenda": [],
-          "id": "5c09220e-5166-4b60-9502-f444a7edf310"
+          "id": "968982ed-3ff7-4b42-b129-a28bdb53ead9"
         }
       ]
     }
   ],
   "meetings": [
-    "Security Council -- 10170th meeting",
-    "General Assembly, Eightieth session -- Informal consultations on the review of the arrangements contained in General Assembly resolutions 75/290 A and 75/290 B and their annexes on the strengthening of the Economic and Social Council and on the high-level political forum on sustainable development and the follow-up and review of the 2030 Agenda for Sustainable Development at the global level",
+    "Security Council -- 10171st meeting",
+    "Security Council -- 10172nd meeting",
+    "Security Council -- 10173rd meeting",
     "General Assembly, Eightieth session -- Informal consultations on the the political declaration of the high-level meeting on HIV/AIDS",
-    "General Assembly, Eightieth session -- Informal consultations on the political declaration of the high-level meeting on HIV/AIDS",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Peacebuilding Commission -- Ambassadorial-level meeting on Sao Tome and Principe",
-    "Committee for Programme and Coordination, Sixty-sixth substantive session -- 19th meeting",
-    "Executive Board of the United Nations Development Programme, the United Nations Population Fund and the United Nations Office for Project Services, Annual session 2026 -- 9th plenary meeting",
-    "Permanent Mission of the Republic of Korea,United Nations Office on Drugs and Crime (UNODC) -- Event entitled “Launch of the Group of Friends for Combating Technology-facilitated Trafficking in Persons” (co-organized by the Permanent Mission of the Republic of Korea and the United Nations Office on Drugs and Crime (UNODC))"
+    "General Assembly, Eightieth session -- Informal meeting of the plenary on the intergovernmental negotiations on the question of equitable representation on and increase in the membership of the Security Council and other matters related to the Council",
+    "General Assembly, Eightieth session -- Informal consultations on the review of the arrangements contained in General Assembly resolutions 75/290 A and 75/290 B and their annexes on the strengthening of the Economic and Social Council and on the high-level political forum on sustainable development and the follow-up and review of the 2030 Agenda for Sustainable Development at the global level",
+    "General Assembly, Eightieth session -- Informal dialogue with a candidate for the position of the next Secretary-General",
+    "General Assembly, Eightieth session -- Preparatory process for the high-level meeting on pandemic prevention, preparedness and response: presentation of the zero draft of the political declaration",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Committee on Contributions, Eighty-sixth session -- Meeting",
+    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 3rd plenary meeting",
+    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 4th plenary meeting",
+    "Meeting of the States Parties to the International Covenant on Civil and Political Rights, Forty-second session -- 1st meeting",
+    "Meeting of the States Parties to the International Covenant on Civil and Political Rights, Forty-second session -- 2nd meeting",
+    "Meeting of States Parties to the United Nations Convention on the Law of the Sea, Thirty-sixth Meeting -- 256th meeting",
+    "Meeting of States Parties to the United Nations Convention on the Law of the Sea, Thirty-sixth Meeting -- 257th meeting",
+    "Economic and Social Council, 2026 session -- Informal consultations on the Inter-Agency Task Force on the Prevention and Control of Non-Communicable Diseases",
+    "Economic and Social Council, 2026 session -- Informal consultation on ECOSOC HLPF/HLS ministerial declaration"
   ]
 }
