@@ -1,9 +1,9 @@
 {
-  "date": "2026-06-15",
-  "fetched_at": "2026-06-15T17:04:21.127Z",
-  "ny_date": "2026-06-15",
+  "date": "2026-06-16",
+  "fetched_at": "2026-06-16T13:20:02.812Z",
+  "ny_date": "2026-06-16",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 16 meetings",
+  "note": "Live from journal-api.un.org -- 15 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -14,9 +14,21 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10171st meeting",
+          "title": "Security Council -- 10174th meeting",
           "agenda": [],
-          "id": "90d1d750-222d-4e4e-b29e-cd98ab556fa5"
+          "id": "49cd9d59-ace9-4235-a48b-df30a1a6ab81"
+        },
+        {
+          "time": "Followed By",
+          "title": "Security Council -- Consultations of the whole",
+          "agenda": [],
+          "id": "c3ee59a8-8049-4de9-81d9-3baad03106e3"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Security Council -- Consultations of the whole",
+          "agenda": [],
+          "id": "c53e45ad-c1f5-476f-a345-f66498fd2763"
         }
       ]
     },
@@ -24,16 +36,10 @@
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "10:00 AM",
+          "time": "3:00 PM",
           "title": "General Assembly, Eightieth session -- Informal meeting of the plenary on the intergovernmental negotiations on the question of equitable representation on and increase in the membership of the Security Council and other matters related to the Council",
           "agenda": [],
-          "id": "08ed2c51-0596-4159-ba1e-8fb39fac330b"
-        },
-        {
-          "time": "3:00 PM",
-          "title": "General Assembly, Eightieth session -- Informal dialogue with a candidate for the position of the next Secretary-General",
-          "agenda": [],
-          "id": "e9a12031-f666-4044-9842-60face9850e3"
+          "id": "62421188-3652-44d1-b152-8a0a068abc0b"
         }
       ]
     },
@@ -41,30 +47,35 @@
       "room": "Economic and Social Council",
       "meetings": [
         {
-          "time": "3:00 PM",
-          "title": "Security Council -- 10173rd meeting",
+          "time": "10:00 AM",
+          "title": "Economic and Social Council, 2026 session -- 26th plenary meeting",
           "agenda": [],
-          "id": "968982ed-3ff7-4b42-b129-a28bdb53ead9"
+          "id": "1d9c243f-c724-4c42-a8d7-d5661c53915a"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Economic and Social Council, 2026 session -- 27th plenary meeting",
+          "agenda": [],
+          "id": "8feb5c3f-acde-471f-ac10-dc2a9a412fda"
         }
       ]
     }
   ],
   "meetings": [
-    "Security Council -- 10171st meeting",
-    "Security Council -- 10173rd meeting",
-    "General Assembly, Eightieth session -- Informal consultations on the the political declaration of the high-level meeting on HIV/AIDS",
+    "Security Council -- 10174th meeting",
+    "Security Council -- Consultations of the whole",
     "General Assembly, Eightieth session -- Informal meeting of the plenary on the intergovernmental negotiations on the question of equitable representation on and increase in the membership of the Security Council and other matters related to the Council",
-    "General Assembly, Eightieth session -- Informal consultations on the review of the arrangements contained in General Assembly resolutions 75/290 A and 75/290 B and their annexes on the strengthening of the Economic and Social Council and on the high-level political forum on sustainable development and the follow-up and review of the 2030 Agenda for Sustainable Development at the global level",
-    "General Assembly, Eightieth session -- Informal dialogue with a candidate for the position of the next Secretary-General",
-    "General Assembly, Eightieth session -- Preparatory process for the high-level meeting on pandemic prevention, preparedness and response: presentation of the zero draft of the political declaration",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "Committee on Contributions, Eighty-sixth session -- Meeting",
-    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 3rd plenary meeting",
-    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 4th plenary meeting",
-    "Meeting of the States Parties to the International Covenant on Civil and Political Rights, Forty-second session -- 1st meeting",
-    "Meeting of States Parties to the United Nations Convention on the Law of the Sea, Thirty-sixth Meeting -- 256th meeting",
-    "Meeting of States Parties to the United Nations Convention on the Law of the Sea, Thirty-sixth Meeting -- 257th meeting",
-    "Economic and Social Council, 2026 session -- Informal consultations on the Inter-Agency Task Force on the Prevention and Control of Non-Communicable Diseases",
-    "Economic and Social Council, 2026 session -- Informal consultation on ECOSOC HLPF/HLS ministerial declaration"
+    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 5th plenary meeting",
+    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 6th plenary meeting",
+    "Meeting of States Parties to the United Nations Convention on the Law of the Sea, Thirty-sixth Meeting -- 258th meeting",
+    "Meeting of States Parties to the United Nations Convention on the Law of the Sea, Thirty-sixth Meeting -- 259th meeting",
+    "Economic and Social Council, 2026 session -- 26th plenary meeting",
+    "Economic and Social Council, 2026 session -- Informal consultation on ECOSOC HLPF/HLS ministerial declaration",
+    "Economic and Social Council, 2026 session -- Informal consultation on draft resolution on Least Developed Countries",
+    "Economic and Social Council, 2026 session -- 27th plenary meeting",
+    "Executive Board of the United Nations Children’s Fund, Annual session -- 1st plenary meeting",
+    "Executive Board of the United Nations Children’s Fund, Annual session -- 2nd plenary meeting"
   ]
 }
