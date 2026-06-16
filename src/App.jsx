@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import HelpModal from "./components/HelpModal";
 
 const BASE     = import.meta.env.BASE_URL || "/";
 const GH_TOKEN = import.meta.env.VITE_GITHUB_TOKEN || "";
@@ -754,7 +755,10 @@ export default function App() {
           )}
         </div>
       </div>
-
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+        <h1>UN Daily Briefing</h1>
+        <HelpModal />
+      </div>
       {todayObservance&&(
         <a href={todayObservance.url} target="_blank" rel="noopener noreferrer" style={{display:"block",background:"linear-gradient(90deg,rgba(0,96,214,0.35),rgba(0,150,220,0.18))",borderBottom:"1px solid rgba(0,160,220,0.25)",padding:"12px var(--pad)",textDecoration:"none"}}>
           <div style={{maxWidth:"600px",margin:"0 auto",display:"flex",alignItems:"center",gap:"10px"}}>
