@@ -731,11 +731,11 @@ export default function App() {
             style={{width:"38px",height:"38px",borderRadius:"50%",background:triggering?"rgba(0,160,220,0.35)":"rgba(0,160,220,0.2)",border:"2px solid rgba(0,160,220,0.5)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"18px",cursor:GH_TOKEN&&!triggering?"pointer":"default",flexShrink:0,animation:triggering?"spin 1.5s linear infinite":undefined}}
           >&#127760;</div>
           {triggerMsg&&<span style={{position:"absolute",top:"8px",left:"50%",transform:"translateX(-50%)",fontSize:"10px",color:"rgba(0,160,220,0.8)",background:"rgba(10,22,40,0.9)",padding:"3px 8px",borderRadius:"10px",whiteSpace:"nowrap",pointerEvents:"none"}}>{triggerMsg}</span>}
-            <div>
+            <div style={{flex:1}}>
               <div style={{fontSize:"10px",letterSpacing:"2px",color:"rgba(255,255,255,0.5)",fontWeight:"600",textTransform:"uppercase"}}>United Nations</div>
               <div style={{fontSize:"clamp(17px,5vw,22px)",fontWeight:"800",fontFamily:"'Playfair Display',serif",lineHeight:1}}>Daily Briefing</div>
-
             </div>
+            <HelpModal />
           </div>
           {dateLabel&&(
             <div style={{marginTop:"10px"}}>
@@ -754,10 +754,6 @@ export default function App() {
             </div>
           )}
         </div>
-      </div>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <h1>UN Daily Briefing</h1>
-        <HelpModal />
       </div>
       {todayObservance&&(
         <a href={todayObservance.url} target="_blank" rel="noopener noreferrer" style={{display:"block",background:"linear-gradient(90deg,rgba(0,96,214,0.35),rgba(0,150,220,0.18))",borderBottom:"1px solid rgba(0,160,220,0.25)",padding:"12px var(--pad)",textDecoration:"none"}}>
