@@ -1,9 +1,9 @@
 {
-  "date": "2026-06-17",
-  "fetched_at": "2026-06-17T14:57:47.225Z",
-  "ny_date": "2026-06-17",
+  "date": "2026-06-18",
+  "fetched_at": "2026-06-18T14:53:19.148Z",
+  "ny_date": "2026-06-18",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 14 meetings",
+  "note": "Live from journal-api.un.org -- 15 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -14,9 +14,21 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10175th meeting",
+          "title": "Security Council -- 10176th meeting",
           "agenda": [],
-          "id": "2389d920-31f8-431e-b8a8-b42a2413047f"
+          "id": "736e688a-c276-45b6-876c-43fb43ec5bd9"
+        },
+        {
+          "time": "Followed By",
+          "title": "Security Council -- Consultations of the whole",
+          "agenda": [],
+          "id": "607e0c3d-fddb-45b5-894c-496e988a558c"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Security Council -- 10177th meeting",
+          "agenda": [],
+          "id": "d4ae9816-23f3-43ee-951b-f5a2fc23f268"
         }
       ]
     },
@@ -24,10 +36,10 @@
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "3:00 PM",
-          "title": "Group of 77 -- Briefing (at the ambassadorial level)",
+          "time": "10:00 AM",
+          "title": "General Assembly, Eightieth session -- Informal dialogue with a candidate for the position of the next Secretary-General",
           "agenda": [],
-          "id": "3a13f582-12f3-4137-9308-a5d9765c5e90"
+          "id": "a8089e58-e354-4f7d-8296-aa7aedabde14"
         }
       ]
     },
@@ -36,33 +48,34 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Economic and Social Council, 2026 session -- 28th plenary meeting",
+          "title": "Economic and Social Council, 2026 session -- 30th plenary meeting",
           "agenda": [],
-          "id": "00bcaa8f-4014-4845-bcc3-0975dd874aa8"
+          "id": "2c105629-9ab7-4548-9539-7bbe2c30b6f2"
         },
         {
           "time": "3:00 PM",
-          "title": "Economic and Social Council, 2026 session -- 29th plenary meeting",
+          "title": "Economic and Social Council, 2026 session -- 31st plenary meeting",
           "agenda": [],
-          "id": "4ced6c54-484e-4e66-bc17-41cb2ca4d891"
+          "id": "0f7304c4-0f0a-4115-88b0-097d3c6144e7"
         }
       ]
     }
   ],
   "meetings": [
-    "Security Council -- 10175th meeting",
-    "General Assembly, Eightieth session -- Informal consultations on the progress declaration of the high-level meeting on improving global road safety",
-    "General Assembly, Eightieth session -- Informal consultations on the political declaration to renew commitment and accelerate the implementation of the New Urban Agenda",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Security Council -- 10176th meeting",
+    "Security Council -- Consultations of the whole",
+    "Security Council -- 10177th meeting",
+    "General Assembly, Eightieth session -- Informal consultations on the high-level meeting on universal health coverage",
+    "General Assembly, Eightieth session -- Informal dialogue with a candidate for the position of the next Secretary-General",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
     "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- Informal consultations",
-    "Meeting of States Parties to the United Nations Convention on the Law of the Sea, Thirty-sixth Meeting -- 260th meeting",
-    "Meeting of States Parties to the United Nations Convention on the Law of the Sea, Thirty-sixth Meeting -- 261st meeting",
-    "Economic and Social Council, 2026 session -- 28th plenary meeting",
-    "Economic and Social Council, 2026 session -- 29th plenary meeting",
-    "Executive Board of the United Nations Children’s Fund, Annual session -- 3rd plenary meeting",
-    "Executive Board of the United Nations Children’s Fund, Annual session -- 4th plenary meeting",
-    "Permanent Mission of Italy,Division for Public Institutions and Digital Government, Department of Economic and Social Affairs,International Development Law Organization (IDLO) -- SDG 16 Conference 2026 – “Driving transformation and coordinated action for sustainable development” (co-organized by the Permanent Mission of Italy, the Division for Public Institutions and Digital Government, Department of Economic and Social Affairs and the International Development Law Organization (IDLO))",
-    "Group of 77 -- On the operational activities segment of the Economic and Social Council",
-    "Group of 77 -- Briefing (at the ambassadorial level)"
+    "Meeting of States Parties to the United Nations Convention on the Law of the Sea, Thirty-sixth Meeting -- 262nd meeting",
+    "Meeting of States Parties to the United Nations Convention on the Law of the Sea, Thirty-sixth Meeting -- 263rd meeting",
+    "Military Staff Committee -- 2151st meeting",
+    "Economic and Social Council, 2026 session -- 30th plenary meeting",
+    "Economic and Social Council, 2026 session -- 31st plenary meeting",
+    "Economic and Social Council, 2026 session -- Informal consultations on ECOSOC HLPF/HLS ministerial declaration",
+    "Executive Board of the United Nations Children’s Fund, Annual session -- 5th plenary meeting",
+    "Permanent Mission of Morocco,Office on Genocide Prevention and the Responsibility to Protect (OSAPG) -- High-level event to mark the International Day for Countering Hate Speech focused on partnerships and coalition building, with emphasis on practical approaches and tools for countering hate speech (co-organized by the Permanent Mission of Morocco and the Office on Genocide Prevention and the Responsibility to Protect (OSAPG))"
   ]
 }
