@@ -98,17 +98,17 @@ function HelpModal() {
   const [expanded, setExpanded] = useState(null);
 
   return (
-    <>
+    <div style={{flexShrink:0}}>
       <button
         onClick={function(){setOpen(true);}}
         style={{
-          background: "rgba(255,255,255,0.1)",
-          border: "1px solid rgba(255,255,255,0.2)",
+          background: "rgba(255,255,255,0.12)",
+          border: "1px solid rgba(255,255,255,0.25)",
           color: "#fff",
           borderRadius: "50%",
-          width: "30px",
-          height: "30px",
-          fontSize: "14px",
+          width: "34px",
+          height: "34px",
+          fontSize: "15px",
           fontWeight: "700",
           cursor: "pointer",
           display: "flex",
@@ -116,6 +116,8 @@ function HelpModal() {
           justifyContent: "center",
           flexShrink: 0,
           fontFamily: "inherit",
+          WebkitAppearance: "none",
+          touchAction: "manipulation",
         }}
       >?</button>
 
