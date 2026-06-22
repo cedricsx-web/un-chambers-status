@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import HelpModal from "./components/HelpModal";
 
 const BASE     = import.meta.env.BASE_URL || "/";
 const GH_TOKEN = import.meta.env.VITE_GITHUB_TOKEN || "";
@@ -731,11 +730,11 @@ export default function App() {
             style={{width:"38px",height:"38px",borderRadius:"50%",background:triggering?"rgba(0,160,220,0.35)":"rgba(0,160,220,0.2)",border:"2px solid rgba(0,160,220,0.5)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"18px",cursor:GH_TOKEN&&!triggering?"pointer":"default",flexShrink:0,animation:triggering?"spin 1.5s linear infinite":undefined}}
           >&#127760;</div>
           {triggerMsg&&<span style={{position:"absolute",top:"8px",left:"50%",transform:"translateX(-50%)",fontSize:"10px",color:"rgba(0,160,220,0.8)",background:"rgba(10,22,40,0.9)",padding:"3px 8px",borderRadius:"10px",whiteSpace:"nowrap",pointerEvents:"none"}}>{triggerMsg}</span>}
-            <div style={{flex:1}}>
+            <div>
               <div style={{fontSize:"10px",letterSpacing:"2px",color:"rgba(255,255,255,0.5)",fontWeight:"600",textTransform:"uppercase"}}>United Nations</div>
-              <div style={{fontSize:"clamp(17px,5vw,22px)",fontWeight:"800",fontFamily:"'Playfair Display',serif",lineHeight:1}}>Daily Briefing</div>
+              <div style={{fontSize:"clamp(17px,5vw,22px)",fontWeight:"800",fontFamily:"'Playfair Display',serif",lineHeight:1}}>UN Chambers Status</div>
+
             </div>
-            <HelpModal />
           </div>
           {dateLabel&&(
             <div style={{marginTop:"10px"}}>
@@ -755,6 +754,7 @@ export default function App() {
           )}
         </div>
       </div>
+
       {todayObservance&&(
         <a href={todayObservance.url} target="_blank" rel="noopener noreferrer" style={{display:"block",background:"linear-gradient(90deg,rgba(0,96,214,0.35),rgba(0,150,220,0.18))",borderBottom:"1px solid rgba(0,160,220,0.25)",padding:"12px var(--pad)",textDecoration:"none"}}>
           <div style={{maxWidth:"600px",margin:"0 auto",display:"flex",alignItems:"center",gap:"10px"}}>
@@ -784,9 +784,9 @@ export default function App() {
         {!data&&!loading&&!error&&(
           <div style={{textAlign:"center",padding:"48px 24px",animation:"fadeSlideIn 0.5s ease"}}>
             <div style={{fontSize:"52px",marginBottom:"20px"}}>&#127482;&#127475;</div>
-            <h2 style={{fontFamily:"'Playfair Display',serif",fontSize:"22px",fontWeight:"700",margin:"0 0 10px"}}>Your daily UN briefing</h2>
+            <h2 style={{fontFamily:"'Playfair Display',serif",fontSize:"22px",fontWeight:"700",margin:"0 0 10px"}}>UN Chambers Status</h2>
             <p style={{color:"rgba(255,255,255,0.5)",fontSize:"14px",lineHeight:"1.6",marginBottom:"28px"}}>Live chamber schedule and all meetings from the UN Journal.</p>
-            <button onClick={fetchBriefing} style={{background:"linear-gradient(135deg,#0096D6,#0050A0)",color:"#fff",border:"none",borderRadius:"50px",padding:"14px 36px",fontSize:"15px",fontWeight:"700",cursor:"pointer",boxShadow:"0 8px 24px rgba(0,100,200,0.4)",fontFamily:"'DM Sans',sans-serif"}}>Load Today's Schedule</button>
+            <button onClick={fetchBriefing} style={{background:"linear-gradient(135deg,#0096D6,#0050A0)",color:"#fff",border:"none",borderRadius:"50px",padding:"14px 36px",fontSize:"15px",fontWeight:"700",cursor:"pointer",boxShadow:"0 8px 24px rgba(0,100,200,0.4)",fontFamily:"'DM Sans',sans-serif"}}>Load Schedule</button>
           </div>
         )}
         {loading&&(
