@@ -1,22 +1,41 @@
 {
-  "date": "2026-06-19",
-  "fetched_at": "2026-06-19T14:48:35.667Z",
-  "ny_date": "2026-06-19",
+  "date": "2026-06-22",
+  "fetched_at": "2026-06-22T13:16:19.470Z",
+  "ny_date": "2026-06-22",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 10 meetings",
+  "note": "Live from journal-api.un.org -- 16 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "90th plenary meeting",
+          "agenda": [],
+          "id": "7671f870-c228-4d00-bfd2-1bc37407c626"
+        }
+      ]
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10175th meeting (resumed)",
+          "title": "10178th meeting",
           "agenda": [],
-          "id": "a88c3afd-52eb-4561-b843-4ff2cf50294f"
+          "id": "094e23a9-1137-4065-9182-1f83aae0fbef"
+        },
+        {
+          "time": "Followed By",
+          "title": "Consultations of the whole [Closed]",
+          "agenda": [],
+          "id": "b8152078-3a78-4e28-836b-c3897838c252"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "10179th meeting",
+          "agenda": [],
+          "id": "d667970a-fbc4-4d83-a938-e110352a056d"
         }
       ]
     },
@@ -24,41 +43,40 @@
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing on the Independent International Scientific Panel on AI",
+          "time": "3:00 PM",
+          "title": "General Assembly, Eightieth session -- 2026 high-level meeting on HIV/AIDS: thematic panel discussions 1 and 2",
           "agenda": [],
-          "id": "96a7240a-eccc-496e-8f74-2e57d0218aed"
+          "id": "77c369c5-bf8c-46ef-8c8f-58f6762bd8ce"
         },
         {
-          "time": "3:00 PM",
-          "title": "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing by the Special Envoy of the Secretary-General on Myanmar",
+          "time": "10:00 AM",
+          "title": "Economic and Social Council, 2026 session -- Joint meeting of the Economic and Social Council and the Peacebuilding Commission",
           "agenda": [],
-          "id": "7d30eb91-cedc-4e2a-ac8a-bd39835edfbf"
+          "id": "75a046b5-e262-4015-b8b1-baefb83f5611"
         }
       ]
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Economic and Social Council, 2026 session -- 32nd plenary meeting",
-          "agenda": [],
-          "id": "02246048-2a97-408b-b131-9aac4ddf5ffd"
-        }
-      ]
+      "meetings": []
     }
   ],
   "meetings": [
-    "Security Council -- 10175th meeting (resumed)",
-    "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing on the Independent International Scientific Panel on AI",
-    "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing by the Special Envoy of the Secretary-General on Myanmar",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Committee on Contributions, Eighty-sixth session -- Meeting",
-    "Economic and Social Council, 2026 session -- Informal consultations on draft resolution on Least Developed Countries",
-    "Economic and Social Council, 2026 session -- 32nd plenary meeting",
-    "Executive Board of the United Nations Children’s Fund, Annual session -- 6th plenary meeting",
-    "Office of the Special Representative of the Secretary-General on Sexual Violence in Conflict (OSRSG-SVC),Permanent Mission of Argentina,Office of the Special Representative of the Secretary-General for Children and Armed Conflict (OSRSG-CAAC) -- Event to commemorate the International Day for the Elimination of Sexual Violence in Conflict (on the occasion of the International Day for the Elimination of Sexual Violence in Conflict) (organized by the Office of the Special Representative of the Secretary-General on Sexual Violence in Conflict (OSRSG-SVC) in collaboration with the Permanent Mission of Argentina and the Office of the Special Representative of the Secretary-General for Children and Armed Conflict (OSRSG-CAAC))",
-    "Permanent Mission of Fiji,Permanent Mission of Jamaica,Permanent Mission of Malta,Permanent Mission of Singapore -- Panel Discussion on “UNCLOS: The Enduring Foundation for Ocean Governance” (co-organized by the Permanent Missions of Fiji, Jamaica, Malta and Singapore)"
+    "General Assembly, Eightieth session -- Informal consultations on the political declaration to renew commitment and accelerate the implementation of the New Urban Agenda",
+    "General Assembly, Eightieth session -- Informal consultations on Beyond GDP",
+    "General Assembly, Eightieth session -- Informal consultations on the ninth biennial review of the United Nations Global Counter-Terrorism Strategy",
+    "General Assembly, Eightieth session -- 2026 high-level meeting on HIV/AIDS: thematic panel discussions 1 and 2",
+    "General Assembly, Eightieth session -- Informal consultations on the modalities and political declaration of the high-level meeting of the General Assembly to commemorate the twentieth anniversary of the adoption of the Durban Declaration and Programme of Action",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 7th plenary meeting",
+    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 8th plenary meeting",
+    "United Nations Open-ended Informal Consultative Process on Oceans and the Law of the Sea, Twenty-sixth meeting -- Plenary session",
+    "United Nations Open-ended Informal Consultative Process on Oceans and the Law of the Sea, Twenty-sixth meeting -- Discussion panel",
+    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- Informal consultations on draft decisions",
+    "Economic and Social Council, 2026 session -- Joint meeting of the Economic and Social Council and the Peacebuilding Commission",
+    "General Assembly -- 90th plenary meeting",
+    "Security Council -- 10178th meeting",
+    "Security Council -- Consultations of the whole [Closed]",
+    "Security Council -- 10179th meeting"
   ]
 }
