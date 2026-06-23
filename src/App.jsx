@@ -95,103 +95,37 @@ const SECTIONS = [
 
 function HelpModal() {
   const [open, setOpen] = useState(false);
-  const [expanded, setExpanded] = useState(null);
-
   return (
     <div style={{flexShrink:0}}>
       <button
         onClick={function(){setOpen(true);}}
-        style={{
-          background: "rgba(255,255,255,0.12)",
-          border: "1px solid rgba(255,255,255,0.25)",
-          color: "#fff",
-          borderRadius: "50%",
-          width: "34px",
-          height: "34px",
-          fontSize: "15px",
-          fontWeight: "700",
-          cursor: "pointer",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          flexShrink: 0,
-          fontFamily: "inherit",
-          WebkitAppearance: "none",
-          touchAction: "manipulation",
-        }}
+        style={{background:"rgba(255,255,255,0.12)",border:"1px solid rgba(255,255,255,0.25)",color:"#fff",borderRadius:"50%",width:"34px",height:"34px",fontSize:"15px",fontWeight:"700",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,fontFamily:"inherit",WebkitAppearance:"none",touchAction:"manipulation"}}
       >?</button>
-
-      {open && (
+      {open&&(
         <>
-          {/* Backdrop */}
-          <div
-            onClick={function(){setOpen(false);setExpanded(null);}}
-            style={{
-              position: "fixed", inset: 0,
-              background: "rgba(0,0,0,0.6)",
-              zIndex: 1000,
-            }}
-          />
-
-          {/* Modal */}
-          <div style={{
-            position: "fixed",
-            bottom: 0, left: 0, right: 0,
-            background: "linear-gradient(180deg,#0d2044,#0a1628)",
-            borderRadius: "20px 20px 0 0",
-            border: "1px solid rgba(255,255,255,0.12)",
-            zIndex: 1001,
-            maxHeight: "80vh",
-            overflowY: "auto",
-            padding: "20px 20px calc(env(safe-area-inset-bottom,0px) + 20px)",
-          }}>
-            {/* Handle */}
+          <div onClick={function(){setOpen(false);}} style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.6)",zIndex:1000}}/>
+          <div style={{position:"fixed",bottom:0,left:0,right:0,background:"linear-gradient(180deg,#0d2044,#0a1628)",borderRadius:"20px 20px 0 0",border:"1px solid rgba(255,255,255,0.12)",zIndex:1001,maxHeight:"82vh",overflowY:"auto",padding:"20px 20px calc(env(safe-area-inset-bottom,0px) + 24px)"}}>
             <div style={{width:"40px",height:"4px",borderRadius:"2px",background:"rgba(255,255,255,0.2)",margin:"0 auto 16px"}}/>
-
-            {/* Header */}
-            <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:"18px"}}>
+            <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:"20px"}}>
               <div>
-                <div style={{fontSize:"10px",letterSpacing:"2px",color:"rgba(255,255,255,0.4)",textTransform:"uppercase"}}>Help</div>
+                <div style={{fontSize:"10px",letterSpacing:"2px",color:"rgba(255,255,255,0.4)",textTransform:"uppercase"}}>Help Guide</div>
                 <div style={{fontSize:"18px",fontWeight:"800",color:"#fff",fontFamily:"'Playfair Display',serif"}}>UN Chambers Status</div>
               </div>
-              <button
-                onClick={function(){setOpen(false);setExpanded(null);}}
-                style={{background:"rgba(255,255,255,0.1)",border:"none",color:"rgba(255,255,255,0.6)",borderRadius:"50%",width:"30px",height:"30px",fontSize:"16px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",fontFamily:"inherit"}}
-              >&#x2715;</button>
+              <button onClick={function(){setOpen(false);}} style={{background:"rgba(255,255,255,0.1)",border:"none",color:"rgba(255,255,255,0.6)",borderRadius:"50%",width:"32px",height:"32px",fontSize:"16px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",fontFamily:"inherit"}}>&#x2715;</button>
             </div>
-
-            {/* Sections */}
-            <div style={{display:"flex",flexDirection:"column",gap:"8px"}}>
-              {SECTIONS.map(function(s,i){return (
-                <div
-                  key={i}
-                  onClick={function(){setExpanded(expanded===i?null:i);}}
-                  style={{
-                    background: expanded===i ? "rgba(0,150,214,0.12)" : "rgba(255,255,255,0.04)",
-                    border: "1px solid " + (expanded===i ? "rgba(0,150,214,0.3)" : "rgba(255,255,255,0.08)"),
-                    borderRadius: "10px",
-                    padding: "12px 14px",
-                    cursor: "pointer",
-                  }}
-                >
-                  <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <span style={{fontSize:"13px",fontWeight:"700",color: expanded===i ? "#00A0DC" : "rgba(255,255,255,0.85)"}}>{s.title}</span>
-                    <span style={{fontSize:"11px",color:"rgba(255,255,255,0.3)",flexShrink:0,marginLeft:"8px"}}>{expanded===i ? "&#9650;" : "&#9660;"}</span>
-                  </div>
-                  {expanded===i && (
-                    <p style={{margin:"10px 0 0",fontSize:"13px",color:"rgba(255,255,255,0.7)",lineHeight:"1.6"}}>{s.content}</p>
-                  )}
+            <div style={{display:"flex",flexDirection:"column",gap:"16px"}}>
+              {SECTIONS.map(function(s,i){return(
+                <div key={i}>
+                  <div style={{fontSize:"11px",fontWeight:"700",color:"#00A0DC",textTransform:"uppercase",letterSpacing:"0.8px",marginBottom:"5px"}}>{s.title}</div>
+                  <p style={{margin:0,fontSize:"13px",color:"rgba(255,255,255,0.75)",lineHeight:"1.65"}}>{s.content}</p>
                 </div>
               );})}
             </div>
-
-            <p style={{textAlign:"center",fontSize:"11px",color:"rgba(255,255,255,0.25)",marginTop:"20px"}}>
-              UN Chambers Status - UNHQ Guides
-            </p>
+            <p style={{textAlign:"center",fontSize:"11px",color:"rgba(255,255,255,0.2)",marginTop:"24px"}}>UN Chambers Status - UNHQ Guides</p>
           </div>
         </>
       )}
-    </>
+    </div>
   );
 }
 
