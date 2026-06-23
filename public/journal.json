@@ -1,7 +1,7 @@
 {
-  "date": "2026-06-22",
-  "fetched_at": "2026-06-22T19:48:43.101Z",
-  "ny_date": "2026-06-22",
+  "date": "2026-06-23",
+  "fetched_at": "2026-06-23T13:19:06.708Z",
+  "ny_date": "2026-06-23",
   "source": "journal-api.un.org",
   "note": "Live from journal-api.un.org -- 16 meetings",
   "chambers": [
@@ -10,9 +10,21 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "90th plenary meeting",
+          "title": "2026 high-level meeting on HIV/AIDS: thematic panel discussion 3",
           "agenda": [],
-          "id": "7671f870-c228-4d00-bfd2-1bc37407c626"
+          "id": "f7b11588-bd8c-466d-8b0e-0993aea5e07b"
+        },
+        {
+          "time": "Followed By",
+          "title": "91st plenary meeting",
+          "agenda": [],
+          "id": "416e2d29-3c76-4c22-adee-840865fca33b"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "92nd plenary meeting",
+          "agenda": [],
+          "id": "0b629bc6-7b2e-470c-91d9-f4cf4c6c6808"
         }
       ]
     },
@@ -21,21 +33,21 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "10178th meeting",
+          "title": "10180th meeting",
           "agenda": [],
-          "id": "094e23a9-1137-4065-9182-1f83aae0fbef"
+          "id": "1eb89e43-2231-4f30-9f57-bbff9960bbdb"
+        },
+        {
+          "time": "Followed By",
+          "title": "10181st meeting",
+          "agenda": [],
+          "id": "68ddb70e-2260-4c24-aeb2-2f98e99fc333"
         },
         {
           "time": "Followed By",
           "title": "Consultations of the whole [Closed]",
           "agenda": [],
-          "id": "b8152078-3a78-4e28-836b-c3897838c252"
-        },
-        {
-          "time": "3:00 PM",
-          "title": "10179th meeting",
-          "agenda": [],
-          "id": "d667970a-fbc4-4d83-a938-e110352a056d"
+          "id": "9a1250b8-7365-4fe8-ac40-1fe9ea81d475"
         }
       ]
     },
@@ -44,15 +56,9 @@
       "meetings": [
         {
           "time": "3:00 PM",
-          "title": "General Assembly, Eightieth session -- 2026 high-level meeting on HIV/AIDS: thematic panel discussions 1 and 2",
+          "title": "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 2nd plenary meeting",
           "agenda": [],
-          "id": "77c369c5-bf8c-46ef-8c8f-58f6762bd8ce"
-        },
-        {
-          "time": "10:00 AM",
-          "title": "Economic and Social Council, 2026 session -- Joint meeting of the Economic and Social Council and the Peacebuilding Commission",
-          "agenda": [],
-          "id": "75a046b5-e262-4015-b8b1-baefb83f5611"
+          "id": "4d14d0bc-cfce-48ec-b7b0-681587de3200"
         }
       ]
     },
@@ -62,21 +68,21 @@
     }
   ],
   "meetings": [
-    "General Assembly, Eightieth session -- Informal consultations on the political declaration to renew commitment and accelerate the implementation of the New Urban Agenda",
-    "General Assembly, Eightieth session -- Informal consultations on Beyond GDP",
-    "General Assembly, Eightieth session -- Informal consultations on the ninth biennial review of the United Nations Global Counter-Terrorism Strategy",
-    "General Assembly, Eightieth session -- 2026 high-level meeting on HIV/AIDS: thematic panel discussions 1 and 2",
-    "General Assembly, Eightieth session -- Informal consultations on the modalities and political declaration of the high-level meeting of the General Assembly to commemorate the twentieth anniversary of the adoption of the Durban Declaration and Programme of Action",
+    "General Assembly, Eightieth session -- Informal consultations on the the implementation of the International Decade for People of African Descent",
+    "General Assembly, Eightieth session -- Informal consultations on the political declaration on sea level rise",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 7th plenary meeting",
-    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 8th plenary meeting",
-    "United Nations Open-ended Informal Consultative Process on Oceans and the Law of the Sea, Twenty-sixth meeting -- Plenary session",
     "United Nations Open-ended Informal Consultative Process on Oceans and the Law of the Sea, Twenty-sixth meeting -- Discussion panel",
+    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 1st plenary meeting",
     "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- Informal consultations on draft decisions",
-    "Economic and Social Council, 2026 session -- Joint meeting of the Economic and Social Council and the Peacebuilding Commission",
-    "General Assembly -- 90th plenary meeting",
-    "Security Council -- 10178th meeting",
-    "Security Council -- Consultations of the whole [Closed]",
-    "Security Council -- 10179th meeting"
+    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 2nd plenary meeting",
+    "Economic and Social Council, 2026 session -- Informal consultations on ECOSOC HLPF/HLS ministerial declaration",
+    "Board of Trustees of the United Nations Institute for Disarmament Research (UNIDIR) -- Meeting",
+    "States Parties to the Convention on the Rights of the Child, Twenty-first meeting -- Meeting",
+    "General Assembly -- 2026 high-level meeting on HIV/AIDS: thematic panel discussion 3",
+    "General Assembly -- 91st plenary meeting",
+    "General Assembly -- 92nd plenary meeting",
+    "Security Council -- 10180th meeting",
+    "Security Council -- 10181st meeting",
+    "Security Council -- Consultations of the whole [Closed]"
   ]
 }
