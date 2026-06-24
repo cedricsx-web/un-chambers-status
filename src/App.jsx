@@ -350,8 +350,10 @@ function MeetingsList({meetings,onCancel,onDelete,onUncancel,onEdit,editingId,on
               </div>
               <div style={{display:"flex",gap:"4px",flexShrink:0}}>
                 {!cancelled&&(
+                  <>
                   <button onClick={function(e){e.stopPropagation();onDuplicate&&onDuplicate(m);}} title="Duplicate" style={{background:"rgba(0,150,214,0.08)",border:"1px solid rgba(0,150,214,0.2)",color:"rgba(0,160,220,0.6)",borderRadius:"6px",width:"24px",height:"24px",fontSize:"11px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",padding:0}}>&#10064;</button>
                   <button onClick={function(e){e.stopPropagation();isExtra?onEdit(m):onEditNote(cancelKey);}} style={{background:"rgba(0,150,214,0.12)",border:"1px solid rgba(0,150,214,0.25)",color:"#00A0DC",borderRadius:"6px",width:"24px",height:"24px",fontSize:"12px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",padding:0}}>&#9998;</button>
+                  </>
                 )}
                 {!cancelled?(
                   <button onClick={function(e){e.stopPropagation();isExtra?onDelete(extraId):onCancel(cancelKey);}} style={{flexShrink:0,background:"rgba(220,50,50,0.15)",border:"1px solid rgba(220,50,50,0.35)",color:"#ff8080",borderRadius:"6px",width:"24px",height:"24px",fontSize:"13px",fontWeight:"700",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",lineHeight:1,fontFamily:"inherit",padding:0}}>&#x2715;</button>
@@ -997,7 +999,7 @@ export default function App() {
                   })()}
                 </div>
                 <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"10px"}}>
-                  {mergedChambers.map(function(c,i){return <ChamberCard key={i} chamber={c} index={i} onCancel={cancelMeeting} onAdjourn={adjournMeeting} onUnadjourn={unadjournMeeting} onDelete={deleteExtraMeeting} adjournedTitles={adjournedTitles} cancelledTitles={cancelledTitles} override={chamberOverrides[c.room]||null} onCycleStatus={cycleChamberStatus} chamberStatus={chamberStatus} adjournedTitlesForStatus={adjournedTitles} meetingNotes={meetingNotes} onClearNote={function(m){if(m.isExtra){updateExtraMeeting(m.extraId,{extra_notes:"",note:""});}else{saveMeetingNote(m.title,"");}}  } onDuplicate={duplicateMeeting}/>;} )}
+                  {mergedChambers.map(function(c,i){return <ChamberCard key={i} chamber={c} index={i} onCancel={cancelMeeting} onAdjourn={adjournMeeting} onUnadjourn={unadjournMeeting} onDelete={deleteExtraMeeting} adjournedTitles={adjournedTitles} cancelledTitles={cancelledTitles} override={chamberOverrides[c.room]||null} onCycleStatus={cycleChamberStatus} chamberStatus={chamberStatus} adjournedTitlesForStatus={adjournedTitles} meetingNotes={meetingNotes} onClearNote={function(m){if(m.isExtra){updateExtraMeeting(m.extraId,{extra_notes:"",note:""});}else{saveMeetingNote(m.title,"");}}} onDuplicate={duplicateMeeting}/>;} )}
                 </div>
               </div>
               <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"14px"}}>
