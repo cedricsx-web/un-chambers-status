@@ -64,6 +64,10 @@ const SECTIONS = [
     content: "Tap the + button next to All Meetings Today. Fill in organizer type, name, title, room, time and status. The meeting appears immediately in the list and in the correct chamber card for all guides.",
   },
   {
+    title: "Duplicating a Meeting",
+    content: "Tap the copy icon next to any meeting in the list, or tap the three-dot menu in the chamber card and choose Duplicate. The add form opens pre-filled with the meeting details. Change the time, room or any field and save. Useful when a morning meeting continues in the afternoon or moves to a different room.",
+  },
+  {
     title: "Adding a Note",
     content: "Tap the pencil icon next to any meeting to add context: Security Council topic, special guest, subject of debate. Notes appear under the meeting title in both the list and the chamber card, visible to all guides.",
   },
