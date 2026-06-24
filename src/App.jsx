@@ -139,7 +139,7 @@ function HelpModal() {
 
 
 // -- Meeting Row --
-function MeetingRow({m,onCancel,onAdjourn,onUnadjourn,onDelete,adjournedTitles,meetingNotes,chamberName,onClearNote}) {
+function MeetingRow({m,onCancel,onAdjourn,onUnadjourn,onDelete,adjournedTitles,meetingNotes,chamberName,onClearNote,onDuplicate}) {
   const [agendaOpen,setAgendaOpen]=useState(false);
   const [showActions,setShowActions]=useState(false);
   const [titleExpanded,setTitleExpanded]=useState(false);
@@ -202,6 +202,7 @@ function MeetingRow({m,onCancel,onAdjourn,onUnadjourn,onDelete,adjournedTitles,m
       {showActions&&!adjourned&&(
         <div style={{marginTop:"6px",marginLeft:"46px",display:"flex",gap:"6px",flexWrap:"wrap",animation:"fadeSlideIn 0.15s ease"}}>
           <button onClick={function(){onAdjourn&&onAdjourn(cancelKey,chamberName);setShowActions(false);}} style={{background:"rgba(252,195,11,0.12)",border:"1px solid rgba(252,195,11,0.3)",color:"#FCC30B",borderRadius:"6px",padding:"4px 10px",fontSize:"10px",fontWeight:"700",cursor:"pointer",fontFamily:"inherit"}}>&#10003; Adjourned</button>
+          <button onClick={function(){onDuplicate&&onDuplicate(m);setShowActions(false);}} style={{background:"rgba(0,150,214,0.12)",border:"1px solid rgba(0,150,214,0.3)",color:"#00A0DC",borderRadius:"6px",padding:"4px 10px",fontSize:"10px",fontWeight:"700",cursor:"pointer",fontFamily:"inherit"}}>&#10064; Duplicate</button>
           {m.isExtra?(
             <button onClick={function(){onDelete&&onDelete(m.extraId);setShowActions(false);}} style={{background:"rgba(220,50,50,0.12)",border:"1px solid rgba(220,50,50,0.3)",color:"#ff8080",borderRadius:"6px",padding:"4px 10px",fontSize:"10px",fontWeight:"700",cursor:"pointer",fontFamily:"inherit"}}>&#x2715; Remove</button>
           ):(
@@ -215,7 +216,7 @@ function MeetingRow({m,onCancel,onAdjourn,onUnadjourn,onDelete,adjournedTitles,m
 }
 
 // -- Chamber Card --
-function ChamberCard({chamber,index,onCancel,onAdjourn,onUnadjourn,onDelete,adjournedTitles,cancelledTitles,override,onCycleStatus,chamberStatus,adjournedTitlesForStatus,meetingNotes,onClearNote}) {
+function ChamberCard({chamber,index,onCancel,onAdjourn,onUnadjourn,onDelete,adjournedTitles,cancelledTitles,override,onCycleStatus,chamberStatus,adjournedTitlesForStatus,meetingNotes,onClearNote,onDuplicate}) {
   const icon=CHAMBER_ICONS[chamber.room]||"UN";
   const hasSession=chamber.meetings&&chamber.meetings.some(function(m){return !m.cancelled;});
   const isSC=chamber.room==="Security Council";
@@ -246,7 +247,7 @@ function ChamberCard({chamber,index,onCancel,onAdjourn,onUnadjourn,onDelete,adjo
       </div>
       {hasSession?(
         <div style={{display:"flex",flexDirection:"column",gap:"10px"}}>
-          {(chamber.meetings||[]).map(function(m,i){return <MeetingRow key={i} m={m} onCancel={onCancel} onAdjourn={onAdjourn} onUnadjourn={onUnadjourn} onDelete={onDelete} adjournedTitles={adjournedTitles} meetingNotes={meetingNotes} chamberName={chamber.room} onClearNote={onClearNote}/>;} )}
+          {(chamber.meetings||[]).map(function(m,i){return <MeetingRow key={i} m={m} onCancel={onCancel} onAdjourn={onAdjourn} onUnadjourn={onUnadjourn} onDelete={onDelete} adjournedTitles={adjournedTitles} meetingNotes={meetingNotes} chamberName={chamber.room} onClearNote={onClearNote} onDuplicate={onDuplicate}/>;} )}
         </div>
       ):(
         <p style={{margin:0,fontSize:"11px",color:"rgba(255,255,255,0.25)",fontStyle:"italic"}}>No session today</p>
@@ -313,7 +314,7 @@ function EditMeetingForm({meeting,onSave,onClose}) {
 }
 
 // -- Meetings List --
-function MeetingsList({meetings,onCancel,onDelete,onUncancel,onEdit,editingId,onSaveEdit,onCloseEdit,meetingNotes,editingNote,onEditNote,onSaveNote,onCloseNote}) {
+function MeetingsList({meetings,onCancel,onDelete,onUncancel,onEdit,editingId,onSaveEdit,onCloseEdit,meetingNotes,editingNote,onEditNote,onSaveNote,onCloseNote,onDuplicate}) {
   const [expanded,setExpanded]=useState(false);
   const visible=[...meetings.slice(0,5),...(expanded?meetings.slice(5):[])];
   return (
@@ -349,6 +350,7 @@ function MeetingsList({meetings,onCancel,onDelete,onUncancel,onEdit,editingId,on
               </div>
               <div style={{display:"flex",gap:"4px",flexShrink:0}}>
                 {!cancelled&&(
+                  <button onClick={function(e){e.stopPropagation();onDuplicate&&onDuplicate(m);}} title="Duplicate" style={{background:"rgba(0,150,214,0.08)",border:"1px solid rgba(0,150,214,0.2)",color:"rgba(0,160,220,0.6)",borderRadius:"6px",width:"24px",height:"24px",fontSize:"11px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",padding:0}}>&#10064;</button>
                   <button onClick={function(e){e.stopPropagation();isExtra?onEdit(m):onEditNote(cancelKey);}} style={{background:"rgba(0,150,214,0.12)",border:"1px solid rgba(0,150,214,0.25)",color:"#00A0DC",borderRadius:"6px",width:"24px",height:"24px",fontSize:"12px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",padding:0}}>&#9998;</button>
                 )}
                 {!cancelled?(
@@ -634,6 +636,51 @@ export default function App() {
     setDeletedExtraIds(function(p){return [...p,id];});
     if(!SB_URL||!SB_KEY)return;
     try{await fetch(SB_URL+"/rest/v1/extra_meetings?id=eq."+id,{method:"DELETE",headers:{"apikey":SB_KEY,"Authorization":"Bearer "+SB_KEY}});}catch(e){}
+  }
+  function duplicateMeeting(m) {
+    // Pre-fill the add form with the meeting's details
+    if(m.isExtra){
+      // Extra meeting: use its existing fields
+      const e=extraMeetings.find(function(x){return x.id===m.extraId;});
+      if(e){
+        setFormOrgType(e.organizer_type||"un_body");
+        setFormOrgName(e.organizer_name||"");
+        setFormTitle(e.title||"");
+        setFormRoom(e.room||"Trusteeship Council Chamber");
+        setFormTimeStart(e.time_start||"");
+        setFormTimeEnd(e.time_end||"");
+        setFormClosed(!!e.is_closed);
+        setFormNote(e.extra_notes||e.note||"");
+      }
+    } else {
+      // Journal meeting: parse title (format: "Body -- Meeting" or just "Meeting")
+      const full=m.title||"";
+      const parts=full.split(" -- ");
+      const organizer=parts.length>1?parts[0]:"";
+      const title=parts.length>1?parts.slice(1).join(" -- "):full;
+      // Guess room from chamber name
+      const chamberToRoom={"Security Council":"Security Council Chamber","Trusteeship Council":"Trusteeship Council Chamber","Economic and Social Council":"Economic and Social Council Chamber","General Assembly Hall":"General Assembly Hall"};
+      const room=chamberToRoom[m.chamberName]||"Trusteeship Council Chamber";
+      setFormOrgType("un_body");
+      setFormOrgName(organizer||title.slice(0,40));
+      setFormTitle(organizer?title:full);
+      setFormRoom(room);
+      // Parse time back to 24h for the input
+      const t=m.time||"";
+      const tm=t.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+      if(tm){
+        let h=parseInt(tm[1]);const min=tm[2];const ap=tm[3].toUpperCase();
+        if(ap==="PM"&&h!==12)h+=12;
+        if(ap==="AM"&&h===12)h=0;
+        setFormTimeStart(String(h).padStart(2,"0")+":"+min);
+      } else {
+        setFormTimeStart("");
+      }
+      setFormTimeEnd("");
+      setFormClosed(false);
+      setFormNote("");
+    }
+    setShowAddForm(true);
   }
   async function saveExtraMeeting(){
     if(!SB_URL||!SB_KEY){setFormErr("Supabase not configured");return;}
@@ -950,7 +997,7 @@ export default function App() {
                   })()}
                 </div>
                 <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"10px"}}>
-                  {mergedChambers.map(function(c,i){return <ChamberCard key={i} chamber={c} index={i} onCancel={cancelMeeting} onAdjourn={adjournMeeting} onUnadjourn={unadjournMeeting} onDelete={deleteExtraMeeting} adjournedTitles={adjournedTitles} cancelledTitles={cancelledTitles} override={chamberOverrides[c.room]||null} onCycleStatus={cycleChamberStatus} chamberStatus={chamberStatus} adjournedTitlesForStatus={adjournedTitles} meetingNotes={meetingNotes} onClearNote={function(m){if(m.isExtra){updateExtraMeeting(m.extraId,{extra_notes:"",note:""});}else{saveMeetingNote(m.title,"");}}}/>;} )}
+                  {mergedChambers.map(function(c,i){return <ChamberCard key={i} chamber={c} index={i} onCancel={cancelMeeting} onAdjourn={adjournMeeting} onUnadjourn={unadjournMeeting} onDelete={deleteExtraMeeting} adjournedTitles={adjournedTitles} cancelledTitles={cancelledTitles} override={chamberOverrides[c.room]||null} onCycleStatus={cycleChamberStatus} chamberStatus={chamberStatus} adjournedTitlesForStatus={adjournedTitles} meetingNotes={meetingNotes} onClearNote={function(m){if(m.isExtra){updateExtraMeeting(m.extraId,{extra_notes:"",note:""});}else{saveMeetingNote(m.title,"");}}  } onDuplicate={duplicateMeeting}/>;} )}
                 </div>
               </div>
               <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"14px"}}>
@@ -998,7 +1045,7 @@ export default function App() {
                   </div>
                 </div>
               )}
-              <MeetingsList meetings={allMeetings} onCancel={cancelMeeting} onDelete={deleteExtraMeeting} onUncancel={uncancelMeeting} onEdit={function(m){setEditingMeeting(m.extraId);}} editingId={editingMeeting} onSaveEdit={updateExtraMeeting} onCloseEdit={function(){setEditingMeeting(null);}} meetingNotes={meetingNotes} editingNote={editingNote} onEditNote={function(title){setEditingNote(title);}} onSaveNote={saveMeetingNote} onCloseNote={function(){setEditingNote(null);}}/>
+              <MeetingsList meetings={allMeetings} onCancel={cancelMeeting} onDelete={deleteExtraMeeting} onUncancel={uncancelMeeting} onEdit={function(m){setEditingMeeting(m.extraId);}} editingId={editingMeeting} onSaveEdit={updateExtraMeeting} onCloseEdit={function(){setEditingMeeting(null);}} meetingNotes={meetingNotes} editingNote={editingNote} onEditNote={function(title){setEditingNote(title);}} onSaveNote={saveMeetingNote} onCloseNote={function(){setEditingNote(null);}} onDuplicate={duplicateMeeting}/>
               <div style={{height:"40px"}}/>
             </div>
           );
