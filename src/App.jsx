@@ -827,7 +827,12 @@ export default function App() {
           {dateLabel&&(
             <div style={{marginTop:"10px"}}>
               <div style={{display:"flex",alignItems:"center",gap:"10px"}}>
-                <p style={{margin:0,fontSize:"12px",color:"rgba(255,255,255,0.4)",fontWeight:"500"}}>&#128197; {dateLabel}</p>
+                <a
+                href={"https://journal.un.org/en/new-york/all/"+todayNY()}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{margin:0,fontSize:"12px",color:"rgba(255,255,255,0.4)",fontWeight:"500",textDecoration:"none",display:"flex",alignItems:"center",gap:"4px"}}
+              >&#128197; {dateLabel} <span style={{fontSize:"9px",opacity:0.5}}>&#8599;</span></a>
                 {data&&<span style={{fontSize:"9px",fontWeight:"700",padding:"2px 7px",borderRadius:"10px",background:journalSource==="live"?"rgba(76,159,56,0.2)":"rgba(255,255,255,0.08)",color:journalSource==="live"?"#56C02B":"rgba(255,255,255,0.3)",letterSpacing:"0.5px",textTransform:"uppercase"}}>{journalSource==="live"?"Live Journal":"Offline"}</span>}
               </div>
 
@@ -914,9 +919,27 @@ export default function App() {
           return (
             <div>
               <div style={{marginBottom:"28px"}}>
-                <div style={{display:"flex",alignItems:"center",gap:"8px",marginBottom:"14px"}}>
-                  <span style={{fontSize:"11px",fontWeight:"700",color:"rgba(255,255,255,0.5)",textTransform:"uppercase",letterSpacing:"1.5px"}}>&#127963;&#65039; Council Chambers</span>
-                  {journalSource==="live"&&<span style={{background:"rgba(76,159,56,0.15)",color:"#56C02B",fontSize:"9px",fontWeight:"700",padding:"2px 6px",borderRadius:"10px"}}>LIVE</span>}
+                <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:"14px"}}>
+                  <div style={{display:"flex",alignItems:"center",gap:"8px"}}>
+                    <span style={{fontSize:"11px",fontWeight:"700",color:"rgba(255,255,255,0.5)",textTransform:"uppercase",letterSpacing:"1.5px"}}>&#127963;&#65039; Council Chambers</span>
+                    {journalSource==="live"&&<span style={{background:"rgba(76,159,56,0.15)",color:"#56C02B",fontSize:"9px",fontWeight:"700",padding:"2px 6px",borderRadius:"10px"}}>LIVE</span>}
+                  </div>
+                  {(function(){
+                    const STATUS_CODE={"OPEN":"O","CLOSED":"C","WT":"WT","WT 4th":"WT4","WT 3rd":"WT3"};
+                    const CHAMBER_NAMES=["Security Council","Trusteeship Council","Economic and Social Council","General Assembly Hall"];
+                    const codes=CHAMBER_NAMES.map(function(name){
+                      const c=mergedChambers.find(function(x){return x.room===name;})||{room:name,meetings:[]};
+                      const st=chamberStatus?chamberStatus(c,chamberOverrides[name]||null,adjournedTitles):"OPEN";
+                      return STATUS_CODE[st]||"O";
+                    });
+                    const msg="New chambers status: "+codes.join(" ");
+                    const url="https://wa.me/?text="+encodeURIComponent(msg);
+                    return (
+                      <a href={url} target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",gap:"5px",background:"rgba(37,211,102,0.12)",border:"1px solid rgba(37,211,102,0.3)",color:"#25D366",borderRadius:"8px",padding:"4px 10px",textDecoration:"none",fontSize:"11px",fontWeight:"700",flexShrink:0}}>
+                        <span style={{fontSize:"13px"}}>&#128172;</span> Share
+                      </a>
+                    );
+                  })()}
                 </div>
                 <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"10px"}}>
                   {mergedChambers.map(function(c,i){return <ChamberCard key={i} chamber={c} index={i} onCancel={cancelMeeting} onAdjourn={adjournMeeting} onUnadjourn={unadjournMeeting} onDelete={deleteExtraMeeting} adjournedTitles={adjournedTitles} cancelledTitles={cancelledTitles} override={chamberOverrides[c.room]||null} onCycleStatus={cycleChamberStatus} chamberStatus={chamberStatus} adjournedTitlesForStatus={adjournedTitles} meetingNotes={meetingNotes} onClearNote={function(m){if(m.isExtra){updateExtraMeeting(m.extraId,{extra_notes:"",note:""});}else{saveMeetingNote(m.title,"");}}}/>;} )}
