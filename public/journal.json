@@ -1,30 +1,18 @@
 {
-  "date": "2026-06-23",
-  "fetched_at": "2026-06-23T14:33:55.302Z",
-  "ny_date": "2026-06-23",
+  "date": "2026-06-24",
+  "fetched_at": "2026-06-24T13:25:19.004Z",
+  "ny_date": "2026-06-24",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 16 meetings",
+  "note": "Live from journal-api.un.org -- 10 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "2026 high-level meeting on HIV/AIDS: thematic panel discussion 3",
+          "title": "General Assembly,Economic and Social Council, Eightieth session2026 session -- Joint General Assembly–Economic and Social Council special thematic event on the midterm review of the Doha Programme of Action for the Least Developed Countries",
           "agenda": [],
-          "id": "f7b11588-bd8c-466d-8b0e-0993aea5e07b"
-        },
-        {
-          "time": "Followed By",
-          "title": "91st plenary meeting",
-          "agenda": [],
-          "id": "416e2d29-3c76-4c22-adee-840865fca33b"
-        },
-        {
-          "time": "3:00 PM",
-          "title": "92nd plenary meeting",
-          "agenda": [],
-          "id": "0b629bc6-7b2e-470c-91d9-f4cf4c6c6808"
+          "id": "1cc412f0-e710-4f82-9620-497019fa4ebf"
         }
       ]
     },
@@ -33,21 +21,9 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "10180th meeting",
+          "title": "Security Council -- 10182nd plenary meeting",
           "agenda": [],
-          "id": "1eb89e43-2231-4f30-9f57-bbff9960bbdb"
-        },
-        {
-          "time": "Followed By",
-          "title": "10181st meeting",
-          "agenda": [],
-          "id": "68ddb70e-2260-4c24-aeb2-2f98e99fc333"
-        },
-        {
-          "time": "Followed By",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "9a1250b8-7365-4fe8-ac40-1fe9ea81d475"
+          "id": "5627ff89-a215-48f4-808c-d7ba0ec7cd33"
         }
       ]
     },
@@ -55,10 +31,10 @@
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "3:00 PM",
-          "title": "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 2nd plenary meeting",
+          "time": "10:00 AM",
+          "title": "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 3rd plenary meeting",
           "agenda": [],
-          "id": "4d14d0bc-cfce-48ec-b7b0-681587de3200"
+          "id": "e3410314-65a9-4809-ac44-a728b4c614e1"
         }
       ]
     },
@@ -68,21 +44,15 @@
     }
   ],
   "meetings": [
-    "General Assembly, Eightieth session -- Informal consultations on the the implementation of the International Decade for People of African Descent",
+    "Security Council -- 10182nd plenary meeting",
+    "General Assembly,Economic and Social Council, Eightieth session2026 session -- Joint General Assembly–Economic and Social Council special thematic event on the midterm review of the Doha Programme of Action for the Least Developed Countries",
+    "General Assembly, Eightieth session -- Modalities of the review of the outcome document of the second High-level United Nations Conference on South-South Cooperation",
     "General Assembly, Eightieth session -- Informal consultations on the political declaration on sea level rise",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- 429th meeting",
+    "Advisory Board on Disarmament Matters, Eighty-sixth session -- Meeting",
     "United Nations Open-ended Informal Consultative Process on Oceans and the Law of the Sea, Twenty-sixth meeting -- Discussion panel",
-    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 1st plenary meeting",
-    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- Informal consultations on draft decisions",
-    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 2nd plenary meeting",
-    "Economic and Social Council, 2026 session -- Informal consultations on ECOSOC HLPF/HLS ministerial declaration",
-    "Board of Trustees of the United Nations Institute for Disarmament Research (UNIDIR) -- Meeting",
-    "States Parties to the Convention on the Rights of the Child, Twenty-first meeting -- Meeting",
-    "General Assembly -- 2026 high-level meeting on HIV/AIDS: thematic panel discussion 3",
-    "General Assembly -- 91st plenary meeting",
-    "General Assembly -- 92nd plenary meeting",
-    "Security Council -- 10180th meeting",
-    "Security Council -- 10181st meeting",
-    "Security Council -- Consultations of the whole [Closed]"
+    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 3rd plenary meeting",
+    "Economic and Social Council, 2026 session -- Informal consultations on ECOSOC HLPF/HLS ministerial declaration"
   ]
 }
