@@ -48,6 +48,14 @@ const SECTIONS = [
     content: "Each chamber card shows a colored status bar at the top. GREEN = OPEN (no active meeting). RED = CLOSED (meeting in progress). YELLOW = WT (Walk-Through allowed). ORANGE = WT 3rd or WT 4th floor (GA Hall only). Tap the status bar to cycle through statuses. Status is shared live across all guides.",
   },
   {
+    title: "Share Status on WhatsApp",
+    content: "Tap the green Share button next to Council Chambers to open WhatsApp with a pre-filled status message. Format: New chambers status: O C WT WT4 (always in order SC, TC, ECOSOC, GA). Codes: O=Open, C=Closed, WT=Walk-Through, WT3=WT 3rd floor, WT4=WT 4th floor. WhatsApp will open and ask you to select the group before sending.",
+  },
+  {
+    title: "UN Journal Link",
+    content: "Tap the date in the header to open today's UN Journal directly in your browser at journal.un.org. Useful to verify meetings or check details not shown in the app.",
+  },
+  {
     title: "Viewing Meetings",
     content: "Meetings load automatically for the current date from the UN Journal. Tap the globe icon in the header to manually refresh the journal. Data updates every morning around 8-9 AM New York time.",
   },
@@ -80,12 +88,12 @@ const SECTIONS = [
     content: "The banner below the header shows today's UN international day with a link to the official UN page. On Fridays the upcoming weekend observances are shown. On Mondays the past weekend observances appear.",
   },
   {
-    title: "Security Council Details",
+    title: "Security Council",
     content: "The SC chamber card shows a PRESS button that links directly to press.un.org for the latest Security Council coverage.",
   },
   {
-    title: "Refresh & Data",
-    content: "Tap the globe icon (top left) to trigger a fresh journal fetch. The app updates automatically every 30 seconds for statuses, notes, cancellations and added meetings so all guides stay in sync.",
+    title: "Refresh and Sync",
+    content: "Tap the globe icon (top left) to trigger a fresh journal fetch. The app syncs automatically every 30 seconds so all guides see the same statuses, notes, cancellations and added meetings.",
   },
   {
     title: "Troubleshooting",
