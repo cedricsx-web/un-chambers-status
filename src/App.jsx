@@ -498,7 +498,7 @@ export default function App() {
     setTriggering(true);
     setTriggerMsg("Triggering fetch...");
     try{
-      const res=await fetch("https://api.github.com/repos/cedricsx-web/un-daily-briefing/actions/workflows/fetch-journal.yml/dispatches",{
+      const res=await fetch("https://api.github.com/repos/cedricsx-web/un-chambers-status/actions/workflows/fetch-journal.yml/dispatches",{
         method:"POST",
         headers:{"Accept":"application/vnd.github+json","Authorization":"Bearer "+GH_TOKEN,"X-GitHub-Api-Version":"2022-11-28","Content-Type":"application/json"},
         body:JSON.stringify({ref:"main"}),
@@ -511,7 +511,7 @@ export default function App() {
           attempts++;
           setTriggerMsg("Checking for updates... ("+(attempts*30)+"s)");
           try{
-            const RAW="https://raw.githubusercontent.com/cedricsx-web/un-daily-briefing/main/public/journal.json";
+            const RAW="https://raw.githubusercontent.com/cedricsx-web/un-chambers-status/main/public/journal.json";
             const jr=await fetch(RAW+"?t="+Date.now());
             if(jr.ok){
               const jd=await jr.json();
@@ -729,7 +729,7 @@ export default function App() {
   async function fetchLiveJournal(){
     // Fetch directly from GitHub raw content - always latest committed version
     // bypasses Vite build so no redeploy needed after fetch workflow runs
-    const RAW="https://raw.githubusercontent.com/cedricsx-web/un-daily-briefing/main/public/journal.json";
+    const RAW="https://raw.githubusercontent.com/cedricsx-web/un-chambers-status/main/public/journal.json";
     const res=await fetch(RAW+"?t="+Date.now());
     if(!res.ok)throw new Error("journal.json not found ("+res.status+")");
     const json=await res.json();
