@@ -1,18 +1,18 @@
 {
-  "date": "2026-06-24",
-  "fetched_at": "2026-06-24T14:12:54.727Z",
-  "ny_date": "2026-06-24",
+  "date": "2026-06-25",
+  "fetched_at": "2026-06-25T14:09:29.139Z",
+  "ny_date": "2026-06-25",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 10 meetings",
+  "note": "Live from journal-api.un.org -- 17 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "General Assembly,Economic and Social Council, Eightieth session2026 session -- Joint General Assembly–Economic and Social Council special thematic event on the midterm review of the Doha Programme of Action for the Least Developed Countries",
+          "title": "93rd plenary meeting",
           "agenda": [],
-          "id": "1cc412f0-e710-4f82-9620-497019fa4ebf"
+          "id": "c7f2ee68-5fdd-4797-bfd7-972fee9ea82a"
         }
       ]
     },
@@ -21,9 +21,15 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10182nd plenary meeting",
+          "title": "10182nd meeting (resumed)",
           "agenda": [],
-          "id": "5627ff89-a215-48f4-808c-d7ba0ec7cd33"
+          "id": "b072e47c-c83f-41aa-a0a0-a1ac56b7e986"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "10183rd meeting",
+          "agenda": [],
+          "id": "957590e9-0c60-44a0-8f4c-63615346a05b"
         }
       ]
     },
@@ -31,10 +37,16 @@
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 3rd plenary meeting",
+          "time": "3:00 PM",
+          "title": "General Assembly, Eightieth session -- Informal consultations on the political declaration to renew commitment and accelerate the implementation of the New Urban Agenda",
           "agenda": [],
-          "id": "e3410314-65a9-4809-ac44-a728b4c614e1"
+          "id": "78a4557a-9aad-4574-a807-40228d29204e"
+        },
+        {
+          "time": "10:00 AM",
+          "title": "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 4th plenary meeting",
+          "agenda": [],
+          "id": "81749c62-7bd3-48c5-922e-2cf9a38758a6"
         }
       ]
     },
@@ -44,15 +56,22 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10182nd plenary meeting",
-    "General Assembly,Economic and Social Council, Eightieth session2026 session -- Joint General Assembly–Economic and Social Council special thematic event on the midterm review of the Doha Programme of Action for the Least Developed Countries",
-    "General Assembly, Eightieth session -- Modalities of the review of the outcome document of the second High-level United Nations Conference on South-South Cooperation",
-    "General Assembly, Eightieth session -- Informal consultations on the political declaration on sea level rise",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- 429th meeting",
+    "General Assembly, Eightieth session -- Informal consultations on the political declaration to renew commitment and accelerate the implementation of the New Urban Agenda",
+    "General Assembly, Eightieth session -- Informal consultations on the progress declaration of the high-level meeting on improving global road safety",
+    "General Assembly, Eightieth session -- Informal consultations on the participation of Indigenous Peoples’ representatives and institutions",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 9th plenary meeting",
+    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 10th plenary meeting",
     "Advisory Board on Disarmament Matters, Eighty-sixth session -- Meeting",
+    "United Nations Appeals Tribunal -- Oral pronouncement of the outcome of the United Nations Appeals Tribunal (UNAT) judgments rendered during the 2026 Summer session",
+    "Open-ended Ad hoc Working Group of Member States on the Smooth Transition for Countries Graduating from the Category of Least Developed Countries -- 6th and final meeting",
     "United Nations Open-ended Informal Consultative Process on Oceans and the Law of the Sea, Twenty-sixth meeting -- Discussion panel",
-    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 3rd plenary meeting",
-    "Economic and Social Council, 2026 session -- Informal consultations on ECOSOC HLPF/HLS ministerial declaration"
+    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 4th plenary meeting",
+    "Economic and Social Council, 2026 session -- Informal consultations on ECOSOC HLPF/HLS ministerial declaration",
+    "General Assembly -- 93rd plenary meeting",
+    "Security Council -- 10182nd meeting (resumed)",
+    "Security Council -- 10183rd meeting",
+    "Office of Weapons of Mass Destruction (WMD) Response and Planning, United States Department of State,United Nations Office on Drugs and Crime (UNODC) -- High-level seminar on the International Convention for the Suppression of Acts of Nuclear Terrorism (ICSANT) (co-organized by the Office of Weapons of Mass Destruction (WMD) Response and Planning, United States Department of State and the United Nations Office on Drugs and Crime (UNODC))",
+    "Peacebuilding and Peace Support Office -- Event entitled “Taking Stock of the CSO-UN Dialogue on Peacebuilding” (organized by the Peacebuilding and Peace Support Office)"
   ]
 }
