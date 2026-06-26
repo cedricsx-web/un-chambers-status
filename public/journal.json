@@ -1,18 +1,18 @@
 {
-  "date": "2026-06-25",
-  "fetched_at": "2026-06-25T14:10:39.073Z",
-  "ny_date": "2026-06-25",
+  "date": "2026-06-26",
+  "fetched_at": "2026-06-26T14:09:47.726Z",
+  "ny_date": "2026-06-26",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 17 meetings",
+  "note": "Live from journal-api.un.org -- 16 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "93rd plenary meeting",
+          "title": "General Assembly, Eightieth session -- Informal meeting of the General Assembly to commemorate United Nations Charter Day",
           "agenda": [],
-          "id": "c7f2ee68-5fdd-4797-bfd7-972fee9ea82a"
+          "id": "82105559-e7a4-4a24-9793-0b61bf634a30"
         }
       ]
     },
@@ -21,15 +21,27 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "10182nd meeting (resumed)",
+          "title": "Security Council -- 10184th meeting",
           "agenda": [],
-          "id": "b072e47c-c83f-41aa-a0a0-a1ac56b7e986"
+          "id": "c382d874-4ce4-49ec-9ba3-c77e4068f22f"
+        },
+        {
+          "time": "Followed By",
+          "title": "Security Council -- Consultations of the whole",
+          "agenda": [],
+          "id": "10367853-56fc-4d87-a4f4-ebfaec7f46f1"
         },
         {
           "time": "3:00 PM",
-          "title": "10183rd meeting",
+          "title": "Security Council -- 10185th meeting",
           "agenda": [],
-          "id": "957590e9-0c60-44a0-8f4c-63615346a05b"
+          "id": "ab7d903c-e6c0-4e74-ae83-c8c843504916"
+        },
+        {
+          "time": "Followed By",
+          "title": "Security Council -- Consultations of the whole",
+          "agenda": [],
+          "id": "3312ce61-ef79-44c0-9b2c-ba28a34e046f"
         }
       ]
     },
@@ -37,41 +49,47 @@
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "3:00 PM",
-          "title": "General Assembly, Eightieth session -- Informal consultations on the political declaration to renew commitment and accelerate the implementation of the New Urban Agenda",
-          "agenda": [],
-          "id": "78a4557a-9aad-4574-a807-40228d29204e"
-        },
-        {
           "time": "10:00 AM",
-          "title": "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 4th plenary meeting",
+          "title": "Ad Hoc Working Group on Mandate Implementation Review -- Meeting",
           "agenda": [],
-          "id": "81749c62-7bd3-48c5-922e-2cf9a38758a6"
+          "id": "5322bd36-8e88-4269-943f-597e7a05f4ed"
         }
       ]
     },
     {
       "room": "Economic and Social Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "Permanent Mission of Barbados,Permanent Mission of the Republic of Korea,International Council for Small Business (ICSB) -- International Forum on Micro, Small and Medium-sized Enterprises (on the occasion of Micro-, Small and Medium-sized Enterprises Day (27 June)) (organized by the International Council for Small Business (ICSB), in partnership with the Permanent Missions of Barbados and the Republic of Korea)",
+          "agenda": [],
+          "id": "d74eb670-4a87-401a-8039-758300f890b7"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Permanent Mission of Barbados,Permanent Mission of the Republic of Korea,International Council for Small Business (ICSB) -- International Forum on Micro, Small and Medium-sized Enterprises (on the occasion of Micro-, Small and Medium-sized Enterprises Day (27 June)) (organized by the International Council for Small Business (ICSB), in partnership with the Permanent Missions of Barbados and the Republic of Korea)",
+          "agenda": [],
+          "id": "37fb02a8-c4d9-4e3e-b0a7-a2acd9f3390a"
+        }
+      ]
     }
   ],
   "meetings": [
+    "Security Council -- 10184th meeting",
+    "Security Council -- Consultations of the whole",
+    "Security Council -- 10185th meeting",
+    "General Assembly, Eightieth session -- Informal meeting of the General Assembly to commemorate United Nations Charter Day",
     "General Assembly, Eightieth session -- Informal consultations on the political declaration to renew commitment and accelerate the implementation of the New Urban Agenda",
-    "General Assembly, Eightieth session -- Informal consultations on the progress declaration of the high-level meeting on improving global road safety",
-    "General Assembly, Eightieth session -- Informal consultations on the participation of Indigenous Peoples’ representatives and institutions",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 9th plenary meeting",
+    "General Assembly, Eightieth session -- Informal informal consultations on the political declaration on sea level rise",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 10th plenary meeting",
+    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 11th plenary meeting",
     "Advisory Board on Disarmament Matters, Eighty-sixth session -- Meeting",
-    "United Nations Appeals Tribunal -- Oral pronouncement of the outcome of the United Nations Appeals Tribunal (UNAT) judgments rendered during the 2026 Summer session",
-    "Open-ended Ad hoc Working Group of Member States on the Smooth Transition for Countries Graduating from the Category of Least Developed Countries -- 6th and final meeting",
-    "United Nations Open-ended Informal Consultative Process on Oceans and the Law of the Sea, Twenty-sixth meeting -- Discussion panel",
-    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Annual session -- 4th plenary meeting",
+    "Ad Hoc Working Group on Mandate Implementation Review -- Meeting",
+    "United Nations Open-ended Informal Consultative Process on Oceans and the Law of the Sea, Twenty-sixth meeting -- Plenary meeting",
+    "Meeting of States Parties to the Convention on the Elimination of Discrimination against Women, Twenty-fourth meeting -- Meeting",
     "Economic and Social Council, 2026 session -- Informal consultations on ECOSOC HLPF/HLS ministerial declaration",
-    "General Assembly -- 93rd plenary meeting",
-    "Security Council -- 10182nd meeting (resumed)",
-    "Security Council -- 10183rd meeting",
-    "Office of Weapons of Mass Destruction (WMD) Response and Planning, United States Department of State,United Nations Office on Drugs and Crime (UNODC) -- High-level seminar on the International Convention for the Suppression of Acts of Nuclear Terrorism (ICSANT) (co-organized by the Office of Weapons of Mass Destruction (WMD) Response and Planning, United States Department of State and the United Nations Office on Drugs and Crime (UNODC))",
-    "Peacebuilding and Peace Support Office -- Event entitled “Taking Stock of the CSO-UN Dialogue on Peacebuilding” (organized by the Peacebuilding and Peace Support Office)"
+    "Permanent Mission of Barbados,Permanent Mission of the Republic of Korea,International Council for Small Business (ICSB) -- International Forum on Micro, Small and Medium-sized Enterprises (on the occasion of Micro-, Small and Medium-sized Enterprises Day (27 June)) (organized by the International Council for Small Business (ICSB), in partnership with the Permanent Missions of Barbados and the Republic of Korea)",
+    "United Nations Office on Drugs and Crime (UNODC) -- Special event on the presentation of the 2026 World Drug Report (on the occasion of the International Day Against Drug Abuse and Illicit Trafficking) (organized by the United Nations Office on Drugs and Crime (UNODC))"
   ]
 }
