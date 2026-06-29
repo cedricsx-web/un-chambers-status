@@ -1,47 +1,40 @@
 {
-  "date": "2026-06-26",
-  "fetched_at": "2026-06-26T14:09:47.726Z",
-  "ny_date": "2026-06-26",
+  "date": "2026-06-29",
+  "fetched_at": "2026-06-29T15:35:08.946Z",
+  "ny_date": "2026-06-29",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 16 meetings",
+  "note": "Live from journal-api.un.org -- 10 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "General Assembly, Eightieth session -- Informal meeting of the General Assembly to commemorate United Nations Charter Day",
-          "agenda": [],
-          "id": "82105559-e7a4-4a24-9793-0b61bf634a30"
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10184th meeting",
+          "title": "Security Council -- 10186th meeting",
           "agenda": [],
-          "id": "c382d874-4ce4-49ec-9ba3-c77e4068f22f"
+          "id": "7ba2e2f9-62f3-457a-8c07-de023127065d"
         },
         {
           "time": "Followed By",
           "title": "Security Council -- Consultations of the whole",
           "agenda": [],
-          "id": "10367853-56fc-4d87-a4f4-ebfaec7f46f1"
+          "id": "e0b8659c-fb41-4d27-9c72-b5586b4c5590"
         },
         {
           "time": "3:00 PM",
-          "title": "Security Council -- 10185th meeting",
+          "title": "Security Council -- 10187th meeting",
           "agenda": [],
-          "id": "ab7d903c-e6c0-4e74-ae83-c8c843504916"
+          "id": "a7b051b9-66d4-4f11-bf9e-cbef99dcfdf1"
         },
         {
           "time": "Followed By",
-          "title": "Security Council -- Consultations of the whole",
+          "title": "Security Council -- 10188th meeting",
           "agenda": [],
-          "id": "3312ce61-ef79-44c0-9b2c-ba28a34e046f"
+          "id": "a12bb46f-a821-4215-9f0a-c15bafe8b2c2"
         }
       ]
     },
@@ -50,46 +43,27 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Ad Hoc Working Group on Mandate Implementation Review -- Meeting",
+          "title": "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing on the UN80 Initiative",
           "agenda": [],
-          "id": "5322bd36-8e88-4269-943f-597e7a05f4ed"
+          "id": "09a7d28d-0866-4547-bc37-9af3c075c770"
         }
       ]
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Permanent Mission of Barbados,Permanent Mission of the Republic of Korea,International Council for Small Business (ICSB) -- International Forum on Micro, Small and Medium-sized Enterprises (on the occasion of Micro-, Small and Medium-sized Enterprises Day (27 June)) (organized by the International Council for Small Business (ICSB), in partnership with the Permanent Missions of Barbados and the Republic of Korea)",
-          "agenda": [],
-          "id": "d74eb670-4a87-401a-8039-758300f890b7"
-        },
-        {
-          "time": "3:00 PM",
-          "title": "Permanent Mission of Barbados,Permanent Mission of the Republic of Korea,International Council for Small Business (ICSB) -- International Forum on Micro, Small and Medium-sized Enterprises (on the occasion of Micro-, Small and Medium-sized Enterprises Day (27 June)) (organized by the International Council for Small Business (ICSB), in partnership with the Permanent Missions of Barbados and the Republic of Korea)",
-          "agenda": [],
-          "id": "37fb02a8-c4d9-4e3e-b0a7-a2acd9f3390a"
-        }
-      ]
+      "meetings": []
     }
   ],
   "meetings": [
-    "Security Council -- 10184th meeting",
+    "Security Council -- 10186th meeting",
     "Security Council -- Consultations of the whole",
-    "Security Council -- 10185th meeting",
-    "General Assembly, Eightieth session -- Informal meeting of the General Assembly to commemorate United Nations Charter Day",
-    "General Assembly, Eightieth session -- Informal consultations on the political declaration to renew commitment and accelerate the implementation of the New Urban Agenda",
-    "General Assembly, Eightieth session -- Informal informal consultations on the political declaration on sea level rise",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 10th plenary meeting",
-    "Special Committee on the Situation with regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, Resumed session -- 11th plenary meeting",
-    "Advisory Board on Disarmament Matters, Eighty-sixth session -- Meeting",
-    "Ad Hoc Working Group on Mandate Implementation Review -- Meeting",
-    "United Nations Open-ended Informal Consultative Process on Oceans and the Law of the Sea, Twenty-sixth meeting -- Plenary meeting",
-    "Meeting of States Parties to the Convention on the Elimination of Discrimination against Women, Twenty-fourth meeting -- Meeting",
-    "Economic and Social Council, 2026 session -- Informal consultations on ECOSOC HLPF/HLS ministerial declaration",
-    "Permanent Mission of Barbados,Permanent Mission of the Republic of Korea,International Council for Small Business (ICSB) -- International Forum on Micro, Small and Medium-sized Enterprises (on the occasion of Micro-, Small and Medium-sized Enterprises Day (27 June)) (organized by the International Council for Small Business (ICSB), in partnership with the Permanent Missions of Barbados and the Republic of Korea)",
-    "United Nations Office on Drugs and Crime (UNODC) -- Special event on the presentation of the 2026 World Drug Report (on the occasion of the International Day Against Drug Abuse and Illicit Trafficking) (organized by the United Nations Office on Drugs and Crime (UNODC))"
+    "Security Council -- 10187th meeting",
+    "Security Council -- 10188th meeting",
+    "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing on the UN80 Initiative",
+    "General Assembly, Eightieth session -- Informal consultations on Beyond GDP",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "United Nations Commission on International Trade Law, Fifty-ninth session -- Meeting",
+    "Committee on Relations with the Host Country -- 324th meeting",
+    "Working Group on the use of mercenaries as a means of violating human rights and impeding the exercise of the right of peoples to self-determination, Fifty-eighth session -- Meeting"
   ]
 }
