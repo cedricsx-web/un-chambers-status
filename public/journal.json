@@ -1,51 +1,39 @@
 {
-  "date": "2026-06-29",
-  "fetched_at": "2026-06-29T15:35:08.946Z",
-  "ny_date": "2026-06-29",
+  "date": "2026-06-30",
+  "fetched_at": "2026-06-30T14:04:03.957Z",
+  "ny_date": "2026-06-30",
   "source": "journal-api.un.org",
   "note": "Live from journal-api.un.org -- 10 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "5:00 PM",
+          "title": "General Assembly, Eightieth session -- 94th plenary meeting",
+          "agenda": [],
+          "id": "90d81d58-8bff-4aac-a519-e5717b09db95"
+        }
+      ]
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Security Council -- 10186th meeting",
-          "agenda": [],
-          "id": "7ba2e2f9-62f3-457a-8c07-de023127065d"
-        },
-        {
-          "time": "Followed By",
-          "title": "Security Council -- Consultations of the whole",
-          "agenda": [],
-          "id": "e0b8659c-fb41-4d27-9c72-b5586b4c5590"
-        },
-        {
-          "time": "3:00 PM",
-          "title": "Security Council -- 10187th meeting",
-          "agenda": [],
-          "id": "a7b051b9-66d4-4f11-bf9e-cbef99dcfdf1"
-        },
-        {
-          "time": "Followed By",
-          "title": "Security Council -- 10188th meeting",
-          "agenda": [],
-          "id": "a12bb46f-a821-4215-9f0a-c15bafe8b2c2"
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing on the UN80 Initiative",
+          "title": "Ad Hoc Committee of the General Assembly for the Announcement of Voluntary Contributions to the United Nations Relief and Works Agency for Palestine Refugees in the Near East -- Plenary meeting",
           "agenda": [],
-          "id": "09a7d28d-0866-4547-bc37-9af3c075c770"
+          "id": "82b3331f-4aac-4ad6-9d14-2b3efaabe77e"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Ad Hoc Committee of the General Assembly for the Announcement of Voluntary Contributions to the United Nations Relief and Works Agency for Palestine Refugees in the Near East -- Plenary meeting (resumed)",
+          "agenda": [],
+          "id": "d1ad798c-cea9-4944-847f-a196d54ada06"
         }
       ]
     },
@@ -55,15 +43,15 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10186th meeting",
-    "Security Council -- Consultations of the whole",
-    "Security Council -- 10187th meeting",
-    "Security Council -- 10188th meeting",
-    "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing on the UN80 Initiative",
-    "General Assembly, Eightieth session -- Informal consultations on Beyond GDP",
+    "General Assembly, Eightieth session -- Informal consultations on the political declaration for the high-level meeting on pandemic prevention, preparedness and response",
+    "General Assembly, Eightieth session -- 94th plenary meeting",
+    "Fifth Committee, Second part of the resumed eightieth session -- 33rd plenary meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
     "United Nations Commission on International Trade Law, Fifty-ninth session -- Meeting",
-    "Committee on Relations with the Host Country -- 324th meeting",
-    "Working Group on the use of mercenaries as a means of violating human rights and impeding the exercise of the right of peoples to self-determination, Fifty-eighth session -- Meeting"
+    "Ad Hoc Committee of the General Assembly for the Announcement of Voluntary Contributions to the United Nations Relief and Works Agency for Palestine Refugees in the Near East -- Plenary meeting",
+    "Ad Hoc Committee of the General Assembly for the Announcement of Voluntary Contributions to the United Nations Relief and Works Agency for Palestine Refugees in the Near East -- Plenary meeting (resumed)",
+    "Working Group on the use of mercenaries as a means of violating human rights and impeding the exercise of the right of peoples to self-determination, Fifty-eighth session -- Meeting",
+    "General Assembly -- Informal consultations on the draft resolution entitled “Correct the Map: Rebalancing Global Cartographic Representation and Promoting Equitable Representation of the World’s Regions, particularly Africa” (under agenda item 13) (convened by the Permanent Mission of Togo)",
+    "Department of Political and Peacebuilding Affairs -- Event entitled “Launch of the United Nations Special Political Missions 1945-2025: An Overview” (organized by the Department of Political and Peacebuilding Affairs)"
   ]
 }
