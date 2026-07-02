@@ -1,60 +1,28 @@
 {
-  "date": "2026-07-01",
-  "fetched_at": "2026-07-01T14:19:00.169Z",
-  "ny_date": "2026-07-01",
+  "date": "2026-07-02",
+  "fetched_at": "2026-07-02T13:43:49.884Z",
+  "ny_date": "2026-07-02",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 11 meetings",
+  "note": "Live from journal-api.un.org -- 8 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "95th plenary meeting",
-          "agenda": [],
-          "id": "f1b56c26-2222-432c-b242-7faef6d2e876"
-        },
-        {
-          "time": "3:00 PM",
-          "title": "96th plenary meeting",
-          "agenda": [],
-          "id": "4c66d4bf-513a-4d19-b707-bedf2a4da063"
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
       "meetings": [
         {
-          "time": "11:30 AM",
-          "title": "Consultations of the whole [Closed]",
+          "time": "10:00 AM",
+          "title": "Security Council -- 10189th meeting",
           "agenda": [],
-          "id": "4fdad032-809c-4f56-8c66-85af68b136a0"
-        },
-        {
-          "time": "3:00 PM",
-          "title": "Briefing to non-Council members",
-          "agenda": [],
-          "id": "10fd875b-a436-485f-a897-de9193e521e2"
+          "id": "ad22f964-de29-480e-8d41-5e3844621181"
         }
       ]
     },
     {
       "room": "Trusteeship Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Special Political and Decolonization Committee (Fourth Committee), Eightieth session -- 30th plenary meeting",
-          "agenda": [],
-          "id": "ae52c203-d3dd-47f7-bc9b-4ee8c04f37d6"
-        },
-        {
-          "time": "10:30 AM",
-          "title": "Special Political and Decolonization Committee (Fourth Committee), Eightieth session -- Informal interactive dialogue on the overall policy matters pertaining to special political missions",
-          "agenda": [],
-          "id": "17290365-8b31-49ef-accc-9d0b5273925a"
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
@@ -63,28 +31,19 @@
           "time": "10:00 AM",
           "title": "General Assembly, Eightieth session -- Informal consultations on the political declaration for the high-level meeting on pandemic prevention, preparedness and response",
           "agenda": [],
-          "id": "bc769252-6b93-49c9-9a0e-ac739df5fdf6"
-        },
-        {
-          "time": "3:00 PM",
-          "title": "General Assembly, Eightieth session -- Informal consultations on the political declaration for the high-level meeting on pandemic prevention, preparedness and response",
-          "agenda": [],
-          "id": "8182ebc6-ac42-4902-8c34-42c4e7dc94fa"
+          "id": "f40a0c95-f38f-47c2-8df6-11ff5ce4d2c1"
         }
       ]
     }
   ],
   "meetings": [
+    "Security Council -- 10189th meeting",
     "General Assembly, Eightieth session -- Informal consultations on the political declaration for the high-level meeting on pandemic prevention, preparedness and response",
-    "General Assembly, Eightieth session -- Informal consultations on the modalities and political declaration of the high-level meeting of the General Assembly to commemorate the twentieth anniversary of the adoption of the Durban Declaration and Programme of Action",
-    "Special Political and Decolonization Committee (Fourth Committee), Eightieth session -- 30th plenary meeting",
-    "Special Political and Decolonization Committee (Fourth Committee), Eightieth session -- Informal interactive dialogue on the overall policy matters pertaining to special political missions",
+    "General Assembly, Eightieth session -- Informal consultations on the political declaration to renew commitment and accelerate the implementation of the New Urban Agenda",
+    "General Assembly, Eightieth session -- Informal consultations on the progress declaration of the high-level meeting on improving global road safety",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "United Nations Commission on International Trade Law, Fifty-ninth session -- Meeting",
     "Working Group on the use of mercenaries as a means of violating human rights and impeding the exercise of the right of peoples to self-determination, Fifty-eighth session -- Meeting",
-    "General Assembly -- 95th plenary meeting",
-    "General Assembly -- 96th plenary meeting",
-    "Security Council -- Consultations of the whole [Closed]",
-    "Security Council -- Briefing to non-Council members"
+    "Military Staff Committee -- 2152nd meeting"
   ]
 }
