@@ -1,9 +1,9 @@
 {
-  "date": "2026-07-02",
-  "fetched_at": "2026-07-02T13:43:49.884Z",
-  "ny_date": "2026-07-02",
+  "date": "2026-07-03",
+  "fetched_at": "2026-07-03T13:48:46.379Z",
+  "ny_date": "2026-07-03",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 8 meetings",
+  "note": "0 meetings parsed",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -11,14 +11,7 @@
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Security Council -- 10189th meeting",
-          "agenda": [],
-          "id": "ad22f964-de29-480e-8d41-5e3844621181"
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
@@ -26,24 +19,8 @@
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "General Assembly, Eightieth session -- Informal consultations on the political declaration for the high-level meeting on pandemic prevention, preparedness and response",
-          "agenda": [],
-          "id": "f40a0c95-f38f-47c2-8df6-11ff5ce4d2c1"
-        }
-      ]
+      "meetings": []
     }
   ],
-  "meetings": [
-    "Security Council -- 10189th meeting",
-    "General Assembly, Eightieth session -- Informal consultations on the political declaration for the high-level meeting on pandemic prevention, preparedness and response",
-    "General Assembly, Eightieth session -- Informal consultations on the political declaration to renew commitment and accelerate the implementation of the New Urban Agenda",
-    "General Assembly, Eightieth session -- Informal consultations on the progress declaration of the high-level meeting on improving global road safety",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "United Nations Commission on International Trade Law, Fifty-ninth session -- Meeting",
-    "Working Group on the use of mercenaries as a means of violating human rights and impeding the exercise of the right of peoples to self-determination, Fifty-eighth session -- Meeting",
-    "Military Staff Committee -- 2152nd meeting"
-  ]
+  "meetings": []
 }
