@@ -1,13 +1,26 @@
 {
-  "date": "2026-07-03",
-  "fetched_at": "2026-07-03T13:48:46.379Z",
-  "ny_date": "2026-07-03",
+  "date": "2026-07-06",
+  "fetched_at": "2026-07-06T12:49:05.627Z",
+  "ny_date": "2026-07-06",
   "source": "journal-api.un.org",
-  "note": "0 meetings parsed",
+  "note": "Live from journal-api.un.org -- 7 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "General Assembly, Eightieth session -- 97th plenary meeting",
+          "agenda": [],
+          "id": "3a79b88d-2326-47a0-8bf7-bddb152f43d2"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "General Assembly, Eightieth session -- 98th plenary meeting",
+          "agenda": [],
+          "id": "dd80be01-0ecb-46c3-9d2c-3ab84f6870d8"
+        }
+      ]
     },
     {
       "room": "Security Council",
@@ -22,5 +35,13 @@
       "meetings": []
     }
   ],
-  "meetings": []
+  "meetings": [
+    "General Assembly, Eightieth session -- 97th plenary meeting",
+    "General Assembly, Eightieth session -- 98th plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "United Nations Commission on International Trade Law, Fifty-ninth session -- Meeting",
+    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting",
+    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women -- Joint informal briefing (to be held remotely without physical presence)",
+    "Permanent Mission of the Dominican Republic,Permanent Mission of Zambia,Department of Economic and Social Affairs (DESA),International Labour Organization (ILO),International Trade Centre (ITC),United Nations Conference on Trade and Development (UNCTAD),United Nations Office for Disaster Risk Reduction (UNDRR),United Nations Global Compact,United Nations Industrial Development Organization (UNIDO) -- Event entitled “Empowering Micro-, Small and Medium-sized Enterprises through Innovation and Sustainable Industrial Development” (co-organized by the Permanent Missions of the Dominican Republic and Zambia, in partnership with the Department of Economic and Social Affairs (DESA), the International Labour Organization (ILO), the International Trade Centre (ITC), the United Nations Conference on Trade and Development (UNCTAD), the United Nations Office for Disaster Risk Reduction (UNDRR), the United Nations Global Compact and the United Nations Industrial Development Organization (UNIDO))"
+  ]
 }
