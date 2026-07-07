@@ -1,24 +1,24 @@
 {
-  "date": "2026-07-06",
-  "fetched_at": "2026-07-06T15:17:44.701Z",
-  "ny_date": "2026-07-06",
+  "date": "2026-07-07",
+  "fetched_at": "2026-07-07T13:37:21.463Z",
+  "ny_date": "2026-07-07",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 7 meetings",
+  "note": "Live from journal-api.un.org -- 8 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "General Assembly, Eightieth session -- 97th plenary meeting",
+          "title": "General Assembly, Eightieth session -- 99th plenary meeting",
           "agenda": [],
-          "id": "3a79b88d-2326-47a0-8bf7-bddb152f43d2"
+          "id": "b25a934b-1c49-4d13-8da8-c6d8f0892cba"
         },
         {
           "time": "3:00 PM",
-          "title": "General Assembly, Eightieth session -- 98th plenary meeting",
+          "title": "General Assembly, Eightieth session -- 100th plenary meeting",
           "agenda": [],
-          "id": "dd80be01-0ecb-46c3-9d2c-3ab84f6870d8"
+          "id": "640750cb-37d7-4980-9a2b-bc7365ad791b"
         }
       ]
     },
@@ -36,12 +36,13 @@
     }
   ],
   "meetings": [
-    "General Assembly, Eightieth session -- 97th plenary meeting",
-    "General Assembly, Eightieth session -- 98th plenary meeting",
+    "General Assembly, Eightieth session -- 99th plenary meeting",
+    "General Assembly, Eightieth session -- 100th plenary meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
     "United Nations Commission on International Trade Law, Fifty-ninth session -- Meeting",
     "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting",
-    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women -- Joint informal briefing (to be held remotely without physical presence)",
-    "Permanent Mission of the Dominican Republic,Permanent Mission of Zambia,Department of Economic and Social Affairs (DESA),International Labour Organization (ILO),International Trade Centre (ITC),United Nations Conference on Trade and Development (UNCTAD),United Nations Office for Disaster Risk Reduction (UNDRR),United Nations Global Compact,United Nations Industrial Development Organization (UNIDO) -- Event entitled “Empowering Micro-, Small and Medium-sized Enterprises through Innovation and Sustainable Industrial Development” (co-organized by the Permanent Missions of the Dominican Republic and Zambia, in partnership with the Department of Economic and Social Affairs (DESA), the International Labour Organization (ILO), the International Trade Centre (ITC), the United Nations Conference on Trade and Development (UNCTAD), the United Nations Office for Disaster Risk Reduction (UNDRR), the United Nations Global Compact and the United Nations Industrial Development Organization (UNIDO))"
+    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 1st meeting",
+    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 2nd meeting",
+    "United Nations Commission on International Trade Law (UNCITRAL) -- Event entitled “Digitalizing Trade through the Accra Convention on Negotiable Cargo Documents: From Legal Frameworks to Implementation” (organized by the United Nations Commission on International Trade Law (UNCITRAL))"
   ]
 }
