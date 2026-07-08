@@ -1,30 +1,24 @@
 {
-  "date": "2026-07-07",
-  "fetched_at": "2026-07-07T14:13:43.014Z",
-  "ny_date": "2026-07-07",
+  "date": "2026-07-08",
+  "fetched_at": "2026-07-08T13:17:37.597Z",
+  "ny_date": "2026-07-08",
   "source": "journal-api.un.org",
   "note": "Live from journal-api.un.org -- 8 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "General Assembly, Eightieth session -- 99th plenary meeting",
-          "agenda": [],
-          "id": "b25a934b-1c49-4d13-8da8-c6d8f0892cba"
-        },
-        {
-          "time": "3:00 PM",
-          "title": "General Assembly, Eightieth session -- 100th plenary meeting",
-          "agenda": [],
-          "id": "640750cb-37d7-4980-9a2b-bc7365ad791b"
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "Security Council -- 10190th meeting",
+          "agenda": [],
+          "id": "40cd823b-5e9c-413c-ac87-169a4742f92c"
+        }
+      ]
     },
     {
       "room": "Trusteeship Council",
@@ -32,17 +26,24 @@
     },
     {
       "room": "Economic and Social Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "3:00 PM",
+          "title": "Committee for the United Nations Population Award -- 2026 United Nations Population Award Ceremony (organized by the Committee for the United Nations Population Award)",
+          "agenda": [],
+          "id": "21a3d451-9dc9-41cd-8efb-851cf51db202"
+        }
+      ]
     }
   ],
   "meetings": [
-    "General Assembly, Eightieth session -- 99th plenary meeting",
-    "General Assembly, Eightieth session -- 100th plenary meeting",
+    "Security Council -- 10190th meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
     "United Nations Commission on International Trade Law, Fifty-ninth session -- Meeting",
     "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting",
-    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 1st meeting",
-    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 2nd meeting",
-    "United Nations Commission on International Trade Law (UNCITRAL) -- Event entitled “Digitalizing Trade through the Accra Convention on Negotiable Cargo Documents: From Legal Frameworks to Implementation” (organized by the United Nations Commission on International Trade Law (UNCITRAL))"
+    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 3rd meeting",
+    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 4th meeting",
+    "Permanent Mission of Togo -- Informal consultations on the draft resolution entitled “Correct the Map: Rebalancing Global Cartographic Representation and Promoting Equitable Representation of the World’s Regions, particularly Africa” (under agenda item 13) (convened by the Permanent Mission of Togo)",
+    "Committee for the United Nations Population Award -- 2026 United Nations Population Award Ceremony (organized by the Committee for the United Nations Population Award)"
   ]
 }
