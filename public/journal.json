@@ -1,9 +1,9 @@
 {
-  "date": "2026-07-08",
-  "fetched_at": "2026-07-08T15:37:43.347Z",
-  "ny_date": "2026-07-08",
+  "date": "2026-07-09",
+  "fetched_at": "2026-07-09T14:07:07.820Z",
+  "ny_date": "2026-07-09",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 8 meetings",
+  "note": "Live from journal-api.un.org -- 5 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -14,9 +14,9 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10190th meeting",
+          "title": "Security Council -- 10191st meeting",
           "agenda": [],
-          "id": "40cd823b-5e9c-413c-ac87-169a4742f92c"
+          "id": "4822785d-6b5c-41ff-8354-0d286162fda9"
         }
       ]
     },
@@ -26,24 +26,14 @@
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "3:00 PM",
-          "title": "Committee for the United Nations Population Award -- 2026 United Nations Population Award Ceremony (organized by the Committee for the United Nations Population Award)",
-          "agenda": [],
-          "id": "21a3d451-9dc9-41cd-8efb-851cf51db202"
-        }
-      ]
+      "meetings": []
     }
   ],
   "meetings": [
-    "Security Council -- 10190th meeting",
+    "Security Council -- 10191st meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
     "United Nations Commission on International Trade Law, Fifty-ninth session -- Meeting",
-    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting",
-    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 3rd meeting",
-    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 4th meeting",
-    "Permanent Mission of Togo -- Informal consultations on the draft resolution entitled “Correct the Map: Rebalancing Global Cartographic Representation and Promoting Equitable Representation of the World’s Regions, particularly Africa” (under agenda item 13) (convened by the Permanent Mission of Togo)",
-    "Committee for the United Nations Population Award -- 2026 United Nations Population Award Ceremony (organized by the Committee for the United Nations Population Award)"
+    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 5th meeting",
+    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 6th meeting"
   ]
 }
