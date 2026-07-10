@@ -1,22 +1,41 @@
 {
-  "date": "2026-07-09",
-  "fetched_at": "2026-07-09T14:40:24.946Z",
-  "ny_date": "2026-07-09",
+  "date": "2026-07-10",
+  "fetched_at": "2026-07-10T14:02:29.001Z",
+  "ny_date": "2026-07-10",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 5 meetings",
+  "note": "Live from journal-api.un.org -- 10 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "101st plenary meeting",
+          "agenda": [],
+          "id": "a27ffb7d-3cee-4e4c-9504-c2200be23a23"
+        },
+        {
+          "time": "Followed By",
+          "title": "92nd plenary meeting (resumed)",
+          "agenda": [],
+          "id": "438b966c-6a5b-4f8d-9c5d-642e66cd91f3"
+        }
+      ]
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10191st meeting",
+          "title": "10192nd meeting",
           "agenda": [],
-          "id": "4822785d-6b5c-41ff-8354-0d286162fda9"
+          "id": "5a569e52-4678-4a3c-a5ff-815190b62128"
+        },
+        {
+          "time": "Followed By",
+          "title": "10190th meeting (resumed)",
+          "agenda": [],
+          "id": "cabcd8aa-9809-4f7b-af74-5bc71ff79b15"
         }
       ]
     },
@@ -30,10 +49,15 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10191st meeting",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "United Nations Commission on International Trade Law, Fifty-ninth session -- Meeting",
-    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 5th meeting",
-    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 6th meeting"
+    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting",
+    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 7th meeting",
+    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 8th meeting",
+    "General Assembly -- 101st plenary meeting",
+    "General Assembly -- 92nd plenary meeting (resumed)",
+    "Security Council -- 10192nd meeting",
+    "Security Council -- 10190th meeting (resumed)",
+    "Permanent Mission of the Islamic Republic of Iran,Permanent Mission of Iraq,Permanent Mission of Mongolia,Permanent Mission of Senegal -- Commemoration of the International Day of Combating Sand and Dust Storms (co-organized by the Permanent Mission of the Islamic Republic of Iran, the Permanent Mission of Iraq, the Permanent Mission of Mongolia, and the Permanent Mission of Senegal)"
   ]
 }
