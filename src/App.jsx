@@ -153,7 +153,16 @@ function MeetingRow({m,onCancel,onAdjourn,onUnadjourn,onDelete,adjournedTitles,m
   return (
     <div style={{opacity:adjourned?0.6:1}}>
       <div style={{display:"flex",gap:"6px",alignItems:"flex-start"}}>
-        <span style={{fontSize:"10px",color:adjourned?"rgba(255,200,0,0.5)":"#FCC30B",fontWeight:"700",whiteSpace:"nowrap",marginTop:"3px",flexShrink:0}}>{m.time}</span>
+        {/* Left column: time + action button */}
+        <div style={{display:"flex",flexDirection:"column",alignItems:"center",gap:"3px",flexShrink:0,minWidth:"36px"}}>
+          <span style={{fontSize:"10px",color:adjourned?"rgba(255,200,0,0.5)":"#FCC30B",fontWeight:"700",whiteSpace:"nowrap"}}>{m.time}</span>
+          {!adjourned?(
+            <button onClick={function(e){e.stopPropagation();setShowActions(function(s){return !s;});}} style={{background:showActions?"rgba(0,150,214,0.15)":"rgba(255,255,255,0.05)",border:"1px solid rgba(255,255,255,0.1)",color:"rgba(255,255,255,0.4)",borderRadius:"5px",width:"20px",height:"20px",fontSize:"12px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",padding:0,lineHeight:1}}>&#8942;</button>
+          ):(
+            <button onClick={function(){onUnadjourn&&onUnadjourn(cancelKey,chamberName);}} title="Restore" style={{background:"rgba(255,200,0,0.1)",border:"1px solid rgba(255,200,0,0.3)",color:"rgba(255,200,0,0.7)",borderRadius:"5px",width:"20px",height:"20px",fontSize:"10px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",padding:0,lineHeight:1}}>&#8617;</button>
+          )}
+        </div>
+        {/* Right column: title */}
         <div
           onClick={hasAgenda?function(){setAgendaOpen(function(o){return !o;});}:undefined}
           style={{flex:1,cursor:hasAgenda?"pointer":"default",padding:"1px 0"}}
@@ -173,11 +182,6 @@ function MeetingRow({m,onCancel,onAdjourn,onUnadjourn,onDelete,adjournedTitles,m
           {adjourned&&<span style={{fontSize:"8px",color:"rgba(255,200,0,0.7)",fontWeight:"700"}}>ADJOURNED</span>}
           {hasAgenda&&!adjourned&&!titleExpanded&&<span style={{marginLeft:"5px",fontSize:"9px",color:"rgba(0,160,220,0.45)"}}>{agendaOpen?"&#9650;":"&#9660;"}</span>}
         </div>
-        {!adjourned?(
-          <button onClick={function(e){e.stopPropagation();setShowActions(function(s){return !s;});}} style={{flexShrink:0,background:"rgba(255,255,255,0.05)",border:"1px solid rgba(255,255,255,0.1)",color:"rgba(255,255,255,0.3)",borderRadius:"5px",width:"20px",height:"20px",fontSize:"12px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",padding:0,lineHeight:1}}>&#8942;</button>
-        ):(
-          <button onClick={function(){onUnadjourn&&onUnadjourn(cancelKey,chamberName);}} title="Restore" style={{flexShrink:0,background:"rgba(255,200,0,0.1)",border:"1px solid rgba(255,200,0,0.3)",color:"rgba(255,200,0,0.7)",borderRadius:"5px",width:"20px",height:"20px",fontSize:"10px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",padding:0,lineHeight:1}}>&#8617;</button>
-        )}
       </div>
       {!adjourned&&(function(){
         // Check all note sources: extra_notes field, note field, and meeting_notes table
