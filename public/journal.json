@@ -1,6 +1,6 @@
 {
   "date": "2026-07-13",
-  "fetched_at": "2026-07-13T13:23:29.636Z",
+  "fetched_at": "2026-07-13T14:14:37.893Z",
   "ny_date": "2026-07-13",
   "source": "journal-api.un.org",
   "note": "Live from journal-api.un.org -- 12 meetings",
@@ -32,7 +32,7 @@
       "meetings": [
         {
           "time": "3:00 PM",
-          "title": "High-level segment, 2026 session -- 34th plenary meeting",
+          "title": "High-level segment, 2026 session -- 34th plenary meeting (in parallel)",
           "agenda": [],
           "id": "5e1a8d1a-caa8-4534-ba4b-6ebacfac6445"
         }
@@ -54,7 +54,7 @@
     "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women -- Joint informal briefing of the Executive Boards of UNDP, UNFPA, UNOPS, UNICEF and UN-Women (to be held remotely without physical presence)",
     "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 9th meeting",
     "High-level segment, 2026 session -- 33rd plenary meeting",
-    "High-level segment, 2026 session -- 34th plenary meeting",
+    "High-level segment, 2026 session -- 34th plenary meeting (in parallel)",
     "Workshop on sustainable fisheries, addressing the impacts of bottom fishing on vulnerable marine ecosystems and the long-term sustainability of deep-sea fish stocks -- Open meeting"
   ]
 }
