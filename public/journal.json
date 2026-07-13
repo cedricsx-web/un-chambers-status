@@ -1,24 +1,18 @@
 {
-  "date": "2026-07-10",
-  "fetched_at": "2026-07-10T14:06:39.107Z",
-  "ny_date": "2026-07-10",
+  "date": "2026-07-13",
+  "fetched_at": "2026-07-13T13:23:29.636Z",
+  "ny_date": "2026-07-13",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 10 meetings",
+  "note": "Live from journal-api.un.org -- 12 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "101st plenary meeting",
+          "title": "High-level segment, 2026 session -- 33rd plenary meeting",
           "agenda": [],
-          "id": "a27ffb7d-3cee-4e4c-9504-c2200be23a23"
-        },
-        {
-          "time": "Followed By",
-          "title": "92nd plenary meeting (resumed)",
-          "agenda": [],
-          "id": "438b966c-6a5b-4f8d-9c5d-642e66cd91f3"
+          "id": "a9110c6a-7e19-4d87-8edb-7850c18600ae"
         }
       ]
     },
@@ -26,22 +20,23 @@
       "room": "Security Council",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "10192nd meeting",
+          "time": "3:00 PM",
+          "title": "Security Council -- 10193rd meeting",
           "agenda": [],
-          "id": "5a569e52-4678-4a3c-a5ff-815190b62128"
-        },
-        {
-          "time": "Followed By",
-          "title": "10190th meeting (resumed)",
-          "agenda": [],
-          "id": "cabcd8aa-9809-4f7b-af74-5bc71ff79b15"
+          "id": "bbcf4299-f811-46cd-a827-807db57b1af1"
         }
       ]
     },
     {
       "room": "Trusteeship Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "3:00 PM",
+          "title": "High-level segment, 2026 session -- 34th plenary meeting",
+          "agenda": [],
+          "id": "5e1a8d1a-caa8-4534-ba4b-6ebacfac6445"
+        }
+      ]
     },
     {
       "room": "Economic and Social Council",
@@ -49,15 +44,17 @@
     }
   ],
   "meetings": [
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "United Nations Commission on International Trade Law, Fifty-ninth session -- Meeting",
-    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting",
-    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 7th meeting",
-    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 8th meeting",
-    "General Assembly -- 101st plenary meeting",
-    "General Assembly -- 92nd plenary meeting (resumed)",
-    "Security Council -- 10192nd meeting",
-    "Security Council -- 10190th meeting (resumed)",
-    "Permanent Mission of the Islamic Republic of Iran,Permanent Mission of Iraq,Permanent Mission of Mongolia,Permanent Mission of Senegal -- Commemoration of the International Day of Combating Sand and Dust Storms (co-organized by the Permanent Mission of the Islamic Republic of Iran, the Permanent Mission of Iraq, the Permanent Mission of Mongolia, and the Permanent Mission of Senegal)"
+    "Security Council -- 10193rd meeting",
+    "General Assembly, Eightieth session -- Informal consultations on the participation of Indigenous Peoples’ representatives and institutions",
+    "General Assembly, Eightieth session -- Informal consultations on the political declaration for the high-level meeting on pandemic prevention, preparedness and response",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 18th meeting",
+    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 19th meeting",
+    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions",
+    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women -- Joint informal briefing of the Executive Boards of UNDP, UNFPA, UNOPS, UNICEF and UN-Women (to be held remotely without physical presence)",
+    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 9th meeting",
+    "High-level segment, 2026 session -- 33rd plenary meeting",
+    "High-level segment, 2026 session -- 34th plenary meeting",
+    "Workshop on sustainable fisheries, addressing the impacts of bottom fishing on vulnerable marine ecosystems and the long-term sustainability of deep-sea fish stocks -- Open meeting"
   ]
 }
