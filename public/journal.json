@@ -1,9 +1,9 @@
 {
-  "date": "2026-07-14",
-  "fetched_at": "2026-07-14T13:17:17.248Z",
-  "ny_date": "2026-07-14",
+  "date": "2026-07-15",
+  "fetched_at": "2026-07-15T12:14:31.136Z",
+  "ny_date": "2026-07-15",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 15 meetings",
+  "note": "Live from journal-api.un.org -- 11 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -14,21 +14,21 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10194th meeting",
+          "title": "Security Council -- 10196th meeting",
           "agenda": [],
-          "id": "fff44f9f-da98-4f0f-8e0c-a1db82c916b3"
-        },
-        {
-          "time": "Followed By",
-          "title": "Security Council -- 10195th meeting",
-          "agenda": [],
-          "id": "57d2b361-42b1-42ef-b821-915bb71c361d"
+          "id": "64d59f74-127f-4ce7-81a1-adbb640dd52d"
         },
         {
           "time": "Followed By",
           "title": "Security Council -- Consultations of the whole",
           "agenda": [],
-          "id": "aff40f7a-0524-4a90-8610-c4dfbae3936a"
+          "id": "26667a3e-0495-428c-aaed-5721cdf4f4b7"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Security Council -- 10197th meeting",
+          "agenda": [],
+          "id": "4c5a098a-bd7d-452b-bcb7-bb8f010a60e6"
         }
       ]
     },
@@ -36,52 +36,29 @@
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "3:00 PM",
-          "title": "High-level segment, 2026 session -- 35th plenary meeting",
+          "time": "10:00 AM",
+          "title": "High-level segment, 2026 session -- 36th plenary meeting",
           "agenda": [],
-          "id": "33277838-0e25-4601-9ff4-a27e723efbbe"
-        },
-        {
-          "time": "10:30 AM",
-          "title": "Climate Action Team,Executive Office of the Secretary-General (EOSG) -- High-level meeting on critical energy transition minerals (organized by the Climate Action Team of the Executive Office of the Secretary-General (EOSG))",
-          "agenda": [],
-          "id": "a9af9f45-f7a0-4a53-b319-794918aade0f"
+          "id": "dd7b9175-5972-4721-8cd4-b275f54f38d8"
         }
       ]
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "General Assembly, Eightieth session -- Informal meeting of the Assembly on “Taking Stock of the Pact for the Future”",
-          "agenda": [],
-          "id": "7fcf9797-60a7-4b81-8a8f-e4ccb5b06c1c"
-        },
-        {
-          "time": "3:00 PM",
-          "title": "Arab Group -- Meeting (at the ambassadorial level)",
-          "agenda": [],
-          "id": "52929ecc-04c2-4992-9595-2f13113fd834"
-        }
-      ]
+      "meetings": []
     }
   ],
   "meetings": [
-    "Security Council -- 10194th meeting",
-    "Security Council -- 10195th meeting",
+    "Security Council -- 10196th meeting",
     "Security Council -- Consultations of the whole",
-    "General Assembly, Eightieth session -- Informal meeting of the Assembly on “Taking Stock of the Pact for the Future”",
-    "General Assembly, Eightieth session -- Informal consultations on the political declaration for the high-level meeting on pandemic prevention, preparedness and response",
-    "Steering Committee on Partnerships for Small Island Developing States, Eightieth session -- Meeting of the Committee",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 20th meeting",
+    "Security Council -- 10197th meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 21st meeting",
+    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 22nd meeting",
     "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions",
-    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 10th meeting",
-    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 11th meeting",
-    "High-level segment, 2026 session -- 35th plenary meeting",
-    "Workshop on sustainable fisheries, addressing the impacts of bottom fishing on vulnerable marine ecosystems and the long-term sustainability of deep-sea fish stocks -- Open meeting",
-    "Arab Group -- Meeting (at the ambassadorial level)",
-    "Climate Action Team,Executive Office of the Secretary-General (EOSG) -- High-level meeting on critical energy transition minerals (organized by the Climate Action Team of the Executive Office of the Secretary-General (EOSG))"
+    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 12th meeting",
+    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 13th meeting",
+    "High-level segment, 2026 session -- 36th plenary meeting",
+    "Asia-Pacific Group -- Briefing"
   ]
 }
