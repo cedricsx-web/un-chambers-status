@@ -158,12 +158,13 @@ function parseJournalData(data,agendaById) {
           const fullTitle=bodyLabel?bodyLabel+" -- "+rawTitle:rawTitle;
           const time=fmtTime((m.timeFrom||m.startTime||sTime||"").toString());
           const rawRoom=getRoom(m);
+          const isConsult=rawRoom&&rawRoom.toLowerCase().includes("consultations");
           allMeetings.push({title:fullTitle,time,room:rawRoom||null});
           // Map to chamber by room name (e.g. Trusteeship meetings in otherMeetings)
           const chamber=chamberForRoom(rawRoom);
           if (chamber) {
             if (!chamberMap[chamber]) chamberMap[chamber]=[];
-            chamberMap[chamber].push({time,title:fullTitle,agenda:[],id:m.id||null});
+            chamberMap[chamber].push({time,title:fullTitle,agenda:[],id:m.id||null,isConsultation:isConsult||false});
           }
         });
       });
