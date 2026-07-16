@@ -167,9 +167,10 @@ function MeetingRow({m,onCancel,onAdjourn,onUnadjourn,onDelete,adjournedTitles,m
           onClick={hasAgenda?function(){setAgendaOpen(function(o){return !o;});}:undefined}
           style={{flex:1,cursor:hasAgenda?"pointer":"default",padding:"1px 0"}}
         >
+          {m.isConsultation&&<span style={{fontSize:"8px",fontWeight:"700",color:"rgba(100,180,255,0.7)",background:"rgba(100,180,255,0.1)",border:"1px solid rgba(100,180,255,0.2)",borderRadius:"3px",padding:"1px 4px",display:"inline-block",marginBottom:"2px",letterSpacing:"0.3px"}}>CONSULT. ROOM</span>}
           <span style={{
             fontSize:"12px",lineHeight:"1.35",fontWeight:"600",
-            color:adjourned?"rgba(255,255,255,0.35)":"rgba(255,255,255,0.9)",
+            color:adjourned?"rgba(255,255,255,0.35)":m.isConsultation?"rgba(255,255,255,0.65)":"rgba(255,255,255,0.9)",
             textDecoration:adjourned?"line-through":"none",
             display:"-webkit-box",WebkitLineClamp:titleExpanded?100:3,
             WebkitBoxOrient:"vertical",overflow:"hidden",
@@ -384,6 +385,7 @@ function MeetingsList({meetings,onCancel,onDelete,onUncancel,onEdit,editingId,on
 
 // -- Main App --
 export default function App() {
+  console.log("APP VERSION: CONSULT-DEBUG-001");
   const [data,setData]=useState(null);
   const [loading,setLoading]=useState(false);
   const [error,setError]=useState(null);
@@ -491,19 +493,22 @@ export default function App() {
     }catch(e){console.warn("saveChamberStatus error:",e.message);}
   }
   async function cycleChamberStatus(chamber,currentStatus){
+    console.log("CYCLE:",chamber,"current:",currentStatus);
     const isGA=chamber==="General Assembly Hall";
     let next=null;
     if(isGA){
-      // GA cycle: OPEN -> CLOSED -> WT 4th -> WT 3rd -> auto
+      // GA cycle: OPEN -> CLOSED -> OPEN(manual) -> WT 4th -> WT 3rd -> auto
       if(currentStatus==="OPEN")next="closed";
-      else if(currentStatus==="CLOSED")next="wt_4th";
+      else if(currentStatus==="CLOSED")next="open";
       else if(currentStatus==="WT 4th")next="wt_3rd";
-      else next=null; // WT 3rd -> remove override
+      else if(currentStatus==="WT 3rd")next=null; // auto
+      else next="wt_4th"; // manual OPEN -> WT 4th
     } else {
-      // Other chambers: OPEN -> CLOSED -> WT -> auto
+      // Other chambers: OPEN -> CLOSED -> OPEN(manual) -> WT -> auto
       if(currentStatus==="OPEN")next="closed";
-      else if(currentStatus==="CLOSED")next="wt";
-      else next=null; // WT -> remove override
+      else if(currentStatus==="CLOSED")next="open";
+      else if(currentStatus==="WT")next=null; // auto
+      else next="wt"; // manual OPEN -> WT
     }
     // Update local state
     setChamberOverrides(function(prev){
@@ -733,8 +738,9 @@ export default function App() {
             const time=fmtTime((m.timeFrom||m.startTime||sTime||"").toString());
             const rawRoom=getRoom(m);
             const chamber=chamberRoom(rawRoom);
+            const isConsult=rawRoom&&rawRoom.toLowerCase().includes("consultations");
             allMeetings.push({title:fullTitle,time,room:rawRoom||null});
-            if(chamber)add(chamber,{time,title:fullTitle,agenda:[],id:m.id||null});
+            if(chamber)add(chamber,{time,title:fullTitle,agenda:[],id:m.id||null,isConsultation:isConsult||false});
           });
         });
       });
@@ -844,6 +850,7 @@ export default function App() {
     const adj=adjTitles||[];
     const hasActive=meetings.some(function(m){
       if(m.cancelled)return false;
+      if(m.isConsultation)return false; // consultation room doesn't affect chamber status
       const isAdjourned=adj.some(function(at){return at===m.title||m.title.includes(at)||at.includes(m.title);});
       if(isAdjourned)return false;
       const start=parseMeetingTime(m.time);
@@ -966,6 +973,9 @@ export default function App() {
           const chambersOrdered=CHAMBER_ORDER.map(function(name){
             return (data.chambers||[]).find(function(c){return c.room===name;})||{room:name,meetings:[]};
           });
+          // DEBUG: log SC meetings
+          const scChamber=(data.chambers||[]).find(function(c){return c.room==="Security Council";});
+          if(scChamber){console.log("SC meetings from journal.json:",JSON.stringify(scChamber.meetings.map(function(m){return {title:m.title.slice(0,30),isConsultation:m.isConsultation};})));}
           const mergedChambers=chambersOrdered.map(function(chamber){
             const extras=visibleExtras
               .filter(function(e){return (ROOM_DISPLAY[e.room]||e.room)===chamber.room;})
