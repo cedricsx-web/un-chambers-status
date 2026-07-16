@@ -385,7 +385,6 @@ function MeetingsList({meetings,onCancel,onDelete,onUncancel,onEdit,editingId,on
 
 // -- Main App --
 export default function App() {
-  console.log("APP VERSION: CONSULT-DEBUG-001");
   const [data,setData]=useState(null);
   const [loading,setLoading]=useState(false);
   const [error,setError]=useState(null);
@@ -493,7 +492,6 @@ export default function App() {
     }catch(e){console.warn("saveChamberStatus error:",e.message);}
   }
   async function cycleChamberStatus(chamber,currentStatus){
-    console.log("CYCLE:",chamber,"current:",currentStatus);
     const isGA=chamber==="General Assembly Hall";
     let next=null;
     if(isGA){
@@ -738,7 +736,7 @@ export default function App() {
             const time=fmtTime((m.timeFrom||m.startTime||sTime||"").toString());
             const rawRoom=getRoom(m);
             const chamber=chamberRoom(rawRoom);
-            const isConsult=rawRoom&&rawRoom.toLowerCase().includes("consultations");
+            const isConsult=(rawRoom&&rawRoom.toLowerCase().includes("consultations"))||(fullTitle&&fullTitle.toLowerCase().includes("consultations of the whole"));
             allMeetings.push({title:fullTitle,time,room:rawRoom||null});
             if(chamber)add(chamber,{time,title:fullTitle,agenda:[],id:m.id||null,isConsultation:isConsult||false});
           });
@@ -973,9 +971,9 @@ export default function App() {
           const chambersOrdered=CHAMBER_ORDER.map(function(name){
             return (data.chambers||[]).find(function(c){return c.room===name;})||{room:name,meetings:[]};
           });
-          // DEBUG: log SC meetings
-          const scChamber=(data.chambers||[]).find(function(c){return c.room==="Security Council";});
-          if(scChamber){console.log("SC meetings from journal.json:",JSON.stringify(scChamber.meetings.map(function(m){return {title:m.title.slice(0,30),isConsultation:m.isConsultation};})));}
+          // DEBUG: show raw journal values before fix
+          const scRaw=(data.chambers||[]).find(function(c){return c.room==="Security Council";});
+          if(scRaw)console.log("RAW SC:",JSON.stringify(scRaw.meetings.map(function(m){return {title:m.title.slice(0,25),isConsult:m.isConsultation,hasConsultTitle:m.title.toLowerCase().includes("consultations of the whole")};})));
           const mergedChambers=chambersOrdered.map(function(chamber){
             const extras=visibleExtras
               .filter(function(e){return (ROOM_DISPLAY[e.room]||e.room)===chamber.room;})
@@ -984,7 +982,12 @@ export default function App() {
                 return {time:e.time_start?fmtTime(e.time_start):"TBD",title:org+" -- "+e.title+(e.is_closed?" [Closed]":""),agenda:[],id:e.id||null,isExtra:true,extraId:e.id,extra_notes:e.extra_notes||e.note||""};
               });
             const journalMeetings=(chamber.meetings||[])
-              .filter(function(m){return !cancelledTitles.some(function(ct){return ct===m.title||ct.includes(m.title);});});
+              .filter(function(m){return !cancelledTitles.some(function(ct){return ct===m.title||ct.includes(m.title);});})
+              .map(function(m){
+                // Re-evaluate isConsultation at runtime from title (in case journal.json flag is stale)
+                const isConsultation=m.isConsultation||(m.title&&m.title.toLowerCase().includes("consultations of the whole"));
+                return Object.assign({},m,{isConsultation:isConsultation||false});
+              });
             return Object.assign({},chamber,{meetings:[...journalMeetings,...extras]});
           });
           const allMeetings=[
