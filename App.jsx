@@ -495,16 +495,18 @@ export default function App() {
     const isGA=chamber==="General Assembly Hall";
     let next=null;
     if(isGA){
-      // GA cycle: OPEN -> CLOSED -> WT 4th -> WT 3rd -> auto
+      // GA cycle: OPEN -> CLOSED -> OPEN(manual) -> WT 4th -> WT 3rd -> auto
       if(currentStatus==="OPEN")next="closed";
-      else if(currentStatus==="CLOSED")next="wt_4th";
+      else if(currentStatus==="CLOSED")next="open";
       else if(currentStatus==="WT 4th")next="wt_3rd";
-      else next=null; // WT 3rd -> remove override
+      else if(currentStatus==="WT 3rd")next=null; // auto
+      else next="wt_4th"; // manual OPEN -> WT 4th
     } else {
-      // Other chambers: OPEN -> CLOSED -> WT -> auto
+      // Other chambers: OPEN -> CLOSED -> OPEN(manual) -> WT -> auto
       if(currentStatus==="OPEN")next="closed";
-      else if(currentStatus==="CLOSED")next="wt";
-      else next=null; // WT -> remove override
+      else if(currentStatus==="CLOSED")next="open";
+      else if(currentStatus==="WT")next=null; // auto
+      else next="wt"; // manual OPEN -> WT
     }
     // Update local state
     setChamberOverrides(function(prev){
