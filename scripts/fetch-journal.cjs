@@ -110,7 +110,7 @@ function parseJournalData(data,agendaById) {
           const time=fmtTime((m.timeFrom||m.startTime||sTime||"").toString());
           const rawRoom=getRoom(m);
           const chamber=chamberForRoom(rawRoom);
-          const isConsultation=rawRoom&&rawRoom.toLowerCase().includes("consultations");
+          const isConsultation=(rawRoom&&rawRoom.toLowerCase().includes("consultations"))||(fullTitle&&fullTitle.toLowerCase().includes("consultations of the whole"));
           allMeetings.push({title:fullTitle,time,room:rawRoom||null});
           if (chamber) add(chamber,{time,title:fullTitle,agenda,id:m.id||null,isConsultation:isConsultation||false});
         });
