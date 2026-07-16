@@ -110,8 +110,9 @@ function parseJournalData(data,agendaById) {
           const time=fmtTime((m.timeFrom||m.startTime||sTime||"").toString());
           const rawRoom=getRoom(m);
           const chamber=chamberForRoom(rawRoom);
+          const isConsultation=rawRoom&&rawRoom.toLowerCase().includes("consultations");
           allMeetings.push({title:fullTitle,time,room:rawRoom||null});
-          if (chamber) add(chamber,{time,title:fullTitle,agenda,id:m.id||null});
+          if (chamber) add(chamber,{time,title:fullTitle,agenda,id:m.id||null,isConsultation:isConsultation||false});
         });
       });
     });
@@ -416,7 +417,7 @@ async function main() {
     const chambers=["General Assembly Hall","Security Council","Trusteeship Council","Economic and Social Council"]
       .map(function(name){
         const ms=chamberMap[name]||[];
-        return {room:name,meetings:ms.map(function(m){return {time:m.time,title:m.title,agenda:m.agenda||[],id:m.id||null};})};
+        return {room:name,meetings:ms.map(function(m){return {time:m.time,title:m.title,agenda:m.agenda||[],id:m.id||null,isConsultation:m.isConsultation||false};})};
       });
 
     saveResult(dateStr,chambers,finalTitles,
