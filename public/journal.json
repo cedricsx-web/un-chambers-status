@@ -1,6 +1,6 @@
 {
   "date": "2026-07-16",
-  "fetched_at": "2026-07-16T13:59:39.459Z",
+  "fetched_at": "2026-07-16T14:02:14.898Z",
   "ny_date": "2026-07-16",
   "source": "journal-api.un.org",
   "note": "Live from journal-api.un.org -- 10 meetings",
@@ -12,13 +12,15 @@
           "time": "10:00 AM",
           "title": "102nd plenary meeting",
           "agenda": [],
-          "id": "a8553d1b-35f4-4a17-b9a8-b1754babff35"
+          "id": "a8553d1b-35f4-4a17-b9a8-b1754babff35",
+          "isConsultation": false
         },
         {
           "time": "3:00 PM",
           "title": "103rd plenary meeting",
           "agenda": [],
-          "id": "a3b82370-ffe8-4aed-ac5b-947bbb70f220"
+          "id": "a3b82370-ffe8-4aed-ac5b-947bbb70f220",
+          "isConsultation": false
         }
       ]
     },
@@ -29,13 +31,15 @@
           "time": "10:00 AM",
           "title": "Consultations of the whole [Closed]",
           "agenda": [],
-          "id": "5a5eb4f4-20ea-4635-9ff2-7e93439c4746"
+          "id": "5a5eb4f4-20ea-4635-9ff2-7e93439c4746",
+          "isConsultation": false
         },
         {
           "time": "3:00 PM",
           "title": "Consultations of the whole [Closed]",
           "agenda": [],
-          "id": "3e8c8267-caef-4a88-8dbf-bd8c8f5a1968"
+          "id": "3e8c8267-caef-4a88-8dbf-bd8c8f5a1968",
+          "isConsultation": false
         }
       ]
     },
@@ -50,13 +54,15 @@
           "time": "10:00 AM",
           "title": "High-level segment, 2026 session -- 37th plenary meeting",
           "agenda": [],
-          "id": "b6fa1944-3805-4eb9-ac03-782ce0038a72"
+          "id": "b6fa1944-3805-4eb9-ac03-782ce0038a72",
+          "isConsultation": false
         },
         {
           "time": "3:00 PM",
           "title": "High-level segment, 2026 session -- 38th plenary meeting",
           "agenda": [],
-          "id": "1aec1e80-2007-4933-b48c-75ead7a7db07"
+          "id": "1aec1e80-2007-4933-b48c-75ead7a7db07",
+          "isConsultation": false
         }
       ]
     }
