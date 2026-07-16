@@ -492,6 +492,7 @@ export default function App() {
     }catch(e){console.warn("saveChamberStatus error:",e.message);}
   }
   async function cycleChamberStatus(chamber,currentStatus){
+    console.log("CYCLE:",chamber,"current:",currentStatus);
     const isGA=chamber==="General Assembly Hall";
     let next=null;
     if(isGA){
@@ -971,6 +972,9 @@ export default function App() {
           const chambersOrdered=CHAMBER_ORDER.map(function(name){
             return (data.chambers||[]).find(function(c){return c.room===name;})||{room:name,meetings:[]};
           });
+          // DEBUG: log SC meetings
+          const scChamber=(data.chambers||[]).find(function(c){return c.room==="Security Council";});
+          if(scChamber){console.log("SC meetings from journal.json:",JSON.stringify(scChamber.meetings.map(function(m){return {title:m.title.slice(0,30),isConsultation:m.isConsultation};})));}
           const mergedChambers=chambersOrdered.map(function(chamber){
             const extras=visibleExtras
               .filter(function(e){return (ROOM_DISPLAY[e.room]||e.room)===chamber.room;})
