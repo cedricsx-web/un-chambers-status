@@ -385,6 +385,7 @@ function MeetingsList({meetings,onCancel,onDelete,onUncancel,onEdit,editingId,on
 
 // -- Main App --
 export default function App() {
+  console.log("APP VERSION: CONSULT-DEBUG-001");
   const [data,setData]=useState(null);
   const [loading,setLoading]=useState(false);
   const [error,setError]=useState(null);
