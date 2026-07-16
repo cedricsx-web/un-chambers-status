@@ -1,64 +1,76 @@
 {
-  "date": "2026-07-15",
-  "fetched_at": "2026-07-15T13:21:07.605Z",
-  "ny_date": "2026-07-15",
+  "date": "2026-07-16",
+  "fetched_at": "2026-07-16T13:17:57.370Z",
+  "ny_date": "2026-07-16",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 11 meetings",
+  "note": "Live from journal-api.un.org -- 10 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "102nd plenary meeting",
+          "agenda": [],
+          "id": "a8553d1b-35f4-4a17-b9a8-b1754babff35"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "103rd plenary meeting",
+          "agenda": [],
+          "id": "a3b82370-ffe8-4aed-ac5b-947bbb70f220"
+        }
+      ]
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10196th meeting",
+          "title": "Consultations of the whole [Closed]",
           "agenda": [],
-          "id": "64d59f74-127f-4ce7-81a1-adbb640dd52d"
-        },
-        {
-          "time": "Followed By",
-          "title": "Security Council -- Consultations of the whole",
-          "agenda": [],
-          "id": "26667a3e-0495-428c-aaed-5721cdf4f4b7"
+          "id": "5a5eb4f4-20ea-4635-9ff2-7e93439c4746"
         },
         {
           "time": "3:00 PM",
-          "title": "Security Council -- 10197th meeting",
+          "title": "Consultations of the whole [Closed]",
           "agenda": [],
-          "id": "4c5a098a-bd7d-452b-bcb7-bb8f010a60e6"
+          "id": "3e8c8267-caef-4a88-8dbf-bd8c8f5a1968"
         }
       ]
     },
     {
       "room": "Trusteeship Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "High-level segment, 2026 session -- 36th plenary meeting",
-          "agenda": [],
-          "id": "dd7b9175-5972-4721-8cd4-b275f54f38d8"
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "High-level segment, 2026 session -- 37th plenary meeting",
+          "agenda": [],
+          "id": "b6fa1944-3805-4eb9-ac03-782ce0038a72"
+        },
+        {
+          "time": "3:00 PM",
+          "title": "High-level segment, 2026 session -- 38th plenary meeting",
+          "agenda": [],
+          "id": "1aec1e80-2007-4933-b48c-75ead7a7db07"
+        }
+      ]
     }
   ],
   "meetings": [
-    "Security Council -- 10196th meeting",
-    "Security Council -- Consultations of the whole",
-    "Security Council -- 10197th meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 21st meeting",
-    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 22nd meeting",
+    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 23rd meeting",
+    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 24th meeting",
+    "Ad Hoc Working Group on Mandate Implementation Review -- Meeting",
     "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions",
-    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 12th meeting",
-    "High-level political forum on sustainable development convened under the auspices of the Economic and Social Council, 2026 session -- 13th meeting",
-    "High-level segment, 2026 session -- 36th plenary meeting",
-    "Asia-Pacific Group -- Briefing"
+    "High-level segment, 2026 session -- 37th plenary meeting",
+    "High-level segment, 2026 session -- 38th plenary meeting",
+    "General Assembly -- 102nd plenary meeting",
+    "General Assembly -- 103rd plenary meeting",
+    "Security Council -- Consultations of the whole [Closed]"
   ]
 }
