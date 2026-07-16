@@ -64,6 +64,10 @@ const SECTIONS = [
     content: "Tap the + button next to All Meetings Today. Fill in organizer type, name, title, room, time and status. The meeting appears immediately in the list and in the correct chamber card for all guides.",
   },
   {
+    title: "Duplicating a Meeting",
+    content: "Tap the copy icon next to any meeting in the list, or tap the three-dot menu in the chamber card and choose Duplicate. The add form opens pre-filled with the meeting details. Change the time, room or any field and save. Useful when a morning meeting continues in the afternoon or moves to a different room.",
+  },
+  {
     title: "Adding a Note",
     content: "Tap the pencil icon next to any meeting to add context: Security Council topic, special guest, subject of debate. Notes appear under the meeting title in both the list and the chamber card, visible to all guides.",
   },
@@ -149,14 +153,24 @@ function MeetingRow({m,onCancel,onAdjourn,onUnadjourn,onDelete,adjournedTitles,m
   return (
     <div style={{opacity:adjourned?0.6:1}}>
       <div style={{display:"flex",gap:"6px",alignItems:"flex-start"}}>
-        <span style={{fontSize:"10px",color:adjourned?"rgba(255,200,0,0.5)":"#FCC30B",fontWeight:"700",whiteSpace:"nowrap",marginTop:"3px",flexShrink:0}}>{m.time}</span>
+        {/* Left column: time + action button */}
+        <div style={{display:"flex",flexDirection:"column",alignItems:"center",gap:"3px",flexShrink:0,minWidth:"36px"}}>
+          <span style={{fontSize:"10px",color:adjourned?"rgba(255,200,0,0.5)":"#FCC30B",fontWeight:"700",whiteSpace:"nowrap"}}>{m.time}</span>
+          {!adjourned?(
+            <button onClick={function(e){e.stopPropagation();setShowActions(function(s){return !s;});}} style={{background:showActions?"rgba(0,150,214,0.15)":"rgba(255,255,255,0.05)",border:"1px solid rgba(255,255,255,0.1)",color:"rgba(255,255,255,0.4)",borderRadius:"5px",width:"20px",height:"20px",fontSize:"12px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",padding:0,lineHeight:1}}>&#8942;</button>
+          ):(
+            <button onClick={function(){onUnadjourn&&onUnadjourn(cancelKey,chamberName);}} title="Restore" style={{background:"rgba(255,200,0,0.1)",border:"1px solid rgba(255,200,0,0.3)",color:"rgba(255,200,0,0.7)",borderRadius:"5px",width:"20px",height:"20px",fontSize:"10px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",padding:0,lineHeight:1}}>&#8617;</button>
+          )}
+        </div>
+        {/* Right column: title */}
         <div
           onClick={hasAgenda?function(){setAgendaOpen(function(o){return !o;});}:undefined}
           style={{flex:1,cursor:hasAgenda?"pointer":"default",padding:"1px 0"}}
         >
+          {m.isConsultation&&<span style={{fontSize:"8px",fontWeight:"700",color:"rgba(100,180,255,0.7)",background:"rgba(100,180,255,0.1)",border:"1px solid rgba(100,180,255,0.2)",borderRadius:"3px",padding:"1px 4px",display:"inline-block",marginBottom:"2px",letterSpacing:"0.3px"}}>CONSULT. ROOM</span>}
           <span style={{
             fontSize:"12px",lineHeight:"1.35",fontWeight:"600",
-            color:adjourned?"rgba(255,255,255,0.35)":"rgba(255,255,255,0.9)",
+            color:adjourned?"rgba(255,255,255,0.35)":m.isConsultation?"rgba(255,255,255,0.65)":"rgba(255,255,255,0.9)",
             textDecoration:adjourned?"line-through":"none",
             display:"-webkit-box",WebkitLineClamp:titleExpanded?100:3,
             WebkitBoxOrient:"vertical",overflow:"hidden",
@@ -169,11 +183,6 @@ function MeetingRow({m,onCancel,onAdjourn,onUnadjourn,onDelete,adjournedTitles,m
           {adjourned&&<span style={{fontSize:"8px",color:"rgba(255,200,0,0.7)",fontWeight:"700"}}>ADJOURNED</span>}
           {hasAgenda&&!adjourned&&!titleExpanded&&<span style={{marginLeft:"5px",fontSize:"9px",color:"rgba(0,160,220,0.45)"}}>{agendaOpen?"&#9650;":"&#9660;"}</span>}
         </div>
-        {!adjourned?(
-          <button onClick={function(e){e.stopPropagation();setShowActions(function(s){return !s;});}} style={{flexShrink:0,background:"rgba(255,255,255,0.05)",border:"1px solid rgba(255,255,255,0.1)",color:"rgba(255,255,255,0.3)",borderRadius:"5px",width:"20px",height:"20px",fontSize:"12px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",padding:0,lineHeight:1}}>&#8942;</button>
-        ):(
-          <button onClick={function(){onUnadjourn&&onUnadjourn(cancelKey,chamberName);}} title="Restore" style={{flexShrink:0,background:"rgba(255,200,0,0.1)",border:"1px solid rgba(255,200,0,0.3)",color:"rgba(255,200,0,0.7)",borderRadius:"5px",width:"20px",height:"20px",fontSize:"10px",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",padding:0,lineHeight:1}}>&#8617;</button>
-        )}
       </div>
       {!adjourned&&(function(){
         // Check all note sources: extra_notes field, note field, and meeting_notes table
@@ -725,8 +734,9 @@ export default function App() {
             const time=fmtTime((m.timeFrom||m.startTime||sTime||"").toString());
             const rawRoom=getRoom(m);
             const chamber=chamberRoom(rawRoom);
+            const isConsult=rawRoom&&rawRoom.toLowerCase().includes("consultations");
             allMeetings.push({title:fullTitle,time,room:rawRoom||null});
-            if(chamber)add(chamber,{time,title:fullTitle,agenda:[],id:m.id||null});
+            if(chamber)add(chamber,{time,title:fullTitle,agenda:[],id:m.id||null,isConsultation:isConsult||false});
           });
         });
       });
@@ -836,6 +846,7 @@ export default function App() {
     const adj=adjTitles||[];
     const hasActive=meetings.some(function(m){
       if(m.cancelled)return false;
+      if(m.isConsultation)return false; // consultation room doesn't affect chamber status
       const isAdjourned=adj.some(function(at){return at===m.title||m.title.includes(at)||at.includes(m.title);});
       if(isAdjourned)return false;
       const start=parseMeetingTime(m.time);
