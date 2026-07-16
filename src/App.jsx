@@ -985,10 +985,15 @@ export default function App() {
               .filter(function(m){return !cancelledTitles.some(function(ct){return ct===m.title||ct.includes(m.title);});})
               .map(function(m){
                 // Re-evaluate isConsultation at runtime from title (in case journal.json flag is stale)
-                const isConsultation=m.isConsultation||(m.title&&m.title.toLowerCase().includes("consultations of the whole"));
+                const titleLower=m.title?m.title.toLowerCase():"";
+                const isConsultation=m.isConsultation||titleLower.includes("consultations of the whole")||titleLower.includes("consultation");
                 return Object.assign({},m,{isConsultation:isConsultation||false});
               });
-            return Object.assign({},chamber,{meetings:[...journalMeetings,...extras]});
+            return Object.assign({},chamber,{meetings:[...journalMeetings,...extras].sort(function(a,b){
+                  const ta=parseMeetingTime(a.time)||0;
+                  const tb=parseMeetingTime(b.time)||0;
+                  return ta-tb;
+                })});
           });
           const allMeetings=[
             ...(data.meetings||[]).map(function(title){return {title,isExtra:false,extraId:null,cancelKey:title,cancelled:cancelledTitles.includes(title)};}),
