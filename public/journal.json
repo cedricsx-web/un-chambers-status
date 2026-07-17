@@ -1,82 +1,50 @@
 {
-  "date": "2026-07-16",
-  "fetched_at": "2026-07-16T19:41:00.305Z",
-  "ny_date": "2026-07-16",
+  "date": "2026-07-17",
+  "fetched_at": "2026-07-17T12:44:34.634Z",
+  "ny_date": "2026-07-17",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 10 meetings",
+  "note": "Live from journal-api.un.org -- 8 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "102nd plenary meeting",
-          "agenda": [],
-          "id": "a8553d1b-35f4-4a17-b9a8-b1754babff35",
-          "isConsultation": false
-        },
-        {
-          "time": "3:00 PM",
-          "title": "103rd plenary meeting",
-          "agenda": [],
-          "id": "a3b82370-ffe8-4aed-ac5b-947bbb70f220",
-          "isConsultation": false
-        }
-      ]
-    },
-    {
-      "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "5a5eb4f4-20ea-4635-9ff2-7e93439c4746",
-          "isConsultation": false
-        },
-        {
-          "time": "3:00 PM",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "3e8c8267-caef-4a88-8dbf-bd8c8f5a1968",
-          "isConsultation": false
-        }
-      ]
-    },
-    {
-      "room": "Trusteeship Council",
       "meetings": []
     },
     {
-      "room": "Economic and Social Council",
+      "room": "Security Council",
+      "meetings": []
+    },
+    {
+      "room": "Trusteeship Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "High-level segment, 2026 session -- 37th plenary meeting",
+          "title": "General Assembly, Eightieth session -- High-level meeting on the midterm review of the New Urban Agenda",
           "agenda": [],
-          "id": "b6fa1944-3805-4eb9-ac03-782ce0038a72",
+          "id": "c2c6d5f6-606a-4669-b8de-2fa2692ab188",
           "isConsultation": false
         },
         {
           "time": "3:00 PM",
-          "title": "High-level segment, 2026 session -- 38th plenary meeting",
+          "title": "General Assembly, Eightieth session -- High-level meeting on the midterm review of the New Urban Agenda",
           "agenda": [],
-          "id": "1aec1e80-2007-4933-b48c-75ead7a7db07",
+          "id": "c7f63cc5-4cd6-4f57-86b4-24b8dda3e23c",
           "isConsultation": false
         }
       ]
+    },
+    {
+      "room": "Economic and Social Council",
+      "meetings": []
     }
   ],
   "meetings": [
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 23rd meeting",
-    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 24th meeting",
-    "Ad Hoc Working Group on Mandate Implementation Review -- Meeting",
+    "General Assembly, Eightieth session -- High-level meeting on the midterm review of the New Urban Agenda",
+    "General Assembly, Eightieth session -- Informal consultations on the modalities and political declaration of the high-level meeting of the General Assembly to commemorate the twentieth anniversary of the adoption of the Durban Declaration and Programme of Action",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 25th meeting",
+    "Qualified Group of Experts to Prepare a Comprehensive Study of the Question of Nuclear-Weapon-Free Zones in All Its Aspects, Third session -- 26th meeting",
     "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions",
-    "High-level segment, 2026 session -- 37th plenary meeting",
-    "High-level segment, 2026 session -- 38th plenary meeting",
-    "General Assembly -- 102nd plenary meeting",
-    "General Assembly -- 103rd plenary meeting",
-    "Security Council -- Consultations of the whole [Closed]"
+    "Division for Sustainable Development Goals, Department of Economic and Social Affairs -- Briefing on the 2027 Global Sustainable Development Report (organized by the Division for Sustainable Development Goals of the Department of Economic and Social Affairs)",
+    "Group of 77 -- UN80 Initiative matters"
   ]
 }
