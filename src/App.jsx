@@ -147,9 +147,10 @@ function MeetingRow({m,onCancel,onAdjourn,onUnadjourn,onDelete,adjournedTitles,m
   const [agendaOpen,setAgendaOpen]=useState(false);
   const [showActions,setShowActions]=useState(false);
   const [titleExpanded,setTitleExpanded]=useState(false);
-  const adjourned=(adjournedTitles||[]).some(function(at){return at===m.title||m.title.includes(at)||at.includes(m.title);});
+  const mKey=m.title+(m.time?"|"+m.time:"");
+  const adjourned=(adjournedTitles||[]).some(function(at){return at===mKey||at===m.title;});
   const hasAgenda=m.agenda&&m.agenda.length>0;
-  const cancelKey=m.title;
+  const cancelKey=m.title+(m.time?"|"+m.time:"");
   return (
     <div style={{opacity:adjourned?0.6:1}}>
       <div style={{display:"flex",gap:"6px",alignItems:"flex-start"}}>
@@ -495,18 +496,16 @@ export default function App() {
     const isGA=chamber==="General Assembly Hall";
     let next=null;
     if(isGA){
-      // GA cycle: OPEN(auto) -> CLOSED -> WT4 -> WT3 -> OPEN(manual) -> auto
-      if(currentStatus==="CLOSED")next="wt_4th";
+      // GA: OPEN -> CLOSED -> WT 4th -> WT 3rd -> OPEN (auto)
+      if(currentStatus==="OPEN")next="closed";
+      else if(currentStatus==="CLOSED")next="wt_4th";
       else if(currentStatus==="WT 4th")next="wt_3rd";
-      else if(currentStatus==="WT 3rd")next="open";
-      else if(override==="open")next=null; // manual OPEN -> back to auto
-      else next="closed"; // auto OPEN -> CLOSED
+      else next=null; // WT 3rd -> remove override -> auto
     } else {
-      // SC/TC/ECOSOC cycle: OPEN(auto) -> CLOSED -> WT -> OPEN(manual) -> auto
-      if(currentStatus==="CLOSED")next="wt";
-      else if(currentStatus==="WT")next="open";
-      else if(override==="open")next=null; // manual OPEN -> back to auto
-      else next="closed"; // auto OPEN -> CLOSED
+      // SC/TC/ECOSOC: OPEN -> CLOSED -> WT -> OPEN (auto)
+      if(currentStatus==="OPEN")next="closed";
+      else if(currentStatus==="CLOSED")next="wt";
+      else next=null; // WT -> remove override -> auto
     }
     // Update local state
     setChamberOverrides(function(prev){
@@ -849,7 +848,8 @@ export default function App() {
     const hasActive=meetings.some(function(m){
       if(m.cancelled)return false;
       if(m.isConsultation)return false; // consultation room doesn't affect chamber status
-      const isAdjourned=adj.some(function(at){return at===m.title||m.title.includes(at)||at.includes(m.title);});
+      const mKey=m.title+(m.time?"|"+m.time:"");
+      const isAdjourned=adj.some(function(at){return at===mKey||at===m.title;});
       if(isAdjourned)return false;
       const start=parseMeetingTime(m.time);
       if(start===null)return false;
@@ -982,7 +982,10 @@ export default function App() {
                 return {time:e.time_start?fmtTime(e.time_start):"TBD",title:org+" -- "+e.title+(e.is_closed?" [Closed]":""),agenda:[],id:e.id||null,isExtra:true,extraId:e.id,extra_notes:e.extra_notes||e.note||""};
               });
             const journalMeetings=(chamber.meetings||[])
-              .filter(function(m){return !cancelledTitles.some(function(ct){return ct===m.title;});})
+              .filter(function(m){
+                const key=m.title+(m.time?"|"+m.time:"");
+                return !cancelledTitles.some(function(ct){return ct===key||ct===m.title;});
+              })
               .map(function(m){
                 // Re-evaluate isConsultation at runtime from title (in case journal.json flag is stale)
                 const titleLower=m.title?m.title.toLowerCase():"";
