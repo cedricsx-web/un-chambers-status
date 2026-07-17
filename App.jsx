@@ -238,7 +238,7 @@ function ChamberCard({chamber,index,onCancel,onAdjourn,onUnadjourn,onDelete,adjo
         const [border,color,bg]=stColors[st]||stColors["OPEN"];
         return (
           <div
-            onClick={function(){onCycleStatus&&onCycleStatus(chamber.room,st);}}
+            onClick={function(){onCycleStatus&&onCycleStatus(chamber.room,st,override);}}
             style={{background:bg,borderBottom:"1px solid "+border,padding:"5px 12px",display:"flex",alignItems:"center",justifyContent:"space-between",cursor:"pointer",userSelect:"none"}}
           >
             <span style={{fontSize:"9px",fontWeight:"800",color:color,letterSpacing:"1px",textTransform:"uppercase"}}>{st}</span>
@@ -491,22 +491,22 @@ export default function App() {
       }
     }catch(e){console.warn("saveChamberStatus error:",e.message);}
   }
-  async function cycleChamberStatus(chamber,currentStatus){
+  async function cycleChamberStatus(chamber,currentStatus,override){
     const isGA=chamber==="General Assembly Hall";
     let next=null;
     if(isGA){
-      // GA cycle: OPEN -> CLOSED -> OPEN(manual) -> WT 4th -> WT 3rd -> auto
-      if(currentStatus==="OPEN")next="closed";
-      else if(currentStatus==="CLOSED")next="open";
+      // GA cycle: OPEN(auto) -> CLOSED -> WT4 -> WT3 -> OPEN(manual) -> auto
+      if(currentStatus==="CLOSED")next="wt_4th";
       else if(currentStatus==="WT 4th")next="wt_3rd";
-      else if(currentStatus==="WT 3rd")next=null; // auto
-      else next="wt_4th"; // manual OPEN -> WT 4th
+      else if(currentStatus==="WT 3rd")next="open";
+      else if(override==="open")next=null; // manual OPEN -> back to auto
+      else next="closed"; // auto OPEN -> CLOSED
     } else {
-      // Other chambers: OPEN -> CLOSED -> OPEN(manual) -> WT -> auto
-      if(currentStatus==="OPEN")next="closed";
-      else if(currentStatus==="CLOSED")next="open";
-      else if(currentStatus==="WT")next=null; // auto
-      else next="wt"; // manual OPEN -> WT
+      // SC/TC/ECOSOC cycle: OPEN(auto) -> CLOSED -> WT -> OPEN(manual) -> auto
+      if(currentStatus==="CLOSED")next="wt";
+      else if(currentStatus==="WT")next="open";
+      else if(override==="open")next=null; // manual OPEN -> back to auto
+      else next="closed"; // auto OPEN -> CLOSED
     }
     // Update local state
     setChamberOverrides(function(prev){
