@@ -1,25 +1,25 @@
 {
-  "date": "2026-07-20",
-  "fetched_at": "2026-07-20T13:52:53.411Z",
-  "ny_date": "2026-07-20",
+  "date": "2026-07-21",
+  "fetched_at": "2026-07-21T13:22:35.769Z",
+  "ny_date": "2026-07-21",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 8 meetings",
+  "note": "Live from journal-api.un.org -- 12 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "General Assembly, Eightieth session -- Informal meeting",
+          "title": "High-level meeting of the General Assembly on improving global road safety",
           "agenda": [],
-          "id": "0d8a00c4-b2d7-41dc-aa0b-0a2cb65b5714",
+          "id": "846b9490-28bd-480e-8ffa-d1ae630df4ea",
           "isConsultation": false
         },
         {
           "time": "3:00 PM",
-          "title": "104th plenary meeting",
+          "title": "105th plenary meeting",
           "agenda": [],
-          "id": "cad7cadf-517c-4ae9-af3b-01f8f1cbe1cc",
+          "id": "ec5cef43-649f-4a45-9a4f-d6c24c1638d1",
           "isConsultation": false
         }
       ]
@@ -29,16 +29,16 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "10198th meeting",
+          "title": "10199th meeting",
           "agenda": [],
-          "id": "c05dd942-16ab-433a-9dff-1793bfae4dd3",
+          "id": "4bd79299-a20d-4055-9e2a-221297f7a218",
           "isConsultation": false
         },
         {
           "time": "Followed By",
           "title": "Consultations of the whole [Closed]",
           "agenda": [],
-          "id": "52a69c82-3e31-49e3-8849-45d783800c0f",
+          "id": "2930b405-d590-4780-9130-4aa1022736b5",
           "isConsultation": false
         }
       ]
@@ -49,17 +49,36 @@
     },
     {
       "room": "Economic and Social Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "Economic and Social Council, 2026 session -- 39th plenary meeting",
+          "agenda": [],
+          "id": "0c528ca0-c2d8-4db4-95fa-af93039f149f",
+          "isConsultation": false
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Economic and Social Council, 2026 session -- 40th plenary meeting",
+          "agenda": [],
+          "id": "e98fff54-0587-4912-9881-b0a4acfefae2",
+          "isConsultation": false
+        }
+      ]
     }
   ],
   "meetings": [
-    "General Assembly, Eightieth session -- Informal meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Global Mechanism on developments in the field of information and communications technologies in the context of international security and advancing responsible State behaviour in the use of information and communications technologies, Substantive plenary session -- 1st meeting",
-    "Global Mechanism on developments in the field of information and communications technologies in the context of international security and advancing responsible State behaviour in the use of information and communications technologies, Substantive plenary session -- 2nd meeting",
+    "United Nations Board of Auditors, Eightieth regular session -- Meeting",
+    "Global Mechanism on developments in the field of information and communications technologies in the context of international security and advancing responsible State behaviour in the use of information and communications technologies, Substantive plenary session -- 3rd meeting",
+    "Global Mechanism on developments in the field of information and communications technologies in the context of international security and advancing responsible State behaviour in the use of information and communications technologies, Substantive plenary session -- 4th meeting",
     "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions",
-    "General Assembly -- 104th plenary meeting",
-    "Security Council -- 10198th meeting",
-    "Security Council -- Consultations of the whole [Closed]"
+    "Economic and Social Council, 2026 session -- 39th plenary meeting",
+    "Economic and Social Council, 2026 session -- 40th plenary meeting",
+    "General Assembly -- High-level meeting of the General Assembly on improving global road safety",
+    "General Assembly -- 105th plenary meeting",
+    "Security Council -- 10199th meeting",
+    "Security Council -- Consultations of the whole [Closed]",
+    "United Nations Office for the Coordination of Humanitarian Affairs (OCHA),United Nations Office for Disaster Risk Reduction (UNDRR),World Meteorological Organization (WMO) -- Briefing for Member States on the emerging El Niño Event (co-organized by the United Nations Office for the Coordination of Humanitarian Affairs (OCHA), the United Nations Office for Disaster Risk Reduction (UNDRR) and the World Meteorological Organization (WMO))"
   ]
 }
