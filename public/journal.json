@@ -1,54 +1,52 @@
 {
-  "date": "2026-07-23",
-  "fetched_at": "2026-07-23T13:39:52.616Z",
-  "ny_date": "2026-07-23",
+  "date": "2026-07-24",
+  "fetched_at": "2026-07-24T13:22:34.969Z",
+  "ny_date": "2026-07-24",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 11 meetings",
+  "note": "Live from journal-api.un.org -- 9 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "3:00 PM",
+          "title": "General Assembly, Eightieth session -- 106th plenary meeting",
+          "agenda": [],
+          "id": "2de40962-d888-4768-b941-4b55c4fa7c82",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Security Council -- 10201st meeting",
-          "agenda": [],
-          "id": "0eac1102-5824-41f9-a62d-785c13b30bea",
-          "isConsultation": false
-        }
-      ]
-    },
-    {
-      "room": "Trusteeship Council",
       "meetings": []
     },
     {
-      "room": "Economic and Social Council",
+      "room": "Trusteeship Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Economic and Social Council, 2027 session -- 1st plenary meeting",
+          "title": "General Assembly, Eightieth session -- Informal interactive dialogue on “Accelerating the Global Energy Transition: Advancing Renewables, Energy Efficiency and International Cooperation”",
           "agenda": [],
-          "id": "9ba374af-bb61-4073-8239-fa288bf69fc0",
+          "id": "e6a2f207-dc21-4bf4-90d0-44e9a70ccec4",
           "isConsultation": false
         }
       ]
+    },
+    {
+      "room": "Economic and Social Council",
+      "meetings": []
     }
   ],
   "meetings": [
-    "Security Council -- 10201st meeting",
-    "General Assembly, Eightieth session -- Informal consultations on the political declaration for the high-level meeting on pandemic prevention, preparedness and response",
-    "Second Committee, Eightieth session -- 24th plenary meeting",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Global Mechanism on developments in the field of information and communications technologies in the context of international security and advancing responsible State behaviour in the use of information and communications technologies, Substantive plenary session -- 7th meeting",
-    "Global Mechanism on developments in the field of information and communications technologies in the context of international security and advancing responsible State behaviour in the use of information and communications technologies, Substantive plenary session -- 8th meeting",
+    "General Assembly, Eightieth session -- 106th plenary meeting",
+    "General Assembly, Eightieth session -- Informal interactive dialogue on “Accelerating the Global Energy Transition: Advancing Renewables, Energy Efficiency and International Cooperation”",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Global Mechanism on developments in the field of information and communications technologies in the context of international security and advancing responsible State behaviour in the use of information and communications technologies, Substantive plenary session -- 9th meeting",
     "Independent Audit Advisory Committee, Seventy-fifth session -- Meeting",
+    "Peacebuilding Commission -- Expert-level meeting on the Peacebuilding Fund",
     "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions",
-    "Military Staff Committee -- 2153rd meeting (also with virtual participation)",
-    "Economic and Social Council, 2027 session -- 1st plenary meeting",
-    "Arab Group -- Meeting (at the ambassadorial level)"
+    "International Criminal Court -- Special Session of the Assembly of States Parties to the Rome Statute of the International Criminal Court - 1st plenary meeting",
+    "International Criminal Court -- Special Session of the Assembly of States Parties to the Rome Statute of the International Criminal Court - 2nd plenary meeting"
   ]
 }
