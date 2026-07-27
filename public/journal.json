@@ -1,37 +1,29 @@
 {
-  "date": "2026-07-24",
-  "fetched_at": "2026-07-24T13:22:34.969Z",
-  "ny_date": "2026-07-24",
+  "date": "2026-07-27",
+  "fetched_at": "2026-07-27T14:15:47.642Z",
+  "ny_date": "2026-07-27",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 9 meetings",
+  "note": "Live from journal-api.un.org -- 3 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "3:00 PM",
-          "title": "General Assembly, Eightieth session -- 106th plenary meeting",
-          "agenda": [],
-          "id": "2de40962-d888-4768-b941-4b55c4fa7c82",
-          "isConsultation": false
-        }
-      ]
-    },
-    {
-      "room": "Security Council",
       "meetings": []
     },
     {
-      "room": "Trusteeship Council",
+      "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "General Assembly, Eightieth session -- Informal interactive dialogue on “Accelerating the Global Energy Transition: Advancing Renewables, Energy Efficiency and International Cooperation”",
+          "title": "Security Council -- 10202nd meeting",
           "agenda": [],
-          "id": "e6a2f207-dc21-4bf4-90d0-44e9a70ccec4",
+          "id": "d8fd75ab-d9ef-49b9-8bf3-90509758d37f",
           "isConsultation": false
         }
       ]
+    },
+    {
+      "room": "Trusteeship Council",
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
@@ -39,14 +31,8 @@
     }
   ],
   "meetings": [
-    "General Assembly, Eightieth session -- 106th plenary meeting",
-    "General Assembly, Eightieth session -- Informal interactive dialogue on “Accelerating the Global Energy Transition: Advancing Renewables, Energy Efficiency and International Cooperation”",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Global Mechanism on developments in the field of information and communications technologies in the context of international security and advancing responsible State behaviour in the use of information and communications technologies, Substantive plenary session -- 9th meeting",
-    "Independent Audit Advisory Committee, Seventy-fifth session -- Meeting",
-    "Peacebuilding Commission -- Expert-level meeting on the Peacebuilding Fund",
-    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions",
-    "International Criminal Court -- Special Session of the Assembly of States Parties to the Rome Statute of the International Criminal Court - 1st plenary meeting",
-    "International Criminal Court -- Special Session of the Assembly of States Parties to the Rome Statute of the International Criminal Court - 2nd plenary meeting"
+    "Security Council -- 10202nd meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting"
   ]
 }
