@@ -1,22 +1,44 @@
 {
-  "date": "2026-07-27",
-  "fetched_at": "2026-07-27T14:15:47.642Z",
-  "ny_date": "2026-07-27",
+  "date": "2026-07-28",
+  "fetched_at": "2026-07-28T13:47:40.963Z",
+  "ny_date": "2026-07-28",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 3 meetings",
+  "note": "Live from journal-api.un.org -- 5 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "107th plenary meeting",
+          "agenda": [],
+          "id": "97d401ac-3b62-49fd-8ee9-c810efab2342",
+          "isConsultation": false
+        },
+        {
+          "time": "Followed By",
+          "title": "103rd plenary meeting (resumed)",
+          "agenda": [],
+          "id": "4fb17c63-889b-4e9e-8943-dd203fc804f3",
+          "isConsultation": false
+        },
+        {
+          "time": "3:00 PM",
+          "title": "103rd plenary meeting (resumed)",
+          "agenda": [],
+          "id": "55c87404-5e2c-4494-bb7b-26f3d2c30e8c",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10202nd meeting",
+          "title": "10203rd meeting",
           "agenda": [],
-          "id": "d8fd75ab-d9ef-49b9-8bf3-90509758d37f",
+          "id": "4d05df9d-162a-4991-82c2-79d5730e5623",
           "isConsultation": false
         }
       ]
@@ -31,8 +53,10 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10202nd meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting"
+    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting",
+    "General Assembly -- 107th plenary meeting",
+    "General Assembly -- 103rd plenary meeting (resumed)",
+    "Security Council -- 10203rd meeting"
   ]
 }
