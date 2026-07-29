@@ -1,51 +1,44 @@
 {
-  "date": "2026-07-28",
-  "fetched_at": "2026-07-28T13:47:40.963Z",
-  "ny_date": "2026-07-28",
+  "date": "2026-07-29",
+  "fetched_at": "2026-07-29T13:52:44.672Z",
+  "ny_date": "2026-07-29",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 5 meetings",
+  "note": "Live from journal-api.un.org -- 6 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "107th plenary meeting",
-          "agenda": [],
-          "id": "97d401ac-3b62-49fd-8ee9-c810efab2342",
-          "isConsultation": false
-        },
-        {
-          "time": "Followed By",
-          "title": "103rd plenary meeting (resumed)",
-          "agenda": [],
-          "id": "4fb17c63-889b-4e9e-8943-dd203fc804f3",
-          "isConsultation": false
-        },
-        {
-          "time": "3:00 PM",
-          "title": "103rd plenary meeting (resumed)",
-          "agenda": [],
-          "id": "55c87404-5e2c-4494-bb7b-26f3d2c30e8c",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "10203rd meeting",
+          "title": "Security Council -- 10204th meeting",
           "agenda": [],
-          "id": "4d05df9d-162a-4991-82c2-79d5730e5623",
+          "id": "79940808-3333-4666-be05-a442a63873d0",
           "isConsultation": false
+        },
+        {
+          "time": "Followed By",
+          "title": "Security Council -- Consultations of the whole",
+          "agenda": [],
+          "id": "c489754c-f80e-43f9-85d5-ef1b5f86e7d1",
+          "isConsultation": true
         }
       ]
     },
     {
       "room": "Trusteeship Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing on the UN80 Initiative",
+          "agenda": [],
+          "id": "3cb3cca8-f5b2-4cb1-9c9a-6c93573627aa",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Economic and Social Council",
@@ -53,10 +46,11 @@
     }
   ],
   "meetings": [
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting",
-    "General Assembly -- 107th plenary meeting",
-    "General Assembly -- 103rd plenary meeting (resumed)",
-    "Security Council -- 10203rd meeting"
+    "Security Council -- 10204th meeting",
+    "Security Council -- Consultations of the whole",
+    "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing on the UN80 Initiative",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Peacebuilding Commission -- Ambassadorial-level meeting on mine action",
+    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting"
   ]
 }
