@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-29",
-  "fetched_at": "2026-07-29T13:52:44.672Z",
-  "ny_date": "2026-07-29",
+  "date": "2026-07-30",
+  "fetched_at": "2026-07-30T13:42:56.320Z",
+  "ny_date": "2026-07-30",
   "source": "journal-api.un.org",
   "note": "Live from journal-api.un.org -- 6 meetings",
   "chambers": [
@@ -11,46 +11,31 @@
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Security Council -- 10204th meeting",
-          "agenda": [],
-          "id": "79940808-3333-4666-be05-a442a63873d0",
-          "isConsultation": false
-        },
-        {
-          "time": "Followed By",
-          "title": "Security Council -- Consultations of the whole",
-          "agenda": [],
-          "id": "c489754c-f80e-43f9-85d5-ef1b5f86e7d1",
-          "isConsultation": true
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing on the UN80 Initiative",
-          "agenda": [],
-          "id": "3cb3cca8-f5b2-4cb1-9c9a-6c93573627aa",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "Group of 77 -- Meeting (at the ambassadorial level)",
+          "agenda": [],
+          "id": "fbdaab22-6bb3-4490-a20c-5160c5973d01",
+          "isConsultation": false
+        }
+      ]
     }
   ],
   "meetings": [
-    "Security Council -- 10204th meeting",
-    "Security Council -- Consultations of the whole",
-    "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing on the UN80 Initiative",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Peacebuilding Commission -- Ambassadorial-level meeting on mine action",
-    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting"
+    "General Assembly, Eightieth session -- Informal consultations on the political declaration of the high-level meeting of the General Assembly to commemorate the twentieth anniversary of the adoption of the Durban Declaration and Programme of Action",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting",
+    "Group of 77 -- Meeting (at the ambassadorial level)",
+    "Permanent Mission of Timor-Leste,Youth for Human Rights International -- Twentieth International Human Rights Summit (organized by Youth for Human Rights International, in partnership with the Permanent Mission of Timor-Leste)",
+    "United Nations Office on Drugs and Crime (UNODC),Inter-Agency Coordination Group against Trafficking in Persons (ICAT) -- Event entitled “Trapped Behind the Scam, Following the Money” (on the occasion of the World Day Against Trafficking in Persons) (organized by the United Nations Office on Drugs and Crime (UNODC), in partnership with the Inter-Agency Coordination Group against Trafficking in Persons (ICAT))"
   ]
 }
