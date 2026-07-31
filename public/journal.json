@@ -1,9 +1,9 @@
 {
-  "date": "2026-07-30",
-  "fetched_at": "2026-07-30T13:42:56.320Z",
-  "ny_date": "2026-07-30",
+  "date": "2026-07-31",
+  "fetched_at": "2026-07-31T13:47:37.304Z",
+  "ny_date": "2026-07-31",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 6 meetings",
+  "note": "Live from journal-api.un.org -- 4 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -15,27 +15,25 @@
     },
     {
       "room": "Trusteeship Council",
-      "meetings": []
-    },
-    {
-      "room": "Economic and Social Council",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "Group of 77 -- Meeting (at the ambassadorial level)",
+          "time": "11:00 AM",
+          "title": "Security Council -- Wrap-up session",
           "agenda": [],
-          "id": "fbdaab22-6bb3-4490-a20c-5160c5973d01",
+          "id": "575dbee7-353e-45ca-aedf-0433d6816aca",
           "isConsultation": false
         }
       ]
+    },
+    {
+      "room": "Economic and Social Council",
+      "meetings": []
     }
   ],
   "meetings": [
-    "General Assembly, Eightieth session -- Informal consultations on the political declaration of the high-level meeting of the General Assembly to commemorate the twentieth anniversary of the adoption of the Durban Declaration and Programme of Action",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Security Council -- Wrap-up session",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting",
-    "Group of 77 -- Meeting (at the ambassadorial level)",
-    "Permanent Mission of Timor-Leste,Youth for Human Rights International -- Twentieth International Human Rights Summit (organized by Youth for Human Rights International, in partnership with the Permanent Mission of Timor-Leste)",
-    "United Nations Office on Drugs and Crime (UNODC),Inter-Agency Coordination Group against Trafficking in Persons (ICAT) -- Event entitled “Trapped Behind the Scam, Following the Money” (on the occasion of the World Day Against Trafficking in Persons) (organized by the United Nations Office on Drugs and Crime (UNODC), in partnership with the Inter-Agency Coordination Group against Trafficking in Persons (ICAT))"
+    "Permanent Mission of Timor-Leste,Youth for Human Rights International -- Twentieth International Human Rights Summit (organized by Youth for Human Rights International, in partnership with the Permanent Mission of Timor-Leste)"
   ]
 }
