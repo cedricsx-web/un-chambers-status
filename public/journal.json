@@ -1,9 +1,9 @@
 {
-  "date": "2026-07-31",
-  "fetched_at": "2026-07-31T13:47:37.304Z",
-  "ny_date": "2026-07-31",
+  "date": "2026-08-03",
+  "fetched_at": "2026-08-03T14:22:43.820Z",
+  "ny_date": "2026-08-03",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 4 meetings",
+  "note": "Live from journal-api.un.org -- 6 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -11,16 +11,24 @@
     },
     {
       "room": "Security Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "11:30 AM",
+          "title": "Security Council -- Consultations of the whole",
+          "agenda": [],
+          "id": "e2625ab5-59b4-47b1-8bb4-acc3367c5e53",
+          "isConsultation": true
+        }
+      ]
     },
     {
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "11:00 AM",
-          "title": "Security Council -- Wrap-up session",
+          "time": "3:00 PM",
+          "title": "Security Council -- Briefing to non-Council members",
           "agenda": [],
-          "id": "575dbee7-353e-45ca-aedf-0433d6816aca",
+          "id": "9606ae01-bbcb-4f81-87f4-f8d5108e2ce3",
           "isConsultation": false
         }
       ]
@@ -31,9 +39,11 @@
     }
   ],
   "meetings": [
-    "Security Council -- Wrap-up session",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Plenary meeting",
-    "Permanent Mission of Timor-Leste,Youth for Human Rights International -- Twentieth International Human Rights Summit (organized by Youth for Human Rights International, in partnership with the Permanent Mission of Timor-Leste)"
+    "Security Council -- Consultations of the whole",
+    "Security Council -- Briefing to non-Council members",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Intergovernmental Negotiating Committee on the United Nations Framework Convention on International Tax Cooperation, 2026 session -- Formal meeting",
+    "Intergovernmental Negotiating Committee on the United Nations Framework Convention on International Tax Cooperation, 2026 session -- Informal meeting",
+    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions"
   ]
 }
