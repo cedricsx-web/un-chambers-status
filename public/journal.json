@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-03",
-  "fetched_at": "2026-08-03T14:22:43.820Z",
-  "ny_date": "2026-08-03",
+  "date": "2026-08-04",
+  "fetched_at": "2026-08-04T13:53:39.352Z",
+  "ny_date": "2026-08-04",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 6 meetings",
+  "note": "Live from journal-api.un.org -- 4 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -11,27 +11,11 @@
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "11:30 AM",
-          "title": "Security Council -- Consultations of the whole",
-          "agenda": [],
-          "id": "e2625ab5-59b4-47b1-8bb4-acc3367c5e53",
-          "isConsultation": true
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
-      "meetings": [
-        {
-          "time": "3:00 PM",
-          "title": "Security Council -- Briefing to non-Council members",
-          "agenda": [],
-          "id": "9606ae01-bbcb-4f81-87f4-f8d5108e2ce3",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
@@ -39,10 +23,8 @@
     }
   ],
   "meetings": [
-    "Security Council -- Consultations of the whole",
-    "Security Council -- Briefing to non-Council members",
+    "General Assembly -- Informal consultations to enhance the participation of Indigenous Peoples’ representatives and institutions in relevant United Nations meetings on issues affecting them",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Intergovernmental Negotiating Committee on the United Nations Framework Convention on International Tax Cooperation, 2026 session -- Formal meeting",
     "Intergovernmental Negotiating Committee on the United Nations Framework Convention on International Tax Cooperation, 2026 session -- Informal meeting",
     "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions"
   ]
