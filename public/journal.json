@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-04",
-  "fetched_at": "2026-08-04T13:53:39.352Z",
-  "ny_date": "2026-08-04",
+  "date": "2026-08-05",
+  "fetched_at": "2026-08-05T13:50:23.928Z",
+  "ny_date": "2026-08-05",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 4 meetings",
+  "note": "Live from journal-api.un.org -- 7 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -11,7 +11,22 @@
     },
     {
       "room": "Security Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "Security Council -- 10205th meeting",
+          "agenda": [],
+          "id": "576ce843-460e-4732-8867-08261a7cc720",
+          "isConsultation": false
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Security Council -- Consultations of the whole",
+          "agenda": [],
+          "id": "000896da-0aaf-4b1a-a693-0a95e0baa5c0",
+          "isConsultation": true
+        }
+      ]
     },
     {
       "room": "Trusteeship Council",
@@ -23,9 +38,12 @@
     }
   ],
   "meetings": [
-    "General Assembly -- Informal consultations to enhance the participation of Indigenous Peoples’ representatives and institutions in relevant United Nations meetings on issues affecting them",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Security Council -- 10205th meeting",
+    "Security Council -- Consultations of the whole",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "Intergovernmental Negotiating Committee on the United Nations Framework Convention on International Tax Cooperation, 2026 session -- Informal meeting",
-    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions"
+    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions",
+    "Committee of Experts on Global Geospatial Information Management, Sixteenth session -- 1st meeting",
+    "Committee of Experts on Global Geospatial Information Management, Sixteenth session -- 2nd meeting"
   ]
 }
