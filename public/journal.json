@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-06",
-  "fetched_at": "2026-08-06T13:47:32.247Z",
-  "ny_date": "2026-08-06",
+  "date": "2026-08-07",
+  "fetched_at": "2026-08-07T12:45:05.820Z",
+  "ny_date": "2026-08-07",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 9 meetings",
+  "note": "Live from journal-api.un.org -- 6 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -11,22 +11,7 @@
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Security Council -- 10206th meeting",
-          "agenda": [],
-          "id": "aa8e7200-ac56-48e0-b5e3-a72efa750f82",
-          "isConsultation": false
-        },
-        {
-          "time": "Followed By",
-          "title": "Security Council -- Consultations of the whole",
-          "agenda": [],
-          "id": "95744fcf-57b7-4717-903f-36fe1dd430b9",
-          "isConsultation": true
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
@@ -38,14 +23,11 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10206th meeting",
-    "Security Council -- Consultations of the whole",
-    "General Assembly, Eightieth session -- Informal consultations on the political declaration of the high-level meeting of the General Assembly to commemorate the twentieth anniversary of the adoption of the Durban Declaration and Programme of Action",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "General Assembly, Eightieth session -- Informal consultations to enhance the participation of Indigenous Peoples’ representatives and institutions in relevant United Nations meetings on issues affecting them",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "Intergovernmental Negotiating Committee on the United Nations Framework Convention on International Tax Cooperation, 2026 session -- Informal meeting",
     "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions",
-    "Security Council Committee pursuant to resolutions 1267 (1999), 1989 (2011) and 2253 (2015) concerning Islamic State in Iraq and the Levant (Da’esh), Al-Qaida and associated individuals, groups, undertakings and entities -- Informal consultations",
-    "Committee of Experts on Global Geospatial Information Management, Sixteenth session -- 3rd meeting",
-    "Committee of Experts on Global Geospatial Information Management, Sixteenth session -- 4th meeting"
+    "Committee of Experts on Global Geospatial Information Management, Sixteenth session -- 5th meeting",
+    "Committee of Experts on Global Geospatial Information Management, Sixteenth session -- 6th meeting"
   ]
 }
