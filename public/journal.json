@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-07",
-  "fetched_at": "2026-08-07T12:45:05.820Z",
-  "ny_date": "2026-08-07",
+  "date": "2026-08-10",
+  "fetched_at": "2026-08-10T12:52:22.109Z",
+  "ny_date": "2026-08-10",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 6 meetings",
+  "note": "Live from journal-api.un.org -- 3 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -23,11 +23,8 @@
     }
   ],
   "meetings": [
-    "General Assembly, Eightieth session -- Informal consultations to enhance the participation of Indigenous Peoples’ representatives and institutions in relevant United Nations meetings on issues affecting them",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
     "Intergovernmental Negotiating Committee on the United Nations Framework Convention on International Tax Cooperation, 2026 session -- Informal meeting",
-    "Commission on the Limits of the Continental Shelf, Sixty-seventh session -- Meetings of the subcommissions",
-    "Committee of Experts on Global Geospatial Information Management, Sixteenth session -- 5th meeting",
-    "Committee of Experts on Global Geospatial Information Management, Sixteenth session -- 6th meeting"
+    "Security Council Committee established pursuant to resolution 1591 (2005) concerning the Sudan -- Informal consultations"
   ]
 }
