@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-13",
-  "fetched_at": "2026-08-13T12:53:56.739Z",
-  "ny_date": "2026-08-13",
+  "date": "2026-08-14",
+  "fetched_at": "2026-08-14T12:49:26.505Z",
+  "ny_date": "2026-08-14",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 6 meetings",
+  "note": "Live from journal-api.un.org -- 2 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -11,22 +11,7 @@
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Security Council -- 10208th meeting",
-          "agenda": [],
-          "id": "0fa21c1d-474b-45e5-811b-fb00d42b4f38",
-          "isConsultation": false
-        },
-        {
-          "time": "Followed By",
-          "title": "Security Council -- Consultations of the whole",
-          "agenda": [],
-          "id": "73b0adf8-da67-4849-becd-0113f3069825",
-          "isConsultation": true
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
@@ -38,11 +23,7 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10208th meeting",
-    "Security Council -- Consultations of the whole",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Intergovernmental Negotiating Committee on the United Nations Framework Convention on International Tax Cooperation, 2026 session -- Informal meeting",
-    "Intergovernmental Negotiating Committee on the United Nations Framework Convention on International Tax Cooperation, 2026 session -- Formal meeting",
-    "Department for General Assembly and Conference Management, Protocol and Liaison Service -- Protocol announcement – BriefingA joint in-person briefing for delegations regarding the general debate and high-level meetings of the eighty-first session of the General Assembly by the Department for General Assembly and Conference Management, the Department of Safety and Security, the Division of Administration of the Department of Operational Support, the Office of Information and Communications Technology, the Department of Global Communications, and the Executive Office of the Secretary-General will take place on Thursday, 13 August 2026 at 15:00 in Conference Room 4. Representatives of Permanent Missions and Observer Offices, as well as offices of specialized agencies and related organizations, are invited to participate in the briefing."
+    "General Assembly, Eightieth session -- Informal consultations on the modalities and political declaration of the high-level meeting of the General Assembly to commemorate the twenty-fifth anniversary of the adoption of the Durban Declaration and Programme of Action",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)"
   ]
 }
