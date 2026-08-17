@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-14",
-  "fetched_at": "2026-08-14T12:49:26.505Z",
-  "ny_date": "2026-08-14",
+  "date": "2026-08-17",
+  "fetched_at": "2026-08-17T12:28:52.868Z",
+  "ny_date": "2026-08-17",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 2 meetings",
+  "note": "Live from journal-api.un.org -- 1 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -23,7 +23,6 @@
     }
   ],
   "meetings": [
-    "General Assembly, Eightieth session -- Informal consultations on the modalities and political declaration of the high-level meeting of the General Assembly to commemorate the twenty-fifth anniversary of the adoption of the Durban Declaration and Programme of Action",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)"
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)"
   ]
 }
