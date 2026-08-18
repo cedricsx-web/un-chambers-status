@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-17",
-  "fetched_at": "2026-08-17T13:23:12.194Z",
-  "ny_date": "2026-08-17",
+  "date": "2026-08-18",
+  "fetched_at": "2026-08-18T12:30:52.503Z",
+  "ny_date": "2026-08-18",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 1 meetings",
+  "note": "Live from journal-api.un.org -- 4 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -11,7 +11,22 @@
     },
     {
       "room": "Security Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "Security Council -- 10209th meeting",
+          "agenda": [],
+          "id": "ae848983-b4e4-42c2-bf52-8c524ff884b3",
+          "isConsultation": false
+        },
+        {
+          "time": "Followed By",
+          "title": "Security Council -- Consultations of the whole",
+          "agenda": [],
+          "id": "7226739d-edad-4f97-8e9a-2d696bd1fd43",
+          "isConsultation": true
+        }
+      ]
     },
     {
       "room": "Trusteeship Council",
@@ -23,6 +38,9 @@
     }
   ],
   "meetings": [
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)"
+    "Security Council -- 10209th meeting",
+    "Security Council -- Consultations of the whole",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Executive Board of the United Nations Children’s Fund, Pre-session in advance of the second regular session -- Meeting (to be held remotely without physical presence)"
   ]
 }
