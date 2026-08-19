@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-18",
-  "fetched_at": "2026-08-18T13:42:44.705Z",
-  "ny_date": "2026-08-18",
+  "date": "2026-08-19",
+  "fetched_at": "2026-08-19T12:30:52.076Z",
+  "ny_date": "2026-08-19",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 4 meetings",
+  "note": "Live from journal-api.un.org -- 6 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -14,23 +14,24 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10209th meeting",
+          "title": "Security Council -- 10210th meeting",
           "agenda": [],
-          "id": "ae848983-b4e4-42c2-bf52-8c524ff884b3",
+          "id": "c6df839e-cedc-45ce-a021-ed4969f6f4cc",
           "isConsultation": false
-        },
-        {
-          "time": "Followed By",
-          "title": "Security Council -- Consultations of the whole",
-          "agenda": [],
-          "id": "7226739d-edad-4f97-8e9a-2d696bd1fd43",
-          "isConsultation": true
         }
       ]
     },
     {
       "room": "Trusteeship Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "3:00 PM",
+          "title": "General Assembly, Eightieth session -- Informal dialogue with a candidate for the position of the next Secretary-General",
+          "agenda": [],
+          "id": "3cfee8a4-b91e-4286-bf77-7d14f230c3c4",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Economic and Social Council",
@@ -38,9 +39,11 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10209th meeting",
-    "Security Council -- Consultations of the whole",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Executive Board of the United Nations Children’s Fund, Pre-session in advance of the second regular session -- Meeting (to be held remotely without physical presence)"
+    "Security Council -- 10210th meeting",
+    "General Assembly, Eightieth session -- Informal dialogue with a candidate for the position of the next Secretary-General",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women -- Informal briefing (to be held remotely without physical presence)",
+    "Department for General Assembly and Conference Management, Protocol and Liaison Service -- Protocol Announcement – Open HouseAn “Open House – Q&A session” on the upcoming general debate and high-level meetings of the eighty-first session of the General Assembly will be held on Wednesday, 19 August 2026, from 14:00 to 18:00 in Conference Room F. Jointly hosted by the Department for General Assembly and Conference Management, the Department of Safety and Security, the Department of Global Communications, and the Executive Office of the Secretary-General, the Open House will provide information on key operational and logistical aspects of the general debate and high-level week, including registration procedures, access passes, speakers’ lists, interpretation services and bilateral booths, as well as other logistical arrangements related to the general debate and high-level meetings.Attendees will also have the opportunity to engage with UN focal points in one-on-one consultations to address any outstanding questions. No appointment is required. Representatives of Permanent Missions and Observer Offices, as well as offices of specialized agencies and related organizations, are invited to attend.",
+    "Standing Committee on the Security and Independence of the International Civil Service (CSIICS) -- Wreath-laying ceremony to commemorate the twenty-third anniversary of the Baghdad bombing (organized by the Standing Committee on the Security and Independence of the International Civil Service (CSIICS))(In front of the memorial plaque located outside the Meditation Room, in the Public Lobby of the General Assembly Building)"
   ]
 }
