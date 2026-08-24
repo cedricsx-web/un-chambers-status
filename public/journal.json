@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-21",
-  "fetched_at": "2026-08-21T12:31:52.044Z",
-  "ny_date": "2026-08-21",
+  "date": "2026-08-24",
+  "fetched_at": "2026-08-24T12:33:47.147Z",
+  "ny_date": "2026-08-24",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 1 meetings",
+  "note": "Live from journal-api.un.org -- 4 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -11,7 +11,22 @@
     },
     {
       "room": "Security Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "Security Council -- 10211th meeting",
+          "agenda": [],
+          "id": "320226fe-7db7-415a-9b3c-079bd00037ba",
+          "isConsultation": false
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Security Council -- 10212th meeting",
+          "agenda": [],
+          "id": "76afb91b-2076-47cc-8c0b-fa538b9065c7",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Trusteeship Council",
@@ -23,6 +38,9 @@
     }
   ],
   "meetings": [
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)"
+    "Security Council -- 10211th meeting",
+    "Security Council -- 10212th meeting",
+    "Executive Board of the United Nations Development Programme, the United Nations Population Fund and the United Nations Office for Project Services, Second regular session 2026 -- 1st plenary meeting",
+    "Executive Board of the United Nations Development Programme, the United Nations Population Fund and the United Nations Office for Project Services, Second regular session 2026 -- 2nd plenary meeting"
   ]
 }
