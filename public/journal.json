@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-26",
-  "fetched_at": "2026-08-26T12:36:56.142Z",
-  "ny_date": "2026-08-26",
+  "date": "2026-08-27",
+  "fetched_at": "2026-08-27T13:18:17.242Z",
+  "ny_date": "2026-08-27",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 8 meetings",
+  "note": "Live from journal-api.un.org -- 7 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -14,38 +14,30 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10214th meeting",
+          "title": "Security Council -- 10215th meeting",
           "agenda": [],
-          "id": "7df9edb9-65ca-4886-a4bc-11077b08f5c7",
+          "id": "d9056d51-4fbd-4935-9dc5-265f86edacdc",
           "isConsultation": false
         },
         {
           "time": "Followed By",
           "title": "Security Council -- Consultations of the whole",
           "agenda": [],
-          "id": "01a039f9-2ec0-7de1-b71d-a1ff8132d2b7",
+          "id": "01a03f17-2c2b-7174-aadd-ee234fe8c0bb",
           "isConsultation": true
         },
         {
           "time": "3:00 PM",
-          "title": "Security Council -- 10213th meeting (resumed)",
+          "title": "Security Council -- Consultations of the whole",
           "agenda": [],
-          "id": "01a039f9-2ec2-73d5-bcd8-d8267532c676",
-          "isConsultation": false
+          "id": "01a03f17-2c2b-7ca4-9103-cda0f5e4a51a",
+          "isConsultation": true
         }
       ]
     },
     {
       "room": "Trusteeship Council",
-      "meetings": [
-        {
-          "time": "3:00 PM",
-          "title": "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing by the Secretary-General",
-          "agenda": [],
-          "id": "bdf9cda7-719d-4447-be12-10cd365eb288",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
@@ -53,13 +45,12 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10214th meeting",
+    "Security Council -- 10215th meeting",
     "Security Council -- Consultations of the whole",
-    "Security Council -- 10213th meeting (resumed)",
-    "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing by the Secretary-General",
-    "Executive Board of the United Nations Development Programme, the United Nations Population Fund and the United Nations Office for Project Services, Second regular session 2026 -- 5th plenary meeting",
-    "Executive Board of the United Nations Development Programme, the United Nations Population Fund and the United Nations Office for Project Services, Second regular session 2026 -- 6th plenary meeting",
-    "Department for General Assembly and Conference Management (DGACM) -- Informational meeting with Member States to discuss issues relating to language services (English)",
-    "Department for General Assembly and Conference Management (DGACM) -- Informational meeting with Member States to discuss issues relating to language services (French)"
+    "Executive Board of the United Nations Development Programme, the United Nations Population Fund and the United Nations Office for Project Services, Second regular session 2026 -- 7th plenary meeting",
+    "Executive Board of the United Nations Development Programme, the United Nations Population Fund and the United Nations Office for Project Services, Second regular session 2026 -- 8th plenary meeting",
+    "Department for General Assembly and Conference Management (DGACM) -- Informational meeting with Member States to discuss issues related to language services (Russian)",
+    "Department for General Assembly and Conference Management (DGACM) -- Informational meeting with Member States to discuss issues related to language services (Spanish)",
+    "New York Office of the United Nations Environment Programme,United Nations Centre for Regional Development,Permanent Mission of Indonesia,Permanent Mission of Japan,High-level Experts and Leaders Panel on Water and Disasters -- Commemoration of World Lake Day (organized by the New York Office of the United Nations Environment Programme in collaboration with the Permanent Missions of Indonesia and Japan, the United Nations Centre for Regional Development and the High-level Experts and Leaders Panel on Water and Disasters)"
   ]
 }
