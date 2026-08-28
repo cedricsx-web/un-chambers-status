@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-27",
-  "fetched_at": "2026-08-27T21:32:57.853Z",
-  "ny_date": "2026-08-27",
+  "date": "2026-08-28",
+  "fetched_at": "2026-08-28T13:41:44.346Z",
+  "ny_date": "2026-08-28",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 6 meetings",
+  "note": "Live from journal-api.un.org -- 4 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -14,24 +14,17 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10215th meeting",
-          "agenda": [],
-          "id": "d9056d51-4fbd-4935-9dc5-265f86edacdc",
-          "isConsultation": false
-        },
-        {
-          "time": "Followed By",
           "title": "Security Council -- Consultations of the whole",
           "agenda": [],
-          "id": "01a03f17-2c2b-7174-aadd-ee234fe8c0bb",
+          "id": "504de572-0b30-4076-94e1-f14c557c1ba8",
           "isConsultation": true
         },
         {
           "time": "3:00 PM",
-          "title": "Security Council -- Consultations of the whole",
+          "title": "Security Council -- 10216th meeting",
           "agenda": [],
-          "id": "01a03f17-2c2b-7ca4-9103-cda0f5e4a51a",
-          "isConsultation": true
+          "id": "9c020e64-1952-4b4a-89b5-f483c019c4c5",
+          "isConsultation": false
         }
       ]
     },
@@ -45,11 +38,9 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10215th meeting",
     "Security Council -- Consultations of the whole",
-    "Executive Board of the United Nations Development Programme, the United Nations Population Fund and the United Nations Office for Project Services, Second regular session 2026 -- 7th plenary meeting",
-    "Department for General Assembly and Conference Management (DGACM) -- Informational meeting with Member States to discuss issues related to language services (Russian)",
-    "Department for General Assembly and Conference Management (DGACM) -- Informational meeting with Member States to discuss issues related to language services (Spanish)",
-    "New York Office of the United Nations Environment Programme,United Nations Centre for Regional Development,Permanent Mission of Indonesia,Permanent Mission of Japan,High-level Experts and Leaders Panel on Water and Disasters -- Commemoration of World Lake Day (organized by the New York Office of the United Nations Environment Programme in collaboration with the Permanent Missions of Indonesia and Japan, the United Nations Centre for Regional Development and the High-level Experts and Leaders Panel on Water and Disasters)"
+    "Security Council -- 10216th meeting",
+    "Working Group on the Strengthening and Revitalizing of the Work of the General Assembly -- Informal meeting",
+    "United States Mission to the United Nations -- Briefing for delegations on facilitation for the arrivals and departures of Heads of State/Government and other senior officials coming to New York for the eighty-first session of the General Assembly (organized by the United States Mission to the United Nations)Administrative officers, heads of chancery and others responsible for ensuring the smooth arrival and departure of members of their respective delegations, including VIP delegates, are strongly urged to attend. For further details, please see “Contacts”."
   ]
 }
