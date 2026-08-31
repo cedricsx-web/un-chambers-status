@@ -1,29 +1,37 @@
 {
-  "date": "2026-08-28",
-  "fetched_at": "2026-08-28T21:38:13.237Z",
-  "ny_date": "2026-08-28",
+  "date": "2026-08-31",
+  "fetched_at": "2026-08-31T13:16:37.237Z",
+  "ny_date": "2026-08-31",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 4 meetings",
+  "note": "Live from journal-api.un.org -- 6 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "108th plenary meeting",
+          "agenda": [],
+          "id": "638aaa33-576c-4b03-bea7-02858c7bb010",
+          "isConsultation": false
+        },
+        {
+          "time": "3:00 PM",
+          "title": "109th plenary meeting",
+          "agenda": [],
+          "id": "bc2befe4-ab9f-4104-98e4-00d7215e452b",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Security Council",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "Security Council -- Consultations of the whole",
-          "agenda": [],
-          "id": "504de572-0b30-4076-94e1-f14c557c1ba8",
-          "isConsultation": true
-        },
-        {
           "time": "3:00 PM",
-          "title": "Security Council -- 10216th meeting",
+          "title": "Wrap-up session [Closed]",
           "agenda": [],
-          "id": "9c020e64-1952-4b4a-89b5-f483c019c4c5",
+          "id": "6ce653b0-dc59-4c5a-927d-f3cf62990177",
           "isConsultation": false
         }
       ]
@@ -38,9 +46,11 @@
     }
   ],
   "meetings": [
-    "Security Council -- Consultations of the whole",
-    "Security Council -- 10216th meeting",
-    "Working Group on the Strengthening and Revitalizing of the Work of the General Assembly -- Informal meeting",
-    "United States Mission to the United Nations -- Briefing for delegations on facilitation for the arrivals and departures of Heads of State/Government and other senior officials coming to New York for the eighty-first session of the General Assembly (organized by the United States Mission to the United Nations)Administrative officers, heads of chancery and others responsible for ensuring the smooth arrival and departure of members of their respective delegations, including VIP delegates, are strongly urged to attend. For further details, please see “Contacts”."
+    "Security Council Committee established pursuant to resolution 2140 (2014) -- Informal consultations",
+    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters -- 1st plenary meeting",
+    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters -- 1st meeting of the Working Group of the Whole",
+    "General Assembly -- 108th plenary meeting",
+    "General Assembly -- 109th plenary meeting",
+    "Security Council -- Wrap-up session [Closed]"
   ]
 }
