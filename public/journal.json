@@ -1,76 +1,58 @@
 {
-  "date": "2026-09-01",
-  "fetched_at": "2026-09-01T15:52:59.891Z",
-  "ny_date": "2026-09-01",
+  "date": "2026-09-02",
+  "fetched_at": "2026-09-02T11:49:43.960Z",
+  "ny_date": "2026-09-02",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 11 meetings",
+  "note": "Live from journal-api.un.org -- 7 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "110th plenary meeting",
+          "time": "3:00 PM",
+          "title": "General Assembly, Eightieth session -- 112th plenary meeting",
           "agenda": [],
-          "id": "234b1af5-fb92-4042-9391-a780ed6b26d8",
+          "id": "88f0423b-ae96-464f-bd67-e4d551be1f57",
           "isConsultation": false
         }
       ]
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "11:30 AM",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "db58e625-9290-4cf7-b22c-742120381926",
-          "isConsultation": false
-        },
-        {
-          "time": "3:00 PM",
-          "title": "Briefing to non-Council members",
-          "agenda": [],
-          "id": "0487f5c7-e877-4a65-9d29-e7b033b90dc4",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "General Assembly, Eightieth session -- High-level forum on the Programme of Action on a Culture of Peace",
+          "agenda": [],
+          "id": "9dfd52d1-9cda-4580-8e79-4f3d7e51e31f",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Economic and Social Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "International Meeting on Victim Assistance and Environmental Remediation -- Meeting",
+          "title": "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- 430th meeting",
           "agenda": [],
-          "id": "e134f24a-f2d3-4c37-8326-b83a8a50c48f",
-          "isConsultation": false
-        },
-        {
-          "time": "3:00 PM",
-          "title": "International Meeting on Victim Assistance and Environmental Remediation -- Meeting",
-          "agenda": [],
-          "id": "abef8b83-10c9-44af-a199-f8d4b1981dd1",
+          "id": "53edfcdc-3cf1-4a32-b2ab-af002583bd27",
           "isConsultation": false
         }
       ]
     }
   ],
   "meetings": [
-    "Executive Board of the United Nations Children’s Fund, Second regular session -- 1st plenary meeting",
-    "Executive Board of the United Nations Children’s Fund, Second regular session -- 2nd plenary meeting",
+    "General Assembly, Eightieth session -- High-level forum on the Programme of Action on a Culture of Peace",
+    "General Assembly, Eightieth session -- 112th plenary meeting",
+    "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- 430th meeting",
+    "Executive Board of the United Nations Children’s Fund, Second regular session -- 3rd plenary meeting",
     "Executive Board of the United Nations Children’s Fund, Second regular session -- Informal consultation",
-    "United Nations diplomatic conference on Protection of Persons in the Event of Disasters, 2026 session -- 2nd plenary meeting",
-    "United Nations diplomatic conference on Protection of Persons in the Event of Disasters, 2026 session -- 3rd meeting of the Working Group of the Whole",
-    "United Nations diplomatic conference on Protection of Persons in the Event of Disasters, 2026 session -- 4th meeting of the Working Group of the Whole",
-    "International Meeting on Victim Assistance and Environmental Remediation -- Meeting",
-    "General Assembly -- 110th plenary meeting",
-    "Security Council -- Consultations of the whole [Closed]",
-    "Security Council -- Briefing to non-Council members",
-    "United Nations Office for Disaster Risk Reduction (UNDRR),Permanent Mission of the Bahamas,Permanent Mission of Bangladesh,Permanent Mission of Colombia,Permanent Mission of Hungary,Permanent Mission of Italy,Permanent Mission of Jamaica,Permanent Mission of Nigeria,Permanent Mission of Thailand -- Panel discussion on the theme “Disaster Risk Reduction Elements in the Draft Articles on Protection of Persons in the Event of Disasters” held in the margins of the Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters (organized by the United Nations Office for Disaster Risk Reduction (UNDRR) in collaboration with the Permanent Missions of the Bahamas, Bangladesh, Colombia, Hungary, Italy, Jamaica, Nigeria and Thailand)"
+    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 5th meeting of the Working Group of the Whole",
+    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 6th meeting of the Working Group of the Whole"
   ]
 }
