@@ -1,58 +1,70 @@
 {
-  "date": "2026-09-02",
-  "fetched_at": "2026-09-02T11:49:43.960Z",
-  "ny_date": "2026-09-02",
+  "date": "2026-09-03",
+  "fetched_at": "2026-09-03T13:17:23.035Z",
+  "ny_date": "2026-09-03",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 7 meetings",
+  "note": "Live from journal-api.un.org -- 12 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
-          "time": "3:00 PM",
-          "title": "General Assembly, Eightieth session -- 112th plenary meeting",
+          "time": "10:00 AM",
+          "title": "113th plenary meeting",
           "agenda": [],
-          "id": "88f0423b-ae96-464f-bd67-e4d551be1f57",
+          "id": "926c6565-7485-40c6-83ca-f753f28c8c7e",
           "isConsultation": false
         }
       ]
     },
     {
       "room": "Security Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "10217th meeting",
+          "agenda": [],
+          "id": "3b515cd3-189e-4ce2-a1aa-397d12276a32",
+          "isConsultation": false
+        },
+        {
+          "time": "Followed By",
+          "title": "Consultations of the whole [Closed]",
+          "agenda": [],
+          "id": "01a0632d-cc63-7b6f-be51-4639cc31c533",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "General Assembly, Eightieth session -- High-level forum on the Programme of Action on a Culture of Peace",
+          "time": "3:00 PM",
+          "title": "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing by the Secretary-General on the UN80 Initiative",
           "agenda": [],
-          "id": "9dfd52d1-9cda-4580-8e79-4f3d7e51e31f",
+          "id": "f2478a6c-96a3-4706-a15d-2ea18164dd98",
           "isConsultation": false
         }
       ]
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- 430th meeting",
-          "agenda": [],
-          "id": "53edfcdc-3cf1-4a32-b2ab-af002583bd27",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     }
   ],
   "meetings": [
-    "General Assembly, Eightieth session -- High-level forum on the Programme of Action on a Culture of Peace",
-    "General Assembly, Eightieth session -- 112th plenary meeting",
-    "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- 430th meeting",
-    "Executive Board of the United Nations Children’s Fund, Second regular session -- 3rd plenary meeting",
+    "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing by the Secretary-General on the UN80 Initiative",
+    "Ad Hoc Working Group of the Whole on the Regular Process for Global Reporting and Assessment of the State of the Marine Environment, including Socioeconomic Aspects, Twenty-fourth meeting -- Meeting",
+    "Security Council Committee established pursuant to resolution 2653 (2022) concerning Haiti -- Informal consultations",
+    "Executive Board of the United Nations Children’s Fund, Second regular session -- 4th plenary meeting",
+    "Executive Board of the United Nations Children’s Fund, Second regular session -- 5th plenary meeting",
     "Executive Board of the United Nations Children’s Fund, Second regular session -- Informal consultation",
-    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 5th meeting of the Working Group of the Whole",
-    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 6th meeting of the Working Group of the Whole"
+    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 7th meeting of the Working Group of the Whole",
+    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 8th meeting of the Working Group of the Whole",
+    "General Assembly -- 113th plenary meeting",
+    "Security Council -- 10217th meeting",
+    "Security Council -- Consultations of the whole [Closed]",
+    "General Assembly -- Informal consultations on the draft resolution entitled “Extension of the preparatory period preceding the graduation of Bangladesh and Nepal from the least developed country category” (under agenda item 9) (convened by the Permanent Mission of Qatar)"
   ]
 }
