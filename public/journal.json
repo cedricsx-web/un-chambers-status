@@ -1,9 +1,9 @@
 {
   "date": "2026-09-03",
-  "fetched_at": "2026-09-03T13:22:06.537Z",
+  "fetched_at": "2026-09-03T15:35:14.682Z",
   "ny_date": "2026-09-03",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 12 meetings",
+  "note": "Live from journal-api.un.org -- 11 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -64,7 +64,6 @@
     "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 8th meeting of the Working Group of the Whole",
     "General Assembly -- 113th plenary meeting",
     "Security Council -- 10217th meeting",
-    "Security Council -- Consultations of the whole [Closed]",
-    "General Assembly -- Informal consultations on the draft resolution entitled “Extension of the preparatory period preceding the graduation of Bangladesh and Nepal from the least developed country category” (under agenda item 9) (convened by the Permanent Mission of Qatar)"
+    "Security Council -- Consultations of the whole [Closed]"
   ]
 }
