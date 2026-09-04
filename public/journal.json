@@ -1,52 +1,29 @@
 {
-  "date": "2026-09-03",
-  "fetched_at": "2026-09-03T15:35:14.682Z",
-  "ny_date": "2026-09-03",
+  "date": "2026-09-04",
+  "fetched_at": "2026-09-04T14:07:42.726Z",
+  "ny_date": "2026-09-04",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 11 meetings",
+  "note": "Live from journal-api.un.org -- 4 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "113th plenary meeting",
+          "time": "11:00 AM",
+          "title": "General Assembly, Eightieth session -- 114th plenary meeting",
           "agenda": [],
-          "id": "926c6565-7485-40c6-83ca-f753f28c8c7e",
+          "id": "1e5c455f-566e-4db9-9bbb-7a462dfff1e4",
           "isConsultation": false
         }
       ]
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "10217th meeting",
-          "agenda": [],
-          "id": "3b515cd3-189e-4ce2-a1aa-397d12276a32",
-          "isConsultation": false
-        },
-        {
-          "time": "Followed By",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "01a0632d-cc63-7b6f-be51-4639cc31c533",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
-      "meetings": [
-        {
-          "time": "3:00 PM",
-          "title": "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing by the Secretary-General on the UN80 Initiative",
-          "agenda": [],
-          "id": "f2478a6c-96a3-4706-a15d-2ea18164dd98",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
@@ -54,16 +31,9 @@
     }
   ],
   "meetings": [
-    "General Assembly, Eightieth session -- Informal meeting of the plenary to hear a briefing by the Secretary-General on the UN80 Initiative",
-    "Ad Hoc Working Group of the Whole on the Regular Process for Global Reporting and Assessment of the State of the Marine Environment, including Socioeconomic Aspects, Twenty-fourth meeting -- Meeting",
-    "Security Council Committee established pursuant to resolution 2653 (2022) concerning Haiti -- Informal consultations",
-    "Executive Board of the United Nations Children’s Fund, Second regular session -- 4th plenary meeting",
-    "Executive Board of the United Nations Children’s Fund, Second regular session -- 5th plenary meeting",
-    "Executive Board of the United Nations Children’s Fund, Second regular session -- Informal consultation",
-    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 7th meeting of the Working Group of the Whole",
-    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 8th meeting of the Working Group of the Whole",
-    "General Assembly -- 113th plenary meeting",
-    "Security Council -- 10217th meeting",
-    "Security Council -- Consultations of the whole [Closed]"
+    "General Assembly, Eightieth session -- 114th plenary meeting",
+    "Committee on Relations with the Host Country -- 325th meeting",
+    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 9th meeting of the Working Group of the Whole",
+    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 4th plenary meeting"
   ]
 }
