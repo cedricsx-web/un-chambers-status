@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-09",
-  "fetched_at": "2026-09-09T15:42:48.278Z",
-  "ny_date": "2026-09-09",
+  "date": "2026-09-10",
+  "fetched_at": "2026-09-10T13:47:39.852Z",
+  "ny_date": "2026-09-10",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 4 meetings",
+  "note": "Live from journal-api.un.org -- 8 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -11,19 +11,26 @@
     },
     {
       "room": "Security Council",
-      "meetings": []
-    },
-    {
-      "room": "Trusteeship Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "General Committee, Eighty-first session -- 1st meeting",
+          "title": "Security Council -- 10218th meeting",
           "agenda": [],
-          "id": "331d4f7f-7550-4b24-a9be-ae065e6f4296",
+          "id": "67d497d3-c6f1-4b13-97ed-0d382c62401c",
+          "isConsultation": false
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Security Council -- 10219th meeting",
+          "agenda": [],
+          "id": "01a08820-8569-70ce-927f-b6082dd56fbe",
           "isConsultation": false
         }
       ]
+    },
+    {
+      "room": "Trusteeship Council",
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
@@ -31,9 +38,13 @@
     }
   ],
   "meetings": [
-    "General Committee, Eighty-first session -- 1st meeting",
-    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Second regular session -- 1st plenary meeting",
-    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Second regular session -- Informal consultations on draft decisions (continued)",
-    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Second regular session -- 2nd plenary meeting"
+    "Security Council -- 10218th meeting",
+    "Security Council -- 10219th meeting",
+    "Committee on Conferences -- Formal meeting followed by informal consultations",
+    "Committee on Conferences -- Informal consultations",
+    "Executive Board of the United Nations Entity for Gender Equality and the Empowerment of Women, Second regular session -- 3rd plenary meeting",
+    "Military Staff Committee -- 2154th meeting",
+    "General Assembly -- Informal consultations on the draft resolution entitled “Extension of the preparatory period preceding the graduation of Bangladesh and Nepal from the least developed country category” (under agenda item 9) (convened by the Permanent Mission of Qatar)",
+    "Office of Counter-Terrorism (UNOCT) -- Quarterly briefing to Member States (organized by the Office of Counter-Terrorism (UNOCT)) All permanent representatives and permanent observers are invited to attend."
   ]
 }
