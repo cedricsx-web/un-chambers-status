@@ -1,59 +1,29 @@
 {
-  "date": "2026-09-11",
-  "fetched_at": "2026-09-11T15:39:42.116Z",
-  "ny_date": "2026-09-11",
+  "date": "2026-09-14",
+  "fetched_at": "2026-09-14T17:22:16.603Z",
+  "ny_date": "2026-09-14",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 8 meetings",
+  "note": "Live from journal-api.un.org -- 5 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "2nd plenary meeting",
+          "title": "General Assembly, Eighty-first session -- 3rd plenary meeting",
           "agenda": [],
-          "id": "5692a383-f38c-439a-981b-750137b8a878",
+          "id": "2e2ad944-0ceb-4933-be77-5a48589751a9",
           "isConsultation": false
         }
       ]
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "10220th meeting",
-          "agenda": [],
-          "id": "afc6aa29-a6cc-4948-a374-7d782e99d0c8",
-          "isConsultation": false
-        },
-        {
-          "time": "3:00 PM",
-          "title": "10221st meeting",
-          "agenda": [],
-          "id": "01a08c83-cbaa-7307-9d02-642fa0ebad01",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Sixth Committee, Eighty-first session -- Briefing by the Secretariat",
-          "agenda": [],
-          "id": "1719c1bc-870d-421f-a29e-f3eb69587e5d",
-          "isConsultation": false
-        },
-        {
-          "time": "12:00 PM",
-          "title": "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 6th plenary meeting",
-          "agenda": [],
-          "id": "01a087e0-7d5c-7dc3-9c2a-17d9deb8b1ec",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
@@ -61,13 +31,10 @@
     }
   ],
   "meetings": [
-    "Sixth Committee, Eighty-first session -- Briefing by the Secretariat",
-    "Committee on Conferences -- Informal consultations",
-    "Military Staff Committee -- 2155th meeting",
-    "Preparatory Committee for the United Nations Conference of Plenipotentiaries on Protection of Persons in the Event of Disasters, 2026 session -- 6th plenary meeting",
-    "General Assembly -- 2nd plenary meeting",
-    "Security Council -- 10220th meeting",
-    "Security Council -- 10221st meeting",
-    "United Nations Office for South-South Cooperation -- High-level panel discussion (on the occasion of the United Nations Day for South-South Cooperation) (organized by the United Nations Office for South-South Cooperation)"
+    "General Assembly, Eighty-first session -- 3rd plenary meeting",
+    "Third Committee, Eighty-first session -- Informal briefing",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Committee on Conferences -- 576th meeting",
+    "United Nations Institute for Training and Research (UNITAR) -- Briefing for delegates on the work of the eighty-first session of the General Assembly and the main committees (co-organized by the Permanent Mission of Singapore, the United Nations Institute for Training and Research (UNITAR) and the Forum of Small States)"
   ]
 }
