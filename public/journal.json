@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-14",
-  "fetched_at": "2026-09-14T17:22:16.603Z",
-  "ny_date": "2026-09-14",
+  "date": "2026-09-15",
+  "fetched_at": "2026-09-15T16:00:16.591Z",
+  "ny_date": "2026-09-15",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 5 meetings",
+  "note": "Live from journal-api.un.org -- 3 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "General Assembly, Eighty-first session -- 3rd plenary meeting",
-          "agenda": [],
-          "id": "2e2ad944-0ceb-4933-be77-5a48589751a9",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "3:00 PM",
+          "title": "Security Council -- 10222nd meeting",
+          "agenda": [],
+          "id": "4078b5bb-3852-4142-a300-19dc354da174",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Trusteeship Council",
@@ -31,10 +31,8 @@
     }
   ],
   "meetings": [
-    "General Assembly, Eighty-first session -- 3rd plenary meeting",
-    "Third Committee, Eighty-first session -- Informal briefing",
+    "Security Council -- 10222nd meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Committee on Conferences -- 576th meeting",
-    "United Nations Institute for Training and Research (UNITAR) -- Briefing for delegates on the work of the eighty-first session of the General Assembly and the main committees (co-organized by the Permanent Mission of Singapore, the United Nations Institute for Training and Research (UNITAR) and the Forum of Small States)"
+    "Military Staff Committee -- 2156th meeting"
   ]
 }
