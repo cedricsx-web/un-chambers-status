@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-15",
-  "fetched_at": "2026-09-15T16:00:16.591Z",
-  "ny_date": "2026-09-15",
+  "date": "2026-09-16",
+  "fetched_at": "2026-09-16T15:53:53.426Z",
+  "ny_date": "2026-09-16",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 3 meetings",
+  "note": "Live from journal-api.un.org -- 4 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -13,11 +13,18 @@
       "room": "Security Council",
       "meetings": [
         {
-          "time": "3:00 PM",
-          "title": "Security Council -- 10222nd meeting",
+          "time": "10:00 AM",
+          "title": "Security Council -- 10223rd meeting",
           "agenda": [],
-          "id": "4078b5bb-3852-4142-a300-19dc354da174",
+          "id": "39fd921b-a8a1-44d8-88d0-1f1cac817285",
           "isConsultation": false
+        },
+        {
+          "time": "Followed By",
+          "title": "Security Council -- Consultations of the whole",
+          "agenda": [],
+          "id": "01a0a6da-5131-7f06-adc3-c5535d7d0f8b",
+          "isConsultation": true
         }
       ]
     },
@@ -31,8 +38,9 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10222nd meeting",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Military Staff Committee -- 2156th meeting"
+    "Security Council -- 10223rd meeting",
+    "Security Council -- Consultations of the whole",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Group of 77 -- Meeting on the International Day of Science, Technology and Innovation for the South"
   ]
 }
