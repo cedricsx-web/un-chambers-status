@@ -1,36 +1,66 @@
 {
-  "date": "2026-09-16",
-  "fetched_at": "2026-09-16T15:53:53.426Z",
-  "ny_date": "2026-09-16",
+  "date": "2026-09-17",
+  "fetched_at": "2026-09-17T15:59:46.592Z",
+  "ny_date": "2026-09-17",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 4 meetings",
+  "note": "Live from journal-api.un.org -- 7 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "3:00 PM",
+          "title": "4th plenary meeting",
+          "agenda": [],
+          "id": "7bfac770-312d-484a-a806-40df54f0bff9",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10223rd meeting",
+          "title": "10224th meeting",
           "agenda": [],
-          "id": "39fd921b-a8a1-44d8-88d0-1f1cac817285",
+          "id": "25ee33a6-713c-4d59-b697-f855e149566a",
           "isConsultation": false
         },
         {
           "time": "Followed By",
-          "title": "Security Council -- Consultations of the whole",
+          "title": "10225th meeting",
           "agenda": [],
-          "id": "01a0a6da-5131-7f06-adc3-c5535d7d0f8b",
-          "isConsultation": true
+          "id": "01a0ab66-9c43-79c3-bde1-a4de4c3b1113",
+          "isConsultation": false
+        },
+        {
+          "time": "Followed By",
+          "title": "Consultations of the whole [Closed]",
+          "agenda": [],
+          "id": "01a0ab66-9c44-7dec-857b-00e919b62f4f",
+          "isConsultation": false
         }
       ]
     },
     {
       "room": "Trusteeship Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "Government of the Kingdom of Morocco,Office on Genocide Prevention and the Responsibility to Protect (OSAPG),United Nations Alliance of Civilizations (UNAOC) -- High-level event entitled “Global Conference on Promoting Interreligious and Intercultural Dialogue and Tolerance in Countering Hate Speech” (co-organized by the Government of the Kingdom of Morocco, the Office on Genocide Prevention and the Responsibility to Protect (OSAPG) and the United Nations Alliance of Civilizations (UNAOC))",
+          "agenda": [],
+          "id": "f529c526-d828-4c57-96f1-305977562f05",
+          "isConsultation": false
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Government of the Kingdom of Morocco,Office on Genocide Prevention and the Responsibility to Protect (OSAPG),United Nations Alliance of Civilizations (UNAOC) -- High-level event entitled “Global Conference on Promoting Interreligious and Intercultural Dialogue and Tolerance in Countering Hate Speech” (co-organized by the Government of the Kingdom of Morocco, the Office on Genocide Prevention and the Responsibility to Protect (OSAPG) and the United Nations Alliance of Civilizations (UNAOC))",
+          "agenda": [],
+          "id": "0d10abd9-fa4a-40e5-9450-70926db91605",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Economic and Social Council",
@@ -38,9 +68,12 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10223rd meeting",
-    "Security Council -- Consultations of the whole",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Group of 77 -- Meeting on the International Day of Science, Technology and Innovation for the South"
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "General Assembly -- 4th plenary meeting",
+    "Security Council -- 10224th meeting",
+    "Security Council -- 10225th meeting",
+    "Security Council -- Consultations of the whole [Closed]",
+    "Government of the Kingdom of Morocco,Office on Genocide Prevention and the Responsibility to Protect (OSAPG),United Nations Alliance of Civilizations (UNAOC) -- High-level event entitled “Global Conference on Promoting Interreligious and Intercultural Dialogue and Tolerance in Countering Hate Speech” (co-organized by the Government of the Kingdom of Morocco, the Office on Genocide Prevention and the Responsibility to Protect (OSAPG) and the United Nations Alliance of Civilizations (UNAOC))",
+    "Executive Office of the Secretary-General (EOSG),Department of Economic and Social Affairs (DESA),United Nations Children’s Fund (UNICEF) -- Briefing on the United Nations system data commons (co-organized by the Executive Office of the Secretary-General (EOSG), the Department of Economic and Social Affairs (DESA) and the United Nations Children’s Fund (UNICEF))"
   ]
 }
