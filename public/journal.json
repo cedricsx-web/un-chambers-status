@@ -1,45 +1,21 @@
 {
-  "date": "2026-09-18",
-  "fetched_at": "2026-09-18T15:35:01.306Z",
-  "ny_date": "2026-09-18",
+  "date": "2026-09-21",
+  "fetched_at": "2026-09-21T17:36:13.931Z",
+  "ny_date": "2026-09-21",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 5 meetings",
+  "note": "Live from journal-api.un.org -- 2 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Executive Office of the Secretary-General -- Event entitled “SDG Moment 2026” (convened by the Secretary-General)The record of the past decade proves that determined action can deliver results. Thirty-six per cent of SDG targets are now on track or making moderate progress, and gains have been made in social protection, health outcomes, access to essential services and resilience. Yet progress remains too slow and uneven, and with fewer than five years remaining before 2030, the world must summon the speed, resolve, and unity to deliver on the promise of the 2030 Agenda.The programme will feature a Leaders’ Dialogue and a multistakeholder panel bringing together world leaders, international organizations, civil society, the private sector and young people, alongside reflections from the Secretary-General, the President of the General Assembly, the President of ECOSOC and the Deputy Secretary-General. Seating for the event is not assigned and will be available on a first-come, first-served basis. There will be no statements from the floor during the event.Delegations of all Member States are invited to attend the SDG Moment at the highest level. Civil society representatives, youth and other stakeholders are also welcome to attend, but will need to register their interest through the email address indicated under “Contacts” below.",
-          "agenda": [],
-          "id": "456f2d53-fcaa-41c6-8e61-c59edfa53a42",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "3:00 PM",
-          "title": "Security Council -- 10226th meeting",
-          "agenda": [],
-          "id": "70c537df-c1ff-44c3-a22c-7f7b249d5828",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
-      "meetings": [
-        {
-          "time": "9:30 AM",
-          "title": "Departments of Political and Peacebuilding Affairs and Peace Operations (DPPA-DPO) -- Event entitled “Remembering Nicholas ‘Fink’ Haysom, late Special Representative of the Secretary-General and Head of the United Nations Mission in South Sudan” (organized by the Departments of Political and Peacebuilding Affairs and Peace Operations (DPPA-DPO))",
-          "agenda": [],
-          "id": "8f9de206-bce3-44da-9fff-4370287155dd",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
@@ -47,10 +23,7 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10226th meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Military Staff Committee -- 2157th meeting",
-    "Departments of Political and Peacebuilding Affairs and Peace Operations (DPPA-DPO) -- Event entitled “Remembering Nicholas ‘Fink’ Haysom, late Special Representative of the Secretary-General and Head of the United Nations Mission in South Sudan” (organized by the Departments of Political and Peacebuilding Affairs and Peace Operations (DPPA-DPO))",
-    "Executive Office of the Secretary-General -- Event entitled “SDG Moment 2026” (convened by the Secretary-General)The record of the past decade proves that determined action can deliver results. Thirty-six per cent of SDG targets are now on track or making moderate progress, and gains have been made in social protection, health outcomes, access to essential services and resilience. Yet progress remains too slow and uneven, and with fewer than five years remaining before 2030, the world must summon the speed, resolve, and unity to deliver on the promise of the 2030 Agenda.The programme will feature a Leaders’ Dialogue and a multistakeholder panel bringing together world leaders, international organizations, civil society, the private sector and young people, alongside reflections from the Secretary-General, the President of the General Assembly, the President of ECOSOC and the Deputy Secretary-General. Seating for the event is not assigned and will be available on a first-come, first-served basis. There will be no statements from the floor during the event.Delegations of all Member States are invited to attend the SDG Moment at the highest level. Civil society representatives, youth and other stakeholders are also welcome to attend, but will need to register their interest through the email address indicated under “Contacts” below."
+    "League of Arab States -- Annual Consultative Ministerial Council meeting"
   ]
 }
