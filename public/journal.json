@@ -1,13 +1,28 @@
 {
-  "date": "2026-09-21",
-  "fetched_at": "2026-09-21T17:36:13.931Z",
-  "ny_date": "2026-09-21",
+  "date": "2026-09-22",
+  "fetched_at": "2026-09-22T16:03:17.591Z",
+  "ny_date": "2026-09-22",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 2 meetings",
+  "note": "Live from journal-api.un.org -- 5 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "9:00 AM",
+          "title": "General Assembly, Eighty-first session -- 5th plenary meeting",
+          "agenda": [],
+          "id": "7d0bdaef-d48a-4b79-a60b-2fb4f07365d4",
+          "isConsultation": false
+        },
+        {
+          "time": "3:00 PM",
+          "title": "General Assembly, Eighty-first session -- 6th plenary meeting",
+          "agenda": [],
+          "id": "07852d44-84e3-4731-b214-45daf2cb5533",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Security Council",
@@ -23,7 +38,10 @@
     }
   ],
   "meetings": [
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "League of Arab States -- Annual Consultative Ministerial Council meeting"
+    "General Assembly, Eighty-first session -- 5th plenary meeting",
+    "General Assembly, Eighty-first session -- 6th plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held remotely without physical presence)",
+    "Community of Latin American and Caribbean States -- Meeting",
+    "Permanent Mission of Namibia,Permanent Mission of Zambia,Executive Office of the Secretary-General (EOSG),Economic Commission for Africa (ECA),African Union -- High-level event entitled “Two Years After the Pact for the Future: Progress on Implementation, Challenges and Opportunities for Africa” held on the margins of the eighty-first session of the General Assembly (co-organized by the Permanent Missions of Namibia and Zambia, the Executive Office of the Secretary-General (EOSG), the Economic Commission for Africa (ECA) and the African Union)"
   ]
 }
