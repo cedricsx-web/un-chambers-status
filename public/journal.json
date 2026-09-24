@@ -1,88 +1,61 @@
 {
-  "date": "2026-09-23",
-  "fetched_at": "2026-09-23T15:53:55.017Z",
-  "ny_date": "2026-09-23",
+  "date": "2026-09-24",
+  "fetched_at": "2026-09-24T16:16:42.519Z",
+  "ny_date": "2026-09-24",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 9 meetings",
+  "note": "Live from journal-api.un.org -- 11 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "9:00 AM",
-          "title": "7th plenary meeting",
+          "title": "General Assembly, Eighty-first session -- 9th plenary meeting",
           "agenda": [],
-          "id": "c61c1cdf-8013-4dab-b69d-804b47f6ebea",
-          "isConsultation": false
-        },
-        {
-          "time": "10:00 AM",
-          "title": "High-level meeting to commemorate the fortieth anniversary of the Declaration on the Right to Development",
-          "agenda": [],
-          "id": "54338d52-1986-4aa1-818a-092d4a8d5996",
+          "id": "78d22aea-f5d4-4bd7-ba6c-a4726162bebc",
           "isConsultation": false
         },
         {
           "time": "3:00 PM",
-          "title": "8th plenary meeting",
+          "title": "General Assembly, Eighty-first session -- 10th plenary meeting",
           "agenda": [],
-          "id": "9625fd1d-a242-4b79-b787-d948417917ef",
-          "isConsultation": false
-        },
-        {
-          "time": "3:00 PM",
-          "title": "High-level meeting to commemorate the fortieth anniversary of the Declaration on the Right to Development",
-          "agenda": [],
-          "id": "606637fb-40ea-4c87-9e44-c00ff081078f",
+          "id": "6327359c-79c4-428b-bcd9-e47ddf94d332",
           "isConsultation": false
         }
       ]
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "11:00 AM",
-          "title": "10227th meeting",
-          "agenda": [],
-          "id": "c5ffc767-75c3-4191-a877-a141541e4bdf",
-          "isConsultation": false
-        },
-        {
-          "time": "3:00 PM",
-          "title": "10228th meeting",
-          "agenda": [],
-          "id": "29303928-79ab-4ea5-8338-0d4c8328b839",
-          "isConsultation": false
-        }
-      ]
-    },
-    {
-      "room": "Trusteeship Council",
       "meetings": []
     },
     {
-      "room": "Economic and Social Council",
+      "room": "Trusteeship Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Office of the United Nations High Commissioner for Refugees (UNHCR),Permanent Mission of Austria,Permanent Mission of Bangladesh,Permanent Mission of Brazil,Permanent Mission of Bulgaria,Permanent Mission of Canada,Permanent Mission of Chad,Permanent Mission of Denmark,Permanent Mission of the Democratic Republic of the Congo,Permanent Mission of Finland,Permanent Mission of France,Permanent Mission of Germany,Permanent Mission of Ireland,Permanent Mission of Japan,Permanent Mission of Kenya,Permanent Mission of the Kingdom of the Netherlands,Permanent Mission of Luxembourg,Permanent Mission of Malta,Permanent Mission of Mauritania,Permanent Mission of Mexico,Permanent Mission of Nigeria,Permanent Mission of Norway,Permanent Mission of the Philippines,Permanent Mission of Portugal,Permanent Mission of the Republic of Moldova,Permanent Mission of Romania,Permanent Mission of Spain,Permanent Mission of Sweden,Permanent Mission of Switzerland,Permanent Mission of the Syrian Arab Republic,Permanent Mission of Türkiye,Permanent Mission of Uganda,Permanent Mission of the United Kingdom of Great Britain and Northern Ireland,European Union -- High-level event to commemorate the seventy-fifth anniversary of the 1951 Refugee Convention (organized by the Office of the United Nations High Commissioner for Refugees (UNHCR), in partnership with the Permanent Missions of Austria, Bangladesh, Brazil, Bulgaria, Canada, Chad, Denmark, the Democratic Republic of the Congo, Finland, France, Germany, Ireland, Japan, Kenya, the Kingdom of the Netherlands, Luxembourg, Malta, Mauritania, Mexico, Nigeria, Norway, the Philippines, Portugal, the Republic of Moldova, Romania, Spain, Sweden, Switzerland, the Syrian Arab Republic, Türkiye, Uganda, the United Kingdom of Great Britain and Northern Ireland and the European Union)",
+          "title": "Peacebuilding Commission -- Ministerial meeting",
           "agenda": [],
-          "id": "510781ee-278c-4ef3-b56c-27db143bbdf8",
+          "id": "2c0d2197-fa86-4e3e-afd9-c0372cf07aa8",
           "isConsultation": false
         }
       ]
+    },
+    {
+      "room": "Economic and Social Council",
+      "meetings": []
     }
   ],
   "meetings": [
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held remotely without physical presence)",
-    "General Assembly -- 7th plenary meeting",
-    "General Assembly -- High-level meeting to commemorate the fortieth anniversary of the Declaration on the Right to Development",
-    "General Assembly -- 8th plenary meeting",
-    "Security Council -- 10227th meeting",
-    "Security Council -- 10228th meeting",
-    "Permanent Mission of Italy,Permanent Mission of the Philippines,UN-Women -- Ministerial-level event of the WPS Focal Points Network entitled “Delivering on Women, Peace, and Security (WPS): Consolidating Implementation and Accountability in a Fragmented Security Landscape” (co-organized by the Permanent Missions of Italy and the Philippines in collaboration with UN-Women)",
-    "Group of 77 -- Thirty-eighth annual meeting of Senior Officials",
-    "Office of the United Nations High Commissioner for Refugees (UNHCR),Permanent Mission of Austria,Permanent Mission of Bangladesh,Permanent Mission of Brazil,Permanent Mission of Bulgaria,Permanent Mission of Canada,Permanent Mission of Chad,Permanent Mission of Denmark,Permanent Mission of the Democratic Republic of the Congo,Permanent Mission of Finland,Permanent Mission of France,Permanent Mission of Germany,Permanent Mission of Ireland,Permanent Mission of Japan,Permanent Mission of Kenya,Permanent Mission of the Kingdom of the Netherlands,Permanent Mission of Luxembourg,Permanent Mission of Malta,Permanent Mission of Mauritania,Permanent Mission of Mexico,Permanent Mission of Nigeria,Permanent Mission of Norway,Permanent Mission of the Philippines,Permanent Mission of Portugal,Permanent Mission of the Republic of Moldova,Permanent Mission of Romania,Permanent Mission of Spain,Permanent Mission of Sweden,Permanent Mission of Switzerland,Permanent Mission of the Syrian Arab Republic,Permanent Mission of Türkiye,Permanent Mission of Uganda,Permanent Mission of the United Kingdom of Great Britain and Northern Ireland,European Union -- High-level event to commemorate the seventy-fifth anniversary of the 1951 Refugee Convention (organized by the Office of the United Nations High Commissioner for Refugees (UNHCR), in partnership with the Permanent Missions of Austria, Bangladesh, Brazil, Bulgaria, Canada, Chad, Denmark, the Democratic Republic of the Congo, Finland, France, Germany, Ireland, Japan, Kenya, the Kingdom of the Netherlands, Luxembourg, Malta, Mauritania, Mexico, Nigeria, Norway, the Philippines, Portugal, the Republic of Moldova, Romania, Spain, Sweden, Switzerland, the Syrian Arab Republic, Türkiye, Uganda, the United Kingdom of Great Britain and Northern Ireland and the European Union)"
+    "General Assembly, Eighty-first session -- 9th plenary meeting",
+    "General Assembly, Eighty-first session -- High-level meeting on addressing the existential threats posed by sea level rise",
+    "General Assembly, Eighty-first session -- 10th plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Peacebuilding Commission -- Ministerial meeting",
+    "Parliamentary Assembly of the Mediterranean -- Event entitled “Governance, Technology and Trust in the Age of AI: The Role of Parliaments and Parliamentary Diplomacy in Countering Online Terrorist Narratives” (organized by the Parliamentary Assembly of the Mediterranean)",
+    "Group of Landlocked Developing Countries -- Annual ministerial meeting",
+    "Group of Least Developed Countries -- Annual ministerial meeting",
+    "Organization of Islamic Cooperation (OIC) -- Annual coordination meeting of Foreign Affairs Ministers",
+    "Organization of Islamic Cooperation (OIC) -- Annual coordination meeting of Foreign Affairs Ministers (continued)",
+    "Permanent Mission of Uzbekistan,Permanent Mission of Japan,Permanent Mission of Morocco,United Nations Population Fund (UNFPA) -- Event entitled “Demographic Resilience: Investing in Human Capital for Sustainable Futures” (organized by the Permanent Mission of Uzbekistan, in collaboration with the Permanent Missions of Japan and Morocco and the United Nations Population Fund (UNFPA))"
   ]
 }
