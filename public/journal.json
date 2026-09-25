@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-24",
-  "fetched_at": "2026-09-24T16:16:42.519Z",
-  "ny_date": "2026-09-24",
+  "date": "2026-09-25",
+  "fetched_at": "2026-09-25T16:16:51.359Z",
+  "ny_date": "2026-09-25",
   "source": "journal-api.un.org",
   "note": "Live from journal-api.un.org -- 11 meetings",
   "chambers": [
@@ -10,52 +10,95 @@
       "meetings": [
         {
           "time": "9:00 AM",
-          "title": "General Assembly, Eighty-first session -- 9th plenary meeting",
+          "title": "11th plenary meeting",
           "agenda": [],
-          "id": "78d22aea-f5d4-4bd7-ba6c-a4726162bebc",
+          "id": "40ae0570-6f93-414c-9214-ff70a36686a3",
+          "isConsultation": false
+        },
+        {
+          "time": "10:00 AM",
+          "title": "High-level meeting on pandemic prevention, preparedness and response - Plenary meeting",
+          "agenda": [],
+          "id": "a16c818a-67b3-4994-8303-544e59062c51",
+          "isConsultation": false
+        },
+        {
+          "time": "11:00 AM",
+          "title": "High-level meeting on pandemic prevention, preparedness and response - Multi-stakeholder panel 1",
+          "agenda": [],
+          "id": "9b2daa50-28fe-4484-9987-1558943bf321",
+          "isConsultation": false
+        },
+        {
+          "time": "1:00 PM",
+          "title": "High-level meeting on pandemic prevention, preparedness and response - Plenary meeting",
+          "agenda": [],
+          "id": "b20d81d6-9988-4116-a151-60418266b39d",
           "isConsultation": false
         },
         {
           "time": "3:00 PM",
-          "title": "General Assembly, Eighty-first session -- 10th plenary meeting",
+          "title": "12th plenary meeting",
           "agenda": [],
-          "id": "6327359c-79c4-428b-bcd9-e47ddf94d332",
+          "id": "da47a3f5-a760-42c3-937f-d37e94abda04",
+          "isConsultation": false
+        },
+        {
+          "time": "3:00 PM",
+          "title": "High-level meeting on pandemic prevention, preparedness and response - Multi-stakeholder panel 2",
+          "agenda": [],
+          "id": "f2120658-9d54-4dc7-b761-960c42bcf03f",
+          "isConsultation": false
+        },
+        {
+          "time": "3:00 PM",
+          "title": "High-level meeting on pandemic prevention, preparedness and response - Plenary meeting",
+          "agenda": [],
+          "id": "f51b8a98-7c05-4c12-97a0-0cc3c6d525ea",
           "isConsultation": false
         }
       ]
     },
     {
       "room": "Security Council",
-      "meetings": []
-    },
-    {
-      "room": "Trusteeship Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Peacebuilding Commission -- Ministerial meeting",
+          "title": "10229th meeting",
           "agenda": [],
-          "id": "2c0d2197-fa86-4e3e-afd9-c0372cf07aa8",
+          "id": "49659d76-af62-4675-9ae4-0901a96abd02",
           "isConsultation": false
         }
       ]
     },
     {
-      "room": "Economic and Social Council",
+      "room": "Trusteeship Council",
       "meetings": []
+    },
+    {
+      "room": "Economic and Social Council",
+      "meetings": [
+        {
+          "time": "3:00 PM",
+          "title": "United Nations Alliance of Civilizations (UNAOC) -- High-level meeting of the UNAOC Group of Friends (organized by the United Nations Alliance of Civilizations (UNAOC)) For further information, please see “Contacts”.",
+          "agenda": [],
+          "id": "5651ddc1-4c42-4678-8e98-4bc48ee26e4c",
+          "isConsultation": false
+        }
+      ]
     }
   ],
   "meetings": [
-    "General Assembly, Eighty-first session -- 9th plenary meeting",
-    "General Assembly, Eighty-first session -- High-level meeting on addressing the existential threats posed by sea level rise",
-    "General Assembly, Eighty-first session -- 10th plenary meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Peacebuilding Commission -- Ministerial meeting",
-    "Parliamentary Assembly of the Mediterranean -- Event entitled “Governance, Technology and Trust in the Age of AI: The Role of Parliaments and Parliamentary Diplomacy in Countering Online Terrorist Narratives” (organized by the Parliamentary Assembly of the Mediterranean)",
-    "Group of Landlocked Developing Countries -- Annual ministerial meeting",
-    "Group of Least Developed Countries -- Annual ministerial meeting",
-    "Organization of Islamic Cooperation (OIC) -- Annual coordination meeting of Foreign Affairs Ministers",
-    "Organization of Islamic Cooperation (OIC) -- Annual coordination meeting of Foreign Affairs Ministers (continued)",
-    "Permanent Mission of Uzbekistan,Permanent Mission of Japan,Permanent Mission of Morocco,United Nations Population Fund (UNFPA) -- Event entitled “Demographic Resilience: Investing in Human Capital for Sustainable Futures” (organized by the Permanent Mission of Uzbekistan, in collaboration with the Permanent Missions of Japan and Morocco and the United Nations Population Fund (UNFPA))"
+    "General Assembly -- 11th plenary meeting",
+    "General Assembly -- High-level meeting on pandemic prevention, preparedness and response - Plenary meeting",
+    "General Assembly -- High-level meeting on pandemic prevention, preparedness and response - Multi-stakeholder panel 1",
+    "General Assembly -- 12th plenary meeting",
+    "General Assembly -- High-level meeting on pandemic prevention, preparedness and response - Multi-stakeholder panel 2",
+    "Security Council -- 10229th meeting",
+    "Group of 77 -- Fiftieth annual meeting of Ministers for Foreign Affairs",
+    "League of Arab States,Organization of Islamic Cooperation (OIC) -- Joint ministerial meeting on Jerusalem",
+    "Permanent Mission of Finland,Permanent Mission of Mexico,UN-Women,Karama,African Women’s Development and Communication Network (FEMNET),Asian-Pacific Resource and Research Centre for Women (ARROW),Feminist Foreign Policy Collaborative,Women's Environment and Development Organization (WEDO) -- High-level dialogue on Reinvigorating Feminist Multilateralism (co-organized by the Permanent Missions of Finland and Mexico, UN-Women and Karama in collaboration with the African Women’s Development and Communication Network (FEMNET), the Asian-Pacific Resource and Research Centre for Women (ARROW), the Feminist Foreign Policy Collaborative and the Women’s Environment and Development Organization (WEDO))",
+    "United Nations Alliance of Civilizations (UNAOC) -- High-level meeting of the UNAOC Group of Friends (organized by the United Nations Alliance of Civilizations (UNAOC)) For further information, please see “Contacts”."
   ]
 }
