@@ -1,60 +1,32 @@
 {
-  "date": "2026-09-25",
-  "fetched_at": "2026-09-25T16:16:51.359Z",
-  "ny_date": "2026-09-25",
+  "date": "2026-09-28",
+  "fetched_at": "2026-09-28T19:04:05.932Z",
+  "ny_date": "2026-09-28",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 11 meetings",
+  "note": "Live from journal-api.un.org -- 6 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "9:00 AM",
-          "title": "11th plenary meeting",
+          "title": "15th plenary meeting",
           "agenda": [],
-          "id": "40ae0570-6f93-414c-9214-ff70a36686a3",
+          "id": "26697710-181f-446f-b8e9-c33f6c160b0f",
           "isConsultation": false
         },
         {
           "time": "10:00 AM",
-          "title": "High-level meeting on pandemic prevention, preparedness and response - Plenary meeting",
+          "title": "High-level meeting of the General Assembly to commemorate the twenty-fifth anniversary of the adoption of the Durban Declaration and Programme of Action",
           "agenda": [],
-          "id": "a16c818a-67b3-4994-8303-544e59062c51",
-          "isConsultation": false
-        },
-        {
-          "time": "11:00 AM",
-          "title": "High-level meeting on pandemic prevention, preparedness and response - Multi-stakeholder panel 1",
-          "agenda": [],
-          "id": "9b2daa50-28fe-4484-9987-1558943bf321",
-          "isConsultation": false
-        },
-        {
-          "time": "1:00 PM",
-          "title": "High-level meeting on pandemic prevention, preparedness and response - Plenary meeting",
-          "agenda": [],
-          "id": "b20d81d6-9988-4116-a151-60418266b39d",
+          "id": "84a2e877-906a-4514-92ce-d731e6450749",
           "isConsultation": false
         },
         {
           "time": "3:00 PM",
-          "title": "12th plenary meeting",
+          "title": "High-level meeting of the General Assembly to commemorate the twenty-fifth anniversary of the adoption of the Durban Declaration and Programme of Action",
           "agenda": [],
-          "id": "da47a3f5-a760-42c3-937f-d37e94abda04",
-          "isConsultation": false
-        },
-        {
-          "time": "3:00 PM",
-          "title": "High-level meeting on pandemic prevention, preparedness and response - Multi-stakeholder panel 2",
-          "agenda": [],
-          "id": "f2120658-9d54-4dc7-b761-960c42bcf03f",
-          "isConsultation": false
-        },
-        {
-          "time": "3:00 PM",
-          "title": "High-level meeting on pandemic prevention, preparedness and response - Plenary meeting",
-          "agenda": [],
-          "id": "f51b8a98-7c05-4c12-97a0-0cc3c6d525ea",
+          "id": "53b59de4-95d9-465b-aed7-ecf60e2d4f2b",
           "isConsultation": false
         }
       ]
@@ -64,9 +36,16 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "10229th meeting",
+          "title": "10230th meeting",
           "agenda": [],
-          "id": "49659d76-af62-4675-9ae4-0901a96abd02",
+          "id": "6f48a952-7e80-420a-9c61-46fe37cd7b6c",
+          "isConsultation": false
+        },
+        {
+          "time": "Followed By",
+          "title": "Consultations of the whole [Closed]",
+          "agenda": [],
+          "id": "588a9034-548d-4867-90df-e61ed351db2a",
           "isConsultation": false
         }
       ]
@@ -77,28 +56,15 @@
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "3:00 PM",
-          "title": "United Nations Alliance of Civilizations (UNAOC) -- High-level meeting of the UNAOC Group of Friends (organized by the United Nations Alliance of Civilizations (UNAOC)) For further information, please see “Contacts”.",
-          "agenda": [],
-          "id": "5651ddc1-4c42-4678-8e98-4bc48ee26e4c",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     }
   ],
   "meetings": [
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "General Assembly -- 11th plenary meeting",
-    "General Assembly -- High-level meeting on pandemic prevention, preparedness and response - Plenary meeting",
-    "General Assembly -- High-level meeting on pandemic prevention, preparedness and response - Multi-stakeholder panel 1",
-    "General Assembly -- 12th plenary meeting",
-    "General Assembly -- High-level meeting on pandemic prevention, preparedness and response - Multi-stakeholder panel 2",
-    "Security Council -- 10229th meeting",
-    "Group of 77 -- Fiftieth annual meeting of Ministers for Foreign Affairs",
-    "League of Arab States,Organization of Islamic Cooperation (OIC) -- Joint ministerial meeting on Jerusalem",
-    "Permanent Mission of Finland,Permanent Mission of Mexico,UN-Women,Karama,African Women’s Development and Communication Network (FEMNET),Asian-Pacific Resource and Research Centre for Women (ARROW),Feminist Foreign Policy Collaborative,Women's Environment and Development Organization (WEDO) -- High-level dialogue on Reinvigorating Feminist Multilateralism (co-organized by the Permanent Missions of Finland and Mexico, UN-Women and Karama in collaboration with the African Women’s Development and Communication Network (FEMNET), the Asian-Pacific Resource and Research Centre for Women (ARROW), the Feminist Foreign Policy Collaborative and the Women’s Environment and Development Organization (WEDO))",
-    "United Nations Alliance of Civilizations (UNAOC) -- High-level meeting of the UNAOC Group of Friends (organized by the United Nations Alliance of Civilizations (UNAOC)) For further information, please see “Contacts”."
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "General Assembly, First round -- Informal consultations on the draft resolution on agenda item 74 (Oceans and the law of the sea)",
+    "General Assembly -- 15th plenary meeting",
+    "General Assembly -- High-level meeting of the General Assembly to commemorate the twenty-fifth anniversary of the adoption of the Durban Declaration and Programme of Action",
+    "Security Council -- 10230th meeting",
+    "Security Council -- Consultations of the whole [Closed]"
   ]
 }
