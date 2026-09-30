@@ -1,58 +1,37 @@
 {
-  "date": "2026-09-29",
-  "fetched_at": "2026-09-29T17:25:40.166Z",
-  "ny_date": "2026-09-29",
+  "date": "2026-09-30",
+  "fetched_at": "2026-09-30T17:22:59.775Z",
+  "ny_date": "2026-09-30",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 8 meetings",
+  "note": "Live from journal-api.un.org -- 6 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "High-level plenary meeting to commemorate and promote the International Day for the Total Elimination of Nuclear Weapons",
-          "agenda": [],
-          "id": "2082c9ee-84e1-462b-b34f-703accb39ebc",
-          "isConsultation": false
-        },
-        {
-          "time": "3:00 PM",
-          "title": "High-level plenary meeting to commemorate and promote the International Day for the Total Elimination of Nuclear Weapons",
-          "agenda": [],
-          "id": "9371e028-71a8-4671-af06-314e8d26c5ad",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "10231st meeting",
+          "title": "Security Council -- Consultations of the whole",
           "agenda": [],
-          "id": "c90040f7-43c9-4aa5-aca8-03f8dfc105cf",
-          "isConsultation": false
-        },
-        {
-          "time": "Followed By",
-          "title": "10232nd meeting",
-          "agenda": [],
-          "id": "01a0e8cb-27cd-7e28-bf2a-b679bc211049",
-          "isConsultation": false
-        },
-        {
-          "time": "Followed By",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "01a0e8cb-27cf-7c64-a3fd-7bdf6ec8924c",
-          "isConsultation": false
+          "id": "01a0eef9-9ba0-7805-a499-337c32bc3c05",
+          "isConsultation": true
         }
       ]
     },
     {
       "room": "Trusteeship Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "3:30 PM",
+          "title": "Security Council -- Wrap-up session",
+          "agenda": [],
+          "id": "9b57087f-4e45-4976-a4ad-bafe9cb43375",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Economic and Social Council",
@@ -60,13 +39,11 @@
     }
   ],
   "meetings": [
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Security Council -- Consultations of the whole",
+    "Security Council -- Wrap-up session",
+    "First Committee,Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- Technical briefing",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
     "General Assembly, First round -- Informal consultations on the draft resolution on agenda item 74 (Oceans and the law of the sea)",
-    "General Assembly -- High-level plenary meeting to commemorate and promote the International Day for the Total Elimination of Nuclear Weapons",
-    "Security Council -- 10231st meeting",
-    "Security Council -- 10232nd meeting",
-    "Security Council -- Consultations of the whole [Closed]",
-    "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
-    "International Criminal Court -- New York Working Group - Review of the Procedure for the Nomination of Judges - 3rd meeting"
+    "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee."
   ]
 }
