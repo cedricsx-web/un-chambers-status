@@ -1,37 +1,44 @@
 {
-  "date": "2026-09-30",
-  "fetched_at": "2026-09-30T17:22:59.775Z",
-  "ny_date": "2026-09-30",
+  "date": "2026-10-01",
+  "fetched_at": "2026-10-01T17:49:46.396Z",
+  "ny_date": "2026-10-01",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 6 meetings",
+  "note": "Live from journal-api.un.org -- 15 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "16th plenary meeting",
+          "agenda": [],
+          "id": "8eeacf10-9929-4632-82a6-151ffe64b2b9",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Security Council",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "Security Council -- Consultations of the whole",
+          "time": "11:30 AM",
+          "title": "Consultations of the whole [Closed]",
           "agenda": [],
-          "id": "01a0eef9-9ba0-7805-a499-337c32bc3c05",
-          "isConsultation": true
+          "id": "51793d83-69e4-4971-b83a-bb8597cf925e",
+          "isConsultation": false
+        },
+        {
+          "time": "4:00 PM",
+          "title": "Briefing to non-Council members",
+          "agenda": [],
+          "id": "11407254-513d-4ff0-9bf4-deb88341712d",
+          "isConsultation": false
         }
       ]
     },
     {
       "room": "Trusteeship Council",
-      "meetings": [
-        {
-          "time": "3:30 PM",
-          "title": "Security Council -- Wrap-up session",
-          "agenda": [],
-          "id": "9b57087f-4e45-4976-a4ad-bafe9cb43375",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
@@ -39,11 +46,20 @@
     }
   ],
   "meetings": [
-    "Security Council -- Consultations of the whole",
-    "Security Council -- Wrap-up session",
-    "First Committee,Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- Technical briefing",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 1st plenary meeting",
+    "Second Committee, Eighty-first session -- 1st plenary meeting",
+    "Second Committee, Eighty-first session -- Informal meeting",
+    "Third Committee, Eighty-first session -- 1st plenary meeting",
+    "Third Committee, Eighty-first session -- 2nd plenary meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "General Assembly, First round -- Informal consultations on the draft resolution on agenda item 74 (Oceans and the law of the sea)",
-    "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee."
+    "General Assembly -- 16th plenary meeting",
+    "Security Council -- Consultations of the whole [Closed]",
+    "Security Council -- Briefing to non-Council members",
+    "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
+    "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
+    "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
+    "General Assembly -- Informal consultations on the draft resolution entitled “Extension of the preparatory period preceding the graduation of Bangladesh and Nepal from the least developed country category” (under agenda item 9) (convened by the Permanent Mission of Qatar)",
+    "International Criminal Court -- Subgroup of the Working Group on Amendments - 6th meeting",
+    "Non-Aligned Movement -- Monthly meeting (at the ambassadorial level)"
   ]
 }
