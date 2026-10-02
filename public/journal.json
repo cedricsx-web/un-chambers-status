@@ -1,40 +1,17 @@
 {
-  "date": "2026-10-01",
-  "fetched_at": "2026-10-01T17:49:46.396Z",
-  "ny_date": "2026-10-01",
+  "date": "2026-10-02",
+  "fetched_at": "2026-10-02T17:12:18.187Z",
+  "ny_date": "2026-10-02",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 15 meetings",
+  "note": "Live from journal-api.un.org -- 9 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "16th plenary meeting",
-          "agenda": [],
-          "id": "8eeacf10-9929-4632-82a6-151ffe64b2b9",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "11:30 AM",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "51793d83-69e4-4971-b83a-bb8597cf925e",
-          "isConsultation": false
-        },
-        {
-          "time": "4:00 PM",
-          "title": "Briefing to non-Council members",
-          "agenda": [],
-          "id": "11407254-513d-4ff0-9bf4-deb88341712d",
-          "isConsultation": false
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
@@ -46,20 +23,14 @@
     }
   ],
   "meetings": [
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 1st plenary meeting",
-    "Second Committee, Eighty-first session -- 1st plenary meeting",
-    "Second Committee, Eighty-first session -- Informal meeting",
-    "Third Committee, Eighty-first session -- 1st plenary meeting",
-    "Third Committee, Eighty-first session -- 2nd plenary meeting",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "General Assembly -- 16th plenary meeting",
-    "Security Council -- Consultations of the whole [Closed]",
-    "Security Council -- Briefing to non-Council members",
+    "General Assembly -- Informal consultations on the draft resolution on agenda item 74 (b) (Oceans and the law of the sea: BBNJ Agreement)",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 2nd plenary meeting",
+    "Third Committee, Eighty-first session -- 3rd plenary meeting",
+    "Third Committee, Eighty-first session -- 4th plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Security Council Committee pursuant to resolutions 1267 (1999), 1989 (2011) and 2253 (2015) concerning Islamic State in Iraq and the Levant (Da’esh), Al-Qaida and associated individuals, groups, undertakings and entities -- Informal consultations",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
-    "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
-    "General Assembly -- Informal consultations on the draft resolution entitled “Extension of the preparatory period preceding the graduation of Bangladesh and Nepal from the least developed country category” (under agenda item 9) (convened by the Permanent Mission of Qatar)",
-    "International Criminal Court -- Subgroup of the Working Group on Amendments - 6th meeting",
-    "Non-Aligned Movement -- Monthly meeting (at the ambassadorial level)"
+    "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov."
   ]
 }
