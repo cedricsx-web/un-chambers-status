@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-05",
-  "fetched_at": "2026-10-05T20:07:45.312Z",
-  "ny_date": "2026-10-05",
+  "date": "2026-10-06",
+  "fetched_at": "2026-10-06T13:44:38.296Z",
+  "ny_date": "2026-10-06",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 16 meetings",
+  "note": "Live from journal-api.un.org -- 21 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -11,23 +11,31 @@
     },
     {
       "room": "Security Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "Security Council -- 10233rd meeting",
+          "agenda": [],
+          "id": "4deeeca8-8135-409b-96fb-60016bfe0966",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "Sixth Committee, Eighty-first session -- 1st plenary meeting",
+          "time": "Followed By",
+          "title": "Sixth Committee, Eighty-first session -- 3rd plenary meeting",
           "agenda": [],
-          "id": "a55fb146-c791-4a9f-b4ea-2d332ea279f3",
+          "id": "51153ca6-8a16-461d-ac99-e0a2224f35f2",
           "isConsultation": false
         },
         {
           "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- 2nd plenary meeting",
+          "title": "Sixth Committee, Eighty-first session -- 4th plenary meeting",
           "agenda": [],
-          "id": "52372d65-54b5-4969-af01-9993b1789160",
+          "id": "5242a031-b176-42bc-8329-68de18527154",
           "isConsultation": false
         }
       ]
@@ -38,21 +46,26 @@
     }
   ],
   "meetings": [
-    "First Committee, Eighty-first session -- 1st plenary meeting",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 3rd plenary meeting",
-    "Second Committee, Eighty-first session -- 2nd plenary meeting",
-    "Second Committee, Eighty-first session -- 3rd plenary meeting",
-    "Third Committee, Eighty-first session -- 5th plenary meeting",
-    "Third Committee, Eighty-first session -- 6th plenary meeting",
-    "Fifth Committee, Eighty-first session -- 1st plenary meeting",
+    "Security Council -- 10233rd meeting",
+    "First Committee, Eighty-first session -- 2nd plenary meeting",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 4th plenary meeting",
+    "Second Committee, Eighty-first session -- 4th plenary meeting",
+    "Second Committee, Eighty-first session -- 5th plenary meeting",
+    "Third Committee, Eighty-first session -- 7th plenary meeting",
+    "Third Committee, Eighty-first session -- 8th plenary meeting",
+    "Fifth Committee, Eighty-first session -- 2nd plenary meeting",
     "Fifth Committee, Eighty-first session -- Informal consultations",
-    "Sixth Committee, Eighty-first session -- 1st plenary meeting",
-    "Sixth Committee, Eighty-first session -- 2nd plenary meeting",
+    "Advisory Committee on the United Nations Programme of Assistance in the Teaching, Study, Dissemination and Wider Appreciation of International Law, Sixty-first session -- Meeting",
+    "Sixth Committee, Eighty-first session -- 3rd plenary meeting",
+    "Sixth Committee, Eighty-first session -- 4th plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
-    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee."
+    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
+    "Group of 77 -- On Third Committee and related matters",
+    "United Nations Office on Drugs and Crime (UNODC) -- Briefing on Drug Policy Responses and the International Drug Conventions (organized by the United Nations Office on Drugs and Crime (UNODC))"
   ]
 }
