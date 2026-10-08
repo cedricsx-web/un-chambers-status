@@ -112,7 +112,7 @@ function parseJournalData(data,agendaById) {
           const chamber=chamberForRoom(rawRoom);
           const isConsultation=(rawRoom&&rawRoom.toLowerCase().includes("consultations"))||(fullTitle&&fullTitle.toLowerCase().includes("consultations of the whole"));
           allMeetings.push({title:fullTitle,time,room:rawRoom||null});
-          if (chamber) add(chamber,{time,title:fullTitle,agenda,id:m.id||null,isConsultation:isConsultation||false});
+          if (chamber) add(chamber,{time,title:fullTitle,agenda,id:m.id||null,isConsultation:isConsultation||false,origOrder:mIdx});
         });
       });
     });
@@ -323,6 +323,52 @@ async function saveTopicsToSupabase(dateStr, topics) {
   else { const t=await res.text(); console.log("Supabase save failed: "+t); }
 }
 
+
+// -- Scrape UN observances list ---------------------------
+async function scrapeObservances() {
+  const MONTHS={"january":"01","february":"02","march":"03","april":"04","may":"05","june":"06","july":"07","august":"08","september":"09","october":"10","november":"11","december":"12"};
+  const MON3={"jan":"01","feb":"02","mar":"03","apr":"04","may":"05","jun":"06","jul":"07","aug":"08","sep":"09","oct":"10","nov":"11","dec":"12"};
+  try {
+    console.log("Scraping UN observances list...");
+    const html = await fetchUrl("https://www.un.org/en/observances/list-days-weeks");
+    const observances = [];
+    // Parse links with pattern: [Name](url) ... DD Mon
+    const linkRe = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)[^\n]*\n+\s*(\d{2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)/gi;
+    let m;
+    while ((m = linkRe.exec(html)) !== null) {
+      const name = m[1].trim().replace(/\s+/g,' ');
+      const url  = m[2].trim();
+      const day  = m[3];
+      const mon  = MON3[(m[4]||"").toLowerCase()]||"00";
+      if(mon!=="00"&&day&&name&&url) {
+        observances.push({month_day:mon+"-"+day, name, url});
+      }
+    }
+    console.log("Parsed "+observances.length+" observances from UN page");
+    return observances;
+  } catch(e) {
+    console.log("Observances scrape failed:", e.message);
+    return [];
+  }
+}
+
+async function updateObservancesInSupabase(observances) {
+  if(!SB_URL||!SB_KEY||!observances.length) return;
+  // Upsert each observance
+  let updated=0;
+  for(const obs of observances) {
+    try {
+      const r = await fetch(SB_URL+"/rest/v1/observances?on_conflict=month_day,name",{
+        method:"POST",
+        headers:{"Content-Type":"application/json","apikey":SB_KEY,"Authorization":"Bearer "+SB_KEY,"Prefer":"resolution=merge-duplicates,return=minimal"},
+        body:JSON.stringify(obs)
+      });
+      if(r.ok) updated++;
+    } catch(e){}
+  }
+  console.log("Updated "+updated+"/"+observances.length+" observances in Supabase");
+}
+
 // -- Main -------------------------------------------------------------
 async function main() {
   const dateStr=todayInNewYork();
@@ -417,11 +463,20 @@ async function main() {
     const chambers=["General Assembly Hall","Security Council","Trusteeship Council","Economic and Social Council"]
       .map(function(name){
         const ms=chamberMap[name]||[];
-        return {room:name,meetings:ms.map(function(m){return {time:m.time,title:m.title,agenda:m.agenda||[],id:m.id||null,isConsultation:m.isConsultation||false};})};
+        return {room:name,meetings:ms.map(function(m){return {time:m.time,title:m.title,agenda:m.agenda||[],id:m.id||null,isConsultation:m.isConsultation||false,origOrder:m.origOrder||0};})};
       });
 
     saveResult(dateStr,chambers,finalTitles,
       finalTitles.length>0?"Live from journal-api.un.org -- "+finalTitles.length+" meetings":"0 meetings parsed");
+
+    // Update observances from UN website (weekly on Mondays)
+    const today_dow = new Date().toLocaleDateString("en-US",{timeZone:"America/New_York",weekday:"long"});
+    if(today_dow==="Monday") {
+      try {
+        const obs = await scrapeObservances();
+        if(obs.length>0) await updateObservancesInSupabase(obs);
+      } catch(e){ console.log("Observances update failed:",e.message); }
+    }
 
     // Generate topics from RSS (no API cost)
     try {
