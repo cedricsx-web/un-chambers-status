@@ -971,9 +971,6 @@ export default function App() {
           const chambersOrdered=CHAMBER_ORDER.map(function(name){
             return (data.chambers||[]).find(function(c){return c.room===name;})||{room:name,meetings:[]};
           });
-          // DEBUG: show raw journal values before fix
-          const scRaw=(data.chambers||[]).find(function(c){return c.room==="Security Council";});
-          if(scRaw)console.log("RAW SC:",JSON.stringify(scRaw.meetings.map(function(m){return {title:m.title.slice(0,25),isConsult:m.isConsultation,hasConsultTitle:m.title.toLowerCase().includes("consultations of the whole")};})));
           const mergedChambers=chambersOrdered.map(function(chamber){
             const extras=visibleExtras
               .filter(function(e){return (ROOM_DISPLAY[e.room]||e.room)===chamber.room;})
@@ -992,19 +989,18 @@ export default function App() {
                 const isConsultation=m.isConsultation||titleLower.includes("consultations of the whole")||titleLower.includes("consultation");
                 return Object.assign({},m,{isConsultation:isConsultation||false});
               });
-                if(chamber.room==="Security Council")console.log("MERGED SC count:",journalMeetings.length,journalMeetings.map(function(m){return {title:m.title.slice(0,20),time:m.time,isConsultation:m.isConsultation};}));
-            // Sort: real times chronologically, TBD meetings keep original journal order
-            // and are placed after the last real-time meeting that preceded them
-            const allForSort=[...journalMeetings,...extras];
-            // Assign pseudo-time to TBD meetings based on preceding real-time meeting
-            let lastRealTime=0;
-            allForSort.forEach(function(m){
+            // Sort: real times chronologically; TBD meetings follow preceding real-time meeting
+            const allUnsorted=[...journalMeetings,...extras];
+            let lastRealTime2=0;
+            const withKeys=allUnsorted.map(function(m,i){
               const t=parseMeetingTime(m.time);
-              if(t!==null){lastRealTime=t; m._sortTime=t;}
-              else{m._sortTime=lastRealTime+0.001*(m.origOrder||0)+0.0001;}
+              let k;
+              if(t!==null){lastRealTime2=t; k=t;}
+              else{k=lastRealTime2+0.001*(m.origOrder!=null?m.origOrder:i)+0.0001;}
+              return {m:m,k:k};
             });
-            allForSort.sort(function(a,b){return a._sortTime-b._sortTime;});
-            return Object.assign({},chamber,{meetings:allForSort});
+            withKeys.sort(function(a,b){return a.k-b.k;});
+            return Object.assign({},chamber,{meetings:withKeys.map(function(x){return x.m;})});
           });
           const allMeetings=[
             ...(data.meetings||[]).map(function(title){return {title,isExtra:false,extraId:null,cancelKey:title,cancelled:cancelledTitles.includes(title)};}),
