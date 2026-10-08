@@ -100,7 +100,7 @@ function parseJournalData(data,agendaById) {
         const sNum=stripHtml(session.session||"");
         const bodyLabel=sNum?sName+", "+sNum:sName;
         const sTime=session.startTime||session.time||"";
-        (session.meetings||[]).forEach(function(m){
+        (session.meetings||[]).forEach(function(m,mIdx){
           if (m.cancelled||m.isCancelled) return;
           const num=getText(m.meetingNumber);
           const ttl=getText(m.title)||getText(m.name)||getText(m.subject);
