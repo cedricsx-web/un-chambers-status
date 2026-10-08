@@ -1,33 +1,63 @@
 {
-  "date": "2026-10-07",
-  "fetched_at": "2026-10-07T18:14:30.650Z",
-  "ny_date": "2026-10-07",
+  "date": "2026-10-08",
+  "fetched_at": "2026-10-08T13:19:11.353Z",
+  "ny_date": "2026-10-08",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 16 meetings",
+  "note": "Live from journal-api.un.org -- 17 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "17th plenary meeting",
+          "agenda": [],
+          "id": "f6b47b3e-41ad-4b9c-a0c2-7acf851059b1",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Security Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "10235th meeting",
+          "agenda": [],
+          "id": "7113e01b-f648-4d40-810a-003d29602d28",
+          "isConsultation": false
+        },
+        {
+          "time": "Followed By",
+          "title": "Consultations of the whole [Closed]",
+          "agenda": [],
+          "id": "66b444b1-4ae4-4433-958b-b7a62aea2e7a",
+          "isConsultation": false
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Consultations of the whole [Closed]",
+          "agenda": [],
+          "id": "e3065a76-a7ca-445d-8286-ed5a188f3fcc",
+          "isConsultation": false
+        }
+      ]
     },
     {
       "room": "Trusteeship Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Sixth Committee, Eighty-first session -- 5th plenary meeting",
+          "title": "Sixth Committee, Eighty-first session -- 7th plenary meeting",
           "agenda": [],
-          "id": "2f0cc825-0bdc-4705-b468-9e2927b5633f",
+          "id": "eb824ea4-f2f8-451a-8951-d8518d10b1f5",
           "isConsultation": false
         },
         {
           "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- 6th plenary meeting",
+          "title": "Sixth Committee, Eighty-first session -- 8th plenary meeting",
           "agenda": [],
-          "id": "10faa724-b452-41e8-abab-4157417ff10b",
+          "id": "221c31ef-6651-4f46-9a81-284159bcd284",
           "isConsultation": false
         }
       ]
@@ -36,31 +66,32 @@
       "room": "Economic and Social Council",
       "meetings": [
         {
-          "time": "3:00 PM",
-          "title": "Security Council -- 10234th meeting",
+          "time": "10:00 AM",
+          "title": "Permanent Mission of Argentina,Department of Economic and Social Affairs (DESA),Group of Friends on Ageing and Sustainable Development,Group of Friends of Older Persons,NGO Committee on Ageing in New York -- Commemoration of the International Day of Older Persons under the theme “The Age of Longevity: Rethinking Systems for Longer Lives” (co-organized by the Permanent Mission of Argentina, the Department of Economic and Social Affairs (DESA), the Group of Friends on Ageing and Sustainable Development, the Group of Friends of Older Persons and the NGO Committee on Ageing in New York)",
           "agenda": [],
-          "id": "210ee465-f251-4834-ba9d-1549005b4e04",
+          "id": "1c1e99de-091b-45dc-b65a-a284520b48f5",
           "isConsultation": false
         }
       ]
     }
   ],
   "meetings": [
-    "Security Council -- 10234th meeting",
-    "First Committee, Eighty-first session -- 3rd plenary meeting",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 5th plenary meeting",
-    "Second Committee, Eighty-first session -- 6th plenary meeting",
-    "Third Committee, Eighty-first session -- 9th plenary meeting",
-    "Third Committee, Eighty-first session -- 10th plenary meeting",
-    "Fifth Committee, Eighty-first session -- 3rd plenary meeting",
-    "Fifth Committee, Eighty-first session -- Informal consultations",
-    "Sixth Committee, Eighty-first session -- 5th plenary meeting",
-    "Sixth Committee, Eighty-first session -- 6th plenary meeting",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "First Committee, Eighty-first session -- 4th plenary meeting",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 6th plenary meeting",
+    "Second Committee, Eighty-first session -- 7th plenary meeting",
+    "Second Committee, Eighty-first session -- 8th plenary meeting",
+    "Third Committee, Eighty-first session -- 11th plenary meeting",
+    "Third Committee, Eighty-first session -- 12th plenary meeting",
+    "Sixth Committee, Eighty-first session -- 7th plenary meeting",
+    "Sixth Committee, Eighty-first session -- 8th plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "General Assembly -- 17th plenary meeting",
+    "Security Council -- 10235th meeting",
+    "Security Council -- Consultations of the whole [Closed]",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
-    "Group of 77 -- On Fifth Committee and related matters"
+    "Permanent Mission of Argentina,Department of Economic and Social Affairs (DESA),Group of Friends on Ageing and Sustainable Development,Group of Friends of Older Persons,NGO Committee on Ageing in New York -- Commemoration of the International Day of Older Persons under the theme “The Age of Longevity: Rethinking Systems for Longer Lives” (co-organized by the Permanent Mission of Argentina, the Department of Economic and Social Affairs (DESA), the Group of Friends on Ageing and Sustainable Development, the Group of Friends of Older Persons and the NGO Committee on Ageing in New York)"
   ]
 }
