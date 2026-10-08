@@ -993,11 +993,18 @@ export default function App() {
                 return Object.assign({},m,{isConsultation:isConsultation||false});
               });
                 if(chamber.room==="Security Council")console.log("MERGED SC count:",journalMeetings.length,journalMeetings.map(function(m){return {title:m.title.slice(0,20),time:m.time,isConsultation:m.isConsultation};}));
-            return Object.assign({},chamber,{meetings:[...journalMeetings,...extras].sort(function(a,b){
-                  const ta=parseMeetingTime(a.time)||0;
-                  const tb=parseMeetingTime(b.time)||0;
-                  return ta-tb;
-                })});
+            // Sort: real times chronologically, TBD meetings keep original journal order
+            // and are placed after the last real-time meeting that preceded them
+            const allForSort=[...journalMeetings,...extras];
+            // Assign pseudo-time to TBD meetings based on preceding real-time meeting
+            let lastRealTime=0;
+            allForSort.forEach(function(m){
+              const t=parseMeetingTime(m.time);
+              if(t!==null){lastRealTime=t; m._sortTime=t;}
+              else{m._sortTime=lastRealTime+0.001*(m.origOrder||0)+0.0001;}
+            });
+            allForSort.sort(function(a,b){return a._sortTime-b._sortTime;});
+            return Object.assign({},chamber,{meetings:allForSort});
           });
           const allMeetings=[
             ...(data.meetings||[]).map(function(title){return {title,isExtra:false,extraId:null,cancelKey:title,cancelled:cancelledTitles.includes(title)};}),
