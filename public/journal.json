@@ -1,49 +1,40 @@
 {
-  "date": "2026-10-08",
-  "fetched_at": "2026-10-08T18:16:24.656Z",
-  "ny_date": "2026-10-08",
+  "date": "2026-10-09",
+  "fetched_at": "2026-10-09T14:48:55.394Z",
+  "ny_date": "2026-10-09",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 17 meetings",
+  "note": "Live from journal-api.un.org -- 18 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "17th plenary meeting",
-          "agenda": [],
-          "id": "f6b47b3e-41ad-4b9c-a0c2-7acf851059b1",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "10235th meeting",
+          "title": "Security Council -- 10236th meeting",
           "agenda": [],
-          "id": "7113e01b-f648-4d40-810a-003d29602d28",
+          "id": "5a92fee6-2a3e-41c2-9a57-cfeb5f9b20f2",
           "isConsultation": false,
           "origOrder": 0
         },
         {
           "time": "Followed By",
-          "title": "Consultations of the whole [Closed]",
+          "title": "Security Council -- Consultations of the whole",
           "agenda": [],
-          "id": "66b444b1-4ae4-4433-958b-b7a62aea2e7a",
-          "isConsultation": false,
-          "origOrder": 0
+          "id": "7a3e4d44-6513-47fb-8ee3-ab5a8ab5f6d4",
+          "isConsultation": true,
+          "origOrder": 1
         },
         {
           "time": "3:00 PM",
-          "title": "Consultations of the whole [Closed]",
+          "title": "Security Council -- 10237th meeting",
           "agenda": [],
-          "id": "e3065a76-a7ca-445d-8286-ed5a188f3fcc",
+          "id": "da4bfb3a-19f0-4090-9c69-10ea0592e80d",
           "isConsultation": false,
-          "origOrder": 0
+          "origOrder": 2
         }
       ]
     },
@@ -52,17 +43,17 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Sixth Committee, Eighty-first session -- 7th plenary meeting",
+          "title": "Sixth Committee, Eighty-first session -- 9th plenary meeting",
           "agenda": [],
-          "id": "eb824ea4-f2f8-451a-8951-d8518d10b1f5",
+          "id": "e4a35b27-5f1c-4a67-be9e-6951c772a7b0",
           "isConsultation": false,
           "origOrder": 0
         },
         {
           "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- 8th plenary meeting",
+          "title": "Sixth Committee, Eighty-first session -- 10th plenary meeting",
           "agenda": [],
-          "id": "221c31ef-6651-4f46-9a81-284159bcd284",
+          "id": "ab372a61-f20d-48ec-ad7e-12895f6b2cf8",
           "isConsultation": false,
           "origOrder": 1
         }
@@ -72,10 +63,10 @@
       "room": "Economic and Social Council",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "Permanent Mission of Argentina,Department of Economic and Social Affairs (DESA),Group of Friends on Ageing and Sustainable Development,Group of Friends of Older Persons,NGO Committee on Ageing in New York -- Commemoration of the International Day of Older Persons under the theme “The Age of Longevity: Rethinking Systems for Longer Lives” (co-organized by the Permanent Mission of Argentina, the Department of Economic and Social Affairs (DESA), the Group of Friends on Ageing and Sustainable Development, the Group of Friends of Older Persons and the NGO Committee on Ageing in New York)",
+          "time": "10:30 AM",
+          "title": "Permanent Mission of Canada,Permanent Mission of Peru,Permanent Mission of Türkiye,NGO Working Group on Girls,UN-Women,United Nations Children’s Fund (UNICEF),United Nations Population Fund (UNFPA) -- Event entitled “Girls Speak Out: Advancing Equality, Accelerating Action, Building a World Where Girls Thrive” (on the occasion of the International Day of the Girl Child (11 October)) (co-organized by the Permanent Missions of Canada, Peru and Türkiye, the NGO Working Group on Girls, UN-Women, the United Nations Children’s Fund (UNICEF) and the United Nations Population Fund (UNFPA))",
           "agenda": [],
-          "id": "1c1e99de-091b-45dc-b65a-a284520b48f5",
+          "id": "0810edd2-5066-45b7-b014-ebd29ace4345",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -83,22 +74,23 @@
     }
   ],
   "meetings": [
-    "First Committee, Eighty-first session -- 4th plenary meeting",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 6th plenary meeting",
-    "Second Committee, Eighty-first session -- 7th plenary meeting",
-    "Second Committee, Eighty-first session -- 8th plenary meeting",
-    "Third Committee, Eighty-first session -- 11th plenary meeting",
-    "Third Committee, Eighty-first session -- 12th plenary meeting",
-    "Sixth Committee, Eighty-first session -- 7th plenary meeting",
-    "Sixth Committee, Eighty-first session -- 8th plenary meeting",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "General Assembly -- 17th plenary meeting",
-    "Security Council -- 10235th meeting",
-    "Security Council -- Consultations of the whole [Closed]",
+    "Security Council -- 10236th meeting",
+    "Security Council -- Consultations of the whole",
+    "Security Council -- 10237th meeting",
+    "First Committee, Eighty-first session -- 5th plenary meeting",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 7th plenary meeting",
+    "Second Committee, Eighty-first session -- 9th plenary meeting",
+    "Second Committee, Eighty-first session -- 10th plenary meeting",
+    "Third Committee, Eighty-first session -- Youth event",
+    "Fifth Committee, Eighty-first session -- Informal briefings",
+    "Sixth Committee, Eighty-first session -- 9th plenary meeting",
+    "Sixth Committee, Eighty-first session -- 10th plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Military Staff Committee -- 2158th meeting (also with virtual participation)",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
-    "Permanent Mission of Argentina,Department of Economic and Social Affairs (DESA),Group of Friends on Ageing and Sustainable Development,Group of Friends of Older Persons,NGO Committee on Ageing in New York -- Commemoration of the International Day of Older Persons under the theme “The Age of Longevity: Rethinking Systems for Longer Lives” (co-organized by the Permanent Mission of Argentina, the Department of Economic and Social Affairs (DESA), the Group of Friends on Ageing and Sustainable Development, the Group of Friends of Older Persons and the NGO Committee on Ageing in New York)"
+    "Permanent Mission of Canada,Permanent Mission of Peru,Permanent Mission of Türkiye,NGO Working Group on Girls,UN-Women,United Nations Children’s Fund (UNICEF),United Nations Population Fund (UNFPA) -- Event entitled “Girls Speak Out: Advancing Equality, Accelerating Action, Building a World Where Girls Thrive” (on the occasion of the International Day of the Girl Child (11 October)) (co-organized by the Permanent Missions of Canada, Peru and Türkiye, the NGO Working Group on Girls, UN-Women, the United Nations Children’s Fund (UNICEF) and the United Nations Population Fund (UNFPA))"
   ]
 }
