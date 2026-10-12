@@ -1,9 +1,9 @@
 {
   "date": "2026-10-12",
-  "fetched_at": "2026-10-12T13:26:34.241Z",
+  "fetched_at": "2026-10-12T20:42:05.831Z",
   "ny_date": "2026-10-12",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 20 meetings",
+  "note": "Live from journal-api.un.org -- 21 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -13,6 +13,14 @@
           "title": "18th plenary meeting",
           "agenda": [],
           "id": "f0bd129c-9251-4047-b00c-cccb49848b30",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "3:00 PM",
+          "title": "19th plenary meeting",
+          "agenda": [],
+          "id": "22a390a9-b0f7-469e-9c31-b70c8cd39a08",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -26,14 +34,6 @@
           "title": "10238th meeting",
           "agenda": [],
           "id": "a7785335-34b9-4757-92c1-0f9c7d232386",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "Followed By",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "e5ff7f98-8902-4ca4-9c67-b5024eb36d56",
           "isConsultation": false,
           "origOrder": 0
         },
@@ -94,9 +94,10 @@
     "Sixth Committee, Eighty-first session -- 12th plenary meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held remotely without physical presence)",
     "General Assembly -- 18th plenary meeting",
+    "General Assembly -- 19th plenary meeting",
     "Security Council -- 10238th meeting",
-    "Security Council -- Consultations of the whole [Closed]",
     "Security Council -- 10239th meeting",
+    "Security Council -- Consultations of the whole [Closed]",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
