@@ -1,41 +1,40 @@
 {
-  "date": "2026-10-13",
-  "fetched_at": "2026-10-13T18:44:25.016Z",
-  "ny_date": "2026-10-13",
+  "date": "2026-10-14",
+  "fetched_at": "2026-10-14T13:20:11.413Z",
+  "ny_date": "2026-10-14",
   "source": "journal-api.un.org",
   "note": "Live from journal-api.un.org -- 19 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "20th plenary meeting",
-          "agenda": [],
-          "id": "ccc8f174-f6c2-414e-8b82-59a40b7efe56",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "10240th meeting",
+          "title": "Security Council -- 10241st meeting",
           "agenda": [],
-          "id": "e3bf04e3-5da9-469a-88a1-a78a7d49c105",
+          "id": "38483269-e2be-42d4-9bb1-00d8f53755ac",
           "isConsultation": false,
           "origOrder": 0
         },
         {
           "time": "Followed By",
-          "title": "Consultations of the whole [Closed]",
+          "title": "Security Council -- 10242nd meeting",
           "agenda": [],
-          "id": "01a131da-0faf-7937-9ac0-3c841f0b0d7c",
+          "id": "01a13610-fa40-73c4-80a2-1789c187218b",
           "isConsultation": false,
-          "origOrder": 0
+          "origOrder": 1
+        },
+        {
+          "time": "Followed By",
+          "title": "Security Council -- Consultations of the whole",
+          "agenda": [],
+          "id": "01a13610-fa40-786f-9cf5-ed9b687df64b",
+          "isConsultation": true,
+          "origOrder": 2
         }
       ]
     },
@@ -44,17 +43,17 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Sixth Committee, Eighty-first session -- 13th plenary meeting",
+          "title": "Sixth Committee, Eighty-first session -- 15th plenary meeting",
           "agenda": [],
-          "id": "2e66d5d3-b922-4630-9e7b-25e53b93d3e8",
+          "id": "960586e6-f71b-4cb1-9d25-7cdc4d275e2b",
           "isConsultation": false,
           "origOrder": 0
         },
         {
           "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- 14th plenary meeting",
+          "title": "Sixth Committee, Eighty-first session -- 16th plenary meeting",
           "agenda": [],
-          "id": "33046578-32d1-4a0f-828a-05391fdb85fd",
+          "id": "d4873c7b-7d95-4bc7-832b-33258ea717a0",
           "isConsultation": false,
           "origOrder": 1
         }
@@ -66,24 +65,24 @@
     }
   ],
   "meetings": [
-    "First Committee, Eighty-first session -- 7th plenary meeting",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 9th plenary meeting",
-    "Second Committee, Eighty-first session -- Briefing",
-    "Second Committee, Eighty-first session -- 13th plenary meeting",
-    "Third Committee, Eighty-first session -- Informal meeting - Programme planning",
-    "Fifth Committee, Eighty-first session -- 5th plenary meeting",
+    "Security Council -- 10241st meeting",
+    "Security Council -- 10242nd meeting",
+    "Security Council -- Consultations of the whole",
+    "First Committee, Eighty-first session -- 8th plenary meeting",
+    "First Committee, Eighty-first session -- 9th plenary meeting",
+    "Second Committee, Eighty-first session -- 14th plenary meeting",
+    "Second Committee, Eighty-first session -- 15th plenary meeting",
+    "Third Committee, Eighty-first session -- 15th plenary meeting",
+    "Fifth Committee, Eighty-first session -- 6th plenary meeting",
     "Fifth Committee, Eighty-first session -- Informal consultations",
-    "Sixth Committee, Eighty-first session -- 13th plenary meeting",
-    "Sixth Committee, Eighty-first session -- 14th plenary meeting",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Working Group on Children and Armed Conflict -- Meeting",
-    "General Assembly -- 20th plenary meeting",
-    "Security Council -- 10240th meeting",
-    "Security Council -- Consultations of the whole [Closed]",
+    "Sixth Committee, Eighty-first session -- 15th plenary meeting",
+    "Sixth Committee, Eighty-first session -- 16th plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
-    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee."
+    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
+    "Group of 77 -- Meeting on Fifth Committee and related matters"
   ]
 }
