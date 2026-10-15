@@ -1,9 +1,9 @@
 {
   "date": "2026-10-15",
-  "fetched_at": "2026-10-15T13:21:47.281Z",
+  "fetched_at": "2026-10-15T16:04:46.942Z",
   "ny_date": "2026-10-15",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 15 meetings",
+  "note": "Live from journal-api.un.org -- 17 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -19,6 +19,14 @@
           "id": "3b21016e-6086-4a6e-adfa-8dd87bf43780",
           "isConsultation": false,
           "origOrder": 0
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Security Council -- 10244th meeting",
+          "agenda": [],
+          "id": "f5b0e63f-e47b-4223-9aa6-4ada5ee45764",
+          "isConsultation": false,
+          "origOrder": 1
         }
       ]
     },
@@ -50,6 +58,8 @@
   ],
   "meetings": [
     "Security Council -- 10243rd meeting",
+    "Security Council -- 10244th meeting",
+    "Security Council -- 10243rd meeting (resumed)",
     "First Committee, Eighty-first session -- 10th plenary meeting",
     "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 10th plenary meeting",
     "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- Informal briefing by the Co-Chairs of the Ad Hoc Working Group on Mandate Implementation Review",
