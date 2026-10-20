@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-19",
-  "fetched_at": "2026-10-19T18:06:21.389Z",
-  "ny_date": "2026-10-19",
+  "date": "2026-10-20",
+  "fetched_at": "2026-10-20T13:09:40.275Z",
+  "ny_date": "2026-10-20",
   "source": "journal-api.un.org",
-  "note": "Live from journal-api.un.org -- 17 meetings",
+  "note": "Live from journal-api.un.org -- 18 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -14,17 +14,25 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10246th meeting",
+          "title": "Security Council -- 10249th meeting",
           "agenda": [],
-          "id": "2fcf4522-bc59-44f3-a42f-50643df6ff40",
+          "id": "cf79e8aa-3ccb-42af-8d10-29d1d50f7bb9",
           "isConsultation": false,
           "origOrder": 0
         },
         {
-          "time": "3:00 PM",
-          "title": "Security Council -- 10247th meeting",
+          "time": "Followed By",
+          "title": "Security Council -- Consultations of the whole",
           "agenda": [],
-          "id": "7cc592b3-ddf6-439a-973a-91b1623f7fd5",
+          "id": "01a154f0-5890-7fb6-9eb5-19a16e213272",
+          "isConsultation": true,
+          "origOrder": 1
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Security Council -- 10250th meeting",
+          "agenda": [],
+          "id": "6655eebc-9a1e-4aa9-b52d-3d863a3c029a",
           "isConsultation": false,
           "origOrder": 2
         }
@@ -35,17 +43,17 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Sixth Committee, Eighty-first session -- 19th plenary meeting",
+          "title": "Sixth Committee, Eighty-first session -- 21st plenary meeting",
           "agenda": [],
-          "id": "810d5dbb-b9dd-482c-8480-410da8d2fe43",
+          "id": "654ed493-4469-47b2-b533-553f970f1f70",
           "isConsultation": false,
           "origOrder": 0
         },
         {
           "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- 20th plenary meeting",
+          "title": "Sixth Committee, Eighty-first session -- 22nd plenary meeting",
           "agenda": [],
-          "id": "f09eb9d9-60f4-4bdc-91b5-0c6e5c855567",
+          "id": "93a8a578-a5a1-40bc-99d2-87525fc8190b",
           "isConsultation": false,
           "origOrder": 1
         }
@@ -53,35 +61,27 @@
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "4:00 PM",
-          "title": "Security Council -- 10248th meeting",
-          "agenda": [],
-          "id": "e3383532-72d4-472a-bd8e-96bda744884e",
-          "isConsultation": false,
-          "origOrder": 3
-        }
-      ]
+      "meetings": []
     }
   ],
   "meetings": [
-    "Security Council -- 10246th meeting",
-    "Security Council -- 10247th meeting",
-    "Security Council -- 10248th meeting",
-    "First Committee, Eighty-first session -- 13th plenary meeting",
-    "Second Committee,Economic and Social Council, Eighty-first session -- 18th and 2nd plenary meetings",
+    "Security Council -- 10249th meeting",
+    "Security Council -- Consultations of the whole",
+    "Security Council -- 10250th meeting",
+    "First Committee, Eighty-first session -- 14th plenary meeting",
+    "First Committee, Eighty-first session -- 15th plenary meeting",
+    "Second Committee, Eighty-first session -- Dialogue with the Executive Secretaries of the regional commissions",
+    "Third Committee, Eighty-first session -- 20th plenary meeting",
+    "Third Committee, Eighty-first session -- 21st plenary meeting",
     "Fifth Committee, Eighty-first session -- Informal consultations",
-    "Fifth Committee, Eighty-first session -- 7th plenary meeting",
-    "Sixth Committee, Eighty-first session -- 19th plenary meeting",
-    "Sixth Committee, Eighty-first session -- 20th plenary meeting",
+    "Sixth Committee, Eighty-first session -- 21st plenary meeting",
+    "Sixth Committee, Eighty-first session -- 22nd plenary meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
-    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
-    "Group of 77 -- Meeting on Third Committee and related matters"
+    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee."
   ]
 }
