@@ -388,21 +388,41 @@ async function main() {
     await page.setUserAgent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36");
     await page.setExtraHTTPHeaders({"Accept-Language":"en-US,en;q=0.9"});
 
-    let journalData=null;
+    let journalData=null, journalUrl=null;
     const agendaById={};
+    const apiCalls=[];
+
+    // Any JSON that has the journal shape counts, whatever URL it came from
+    function looksLikeJournal(o){
+      return !!(o&&typeof o==="object"&&!Array.isArray(o)&&(o.officialMeetings||o.informalMeetings||o.otherMeetings));
+    }
+    function countMeetings(o){
+      let n=0;
+      const om=(o&&o.officialMeetings)||{};
+      [].concat(om.groups||[],om.specialGroups||[]).forEach(function(g){
+        (g.sessions||[]).forEach(function(s){ n+=(s.meetings||[]).length; });
+      });
+      return n;
+    }
+    function takeJournal(parsed,src){
+      if (!looksLikeJournal(parsed)) return false;
+      if (journalData&&countMeetings(parsed)<=countMeetings(journalData)) return true;
+      journalData=parsed; journalUrl=src;
+      console.log("Captured journal data ("+countMeetings(parsed)+" official meetings) from "+src);
+      return true;
+    }
 
     page.on("response",async function(response){
       const rUrl=response.url();
-      if (!rUrl.includes("journal-api.un.org")) return;
+      const type=response.request().resourceType();
+      if (type!=="xhr"&&type!=="fetch") return;
+      apiCalls.push(response.status()+" "+rUrl);
       try {
-        const buf=await response.buffer();
-        const text=buf.toString("utf8");
-        if (!text.trim().startsWith("{")&&!text.trim().startsWith("[")) return;
+        const text=(await response.buffer()).toString("utf8").trim();
+        if (!text.startsWith("{")&&!text.startsWith("[")) return;
         const parsed=JSON.parse(text);
-        if (rUrl.includes("/allnew/")) {
-          console.log("Captured allnew: "+buf.length+"b");
-          journalData=parsed;
-        } else if (rUrl.includes("/agendatext")||rUrl.includes("/agenda")||rUrl.includes("/program")) {
+        if (takeJournal(parsed,rUrl)) return;
+        if (rUrl.includes("/agendatext")||rUrl.includes("/agenda")||rUrl.includes("/program")) {
           const idM=rUrl.match(/\/([a-f0-9-]{36})\//i)||rUrl.match(/\/([a-f0-9-]{36})$/i);
           const id=idM?idM[1]:null;
           const items=parseAgendaItems(parsed);
@@ -411,8 +431,41 @@ async function main() {
       } catch(e){}
     });
 
-    await page.goto(url,{waitUntil:"networkidle2",timeout:45000});
-    await new Promise(function(r){setTimeout(r,5000);});
+    // Open the page, up to 2 tries, then wait up to 30s for the data
+    for (let attempt=1; attempt<=2&&!journalData; attempt++) {
+      try {
+        await page.goto(url,{waitUntil:"networkidle2",timeout:60000});
+      } catch(e){ console.log("Page load try "+attempt+": "+e.message); }
+      console.log("Landed on: "+page.url());
+      for (let i=0;i<30&&!journalData;i++) await new Promise(function(r){setTimeout(r,1000);});
+    }
+
+    // Fallback: ask the API directly from inside the page
+    if (!journalData) {
+      console.log("Nothing captured from page traffic, trying the API directly");
+      const candidates=[
+        "https://journal-api.un.org/api/allnew/"+dateStr,
+        "https://journal-api.un.org/api/allnew/"+dateStr+"/en",
+        "https://journal-api.un.org/api/all/"+dateStr,
+      ];
+      for (const cUrl of candidates) {
+        if (journalData) break;
+        try {
+          const r=await page.evaluate(async function(u){
+            const res=await fetch(u,{headers:{"Accept":"application/json"}});
+            return {status:res.status,text:await res.text()};
+          },cUrl);
+          console.log("Direct "+cUrl+" -> "+r.status+" ("+r.text.length+"b)");
+          const t=(r.text||"").trim();
+          if (t.startsWith("{")) takeJournal(JSON.parse(t),cUrl);
+        } catch(e){ console.log("Direct "+cUrl+" failed: "+e.message); }
+      }
+    }
+
+    if (!journalData) {
+      console.log("Requests the page made ("+apiCalls.length+"):");
+      apiCalls.slice(0,60).forEach(function(c){ console.log("  "+c); });
+    }
 
     // Navigate to main organ meeting pages (SC + GA) to capture agenda
     if (journalData) {
@@ -441,7 +494,10 @@ async function main() {
     }
 
     await browser.close();
-    if (!journalData) { saveResult(dateStr,emptyChambers(),[],"No allnew data captured"); return; }
+    if (!journalData) {
+      console.error("FAILED: no journal data found. journal.json left unchanged.");
+      process.exitCode=1; return;
+    }
 
     const result=parseJournalData(journalData,agendaById);
     const chamberMap=result.chamberMap;
@@ -466,8 +522,11 @@ async function main() {
         return {room:name,meetings:ms.map(function(m){return {time:m.time,title:m.title,agenda:m.agenda||[],id:m.id||null,isConsultation:m.isConsultation||false,origOrder:m.origOrder||0};})};
       });
 
-    saveResult(dateStr,chambers,finalTitles,
-      finalTitles.length>0?"Live from journal-api.un.org -- "+finalTitles.length+" meetings":"0 meetings parsed");
+    if (finalTitles.length===0) {
+      console.error("FAILED: data found at "+journalUrl+" but 0 meetings parsed. journal.json left unchanged.");
+      process.exitCode=1; return;
+    }
+    saveResult(dateStr,chambers,finalTitles,"Live from "+journalUrl+" -- "+finalTitles.length+" meetings");
 
     // Update observances from UN website (weekly on Mondays)
     const today_dow = new Date().toLocaleDateString("en-US",{timeZone:"America/New_York",weekday:"long"});
@@ -490,8 +549,8 @@ async function main() {
 
   } catch(err) {
     if (browser){try{await browser.close();}catch(e){}}
-    console.error("Error: "+err.message);
-    saveResult(todayInNewYork(),emptyChambers(),[],"Error: "+err.message);
+    console.error("FAILED: "+err.message+" -- journal.json left unchanged.");
+    process.exitCode=1;
   }
 }
 
