@@ -42,9 +42,34 @@ function getText(f) {
   if (typeof f==="string") return stripHtml(f);
   return stripHtml((f.en||f.En||Object.values(f)[0]||"").toString());
 }
+function roomFromValue(r) {
+  if (!r) return "";
+  if (typeof r==="string") return stripHtml(r);
+  if (Array.isArray(r)) { for (const x of r) { const v=roomFromValue(x); if (v) return v; } return ""; }
+  if (typeof r==="object") {
+    for (const k of ["value","name","title","roomName","label","description","en","En"]) {
+      if (r[k]) { const v=roomFromValue(r[k]); if (v) return v; }
+    }
+  }
+  return "";
+}
 function getRoom(item) {
-  if (Array.isArray(item.rooms)&&item.rooms[0]) return item.rooms[0].value||"";
-  return getText(item.room)||getText(item.location)||"";
+  if (!item) return "";
+  for (const k of ["rooms","room","roomName","venue","venues","location","locations","place"]) {
+    const v=roomFromValue(item[k]);
+    if (v) return v;
+  }
+  return "";
+}
+// Last resort: look through every text in the meeting for a known chamber name
+function chamberFromAnyText(item) {
+  let found=null;
+  (function walk(o,depth){
+    if (found||!o||depth>4) return;
+    if (typeof o==="string") { found=chamberForRoom(stripHtml(o)); return; }
+    if (typeof o==="object") { for (const k in o) { walk(o[k],depth+1); if (found) return; } }
+  })(item,0);
+  return found;
 }
 function fmtTime(t) {
   if (!t) return "TBD";
@@ -86,6 +111,7 @@ function parseAgendaItems(data) {
   });
   return out;
 }
+let loggedKeys=false;
 function parseJournalData(data,agendaById) {
   const allMeetings=[], chamberMap={};
   agendaById=agendaById||{};
@@ -109,7 +135,9 @@ function parseJournalData(data,agendaById) {
           const fullTitle=bodyLabel?bodyLabel+" -- "+rawTitle:rawTitle;
           const time=fmtTime((m.timeFrom||m.startTime||sTime||"").toString());
           const rawRoom=getRoom(m);
-          const chamber=chamberForRoom(rawRoom);
+          const chamber=chamberForRoom(rawRoom)||chamberFromAnyText(m);
+          console.log("  Room: "+(rawRoom||"(none)")+(chamber?" => "+chamber:"")+" | "+rawTitle);
+          if (!rawRoom&&!loggedKeys) { loggedKeys=true; console.log("  (no room found; meeting fields: "+Object.keys(m).join(", ")+")"); }
           const isConsultation=(rawRoom&&rawRoom.toLowerCase().includes("consultations"))||(fullTitle&&fullTitle.toLowerCase().includes("consultations of the whole"));
           allMeetings.push({title:fullTitle,time,room:rawRoom||null});
           if (chamber) add(chamber,{time,title:fullTitle,agenda,id:m.id||null,isConsultation:isConsultation||false,origOrder:mIdx});
