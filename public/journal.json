@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "fetched_at": "2026-10-21T14:04:36.220Z",
+  "fetched_at": "2026-10-21T14:10:34.836Z",
   "ny_date": "2026-10-21",
   "source": "journal-api.un.org",
   "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-10-21 -- 20 meetings",
@@ -33,11 +33,37 @@
     },
     {
       "room": "Trusteeship Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "11:30 AM",
+          "title": "Sixth Committee, Eighty-first session -- 23rd plenary meeting",
+          "agenda": [],
+          "id": "524f95f4-29fd-453e-b443-51cac1e0032c",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Sixth Committee, Eighty-first session -- 24th plenary meeting",
+          "agenda": [],
+          "id": "cb37583d-a959-4140-8422-85eccfdfa57c",
+          "isConsultation": false,
+          "origOrder": 1
+        }
+      ]
     },
     {
       "room": "Economic and Social Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "2:00 PM",
+          "title": "Peacebuilding Commission -- Ninth annual consultative meeting of the Peace and Security Council of the African Union and the Peacebuilding Commission",
+          "agenda": [],
+          "id": "4841dea3-48c4-4415-a05c-267fd587bcdb",
+          "isConsultation": false,
+          "origOrder": 0
+        }
+      ]
     }
   ],
   "meetings": [
