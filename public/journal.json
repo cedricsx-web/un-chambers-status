@@ -1,52 +1,51 @@
 {
-  "date": "2026-10-21",
-  "fetched_at": "2026-10-21T16:24:29.314Z",
-  "ny_date": "2026-10-21",
+  "date": "2026-10-22",
+  "fetched_at": "2026-10-22T13:51:20.397Z",
+  "ny_date": "2026-10-22",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-10-21 -- 20 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-10-22 -- 20 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "21st plenary meeting",
+          "title": "General Assembly, Eighty-first session -- 22nd plenary meeting",
           "agenda": [],
-          "id": "1c17019e-fe62-4ca2-9267-85c4355f5ce0",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
-    },
-    {
-      "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "f088018f-7c76-4cf8-a319-8281970d4517",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
-    },
-    {
-      "room": "Trusteeship Council",
-      "meetings": [
-        {
-          "time": "11:30 AM",
-          "title": "Sixth Committee, Eighty-first session -- 23rd plenary meeting",
-          "agenda": [],
-          "id": "524f95f4-29fd-453e-b443-51cac1e0032c",
+          "id": "55865f52-e204-400d-9a47-5253afcdb474",
           "isConsultation": false,
           "origOrder": 0
         },
         {
           "time": "3:00 PM",
+          "title": "General Assembly, Eighty-first session -- 23rd plenary meeting",
+          "agenda": [],
+          "id": "a99d1d54-624d-49ec-bcb9-ca1e9a85f013",
+          "isConsultation": false,
+          "origOrder": 1
+        }
+      ]
+    },
+    {
+      "room": "Security Council",
+      "meetings": []
+    },
+    {
+      "room": "Trusteeship Council",
+      "meetings": [
+        {
+          "time": "10:00 AM",
           "title": "Sixth Committee, Eighty-first session -- 24th plenary meeting",
           "agenda": [],
-          "id": "cb37583d-a959-4140-8422-85eccfdfa57c",
+          "id": "e4d0a5d5-cf36-43e6-b1d3-f63d2428d3ef",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Sixth Committee, Eighty-first session -- 25th plenary meeting",
+          "agenda": [],
+          "id": "8c883398-cf6a-4e69-b16c-35d48cd77d3b",
           "isConsultation": false,
           "origOrder": 1
         }
@@ -56,10 +55,10 @@
       "room": "Economic and Social Council",
       "meetings": [
         {
-          "time": "2:00 PM",
-          "title": "Peacebuilding Commission -- Ninth annual consultative meeting of the Peace and Security Council of the African Union and the Peacebuilding Commission",
+          "time": "10:00 AM",
+          "title": "League of Arab States (LAS),Organization of Islamic Cooperation (OIC) -- Joint meeting of the League of Arab States (LAS) and the Organization of Islamic Cooperation (OIC) on consultations concerning Fourth Committee resolutions (at the deputy permanent representative level)",
           "agenda": [],
-          "id": "4841dea3-48c4-4415-a05c-267fd587bcdb",
+          "id": "47f79620-19df-48ad-96cb-52374af55c43",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -67,25 +66,25 @@
     }
   ],
   "meetings": [
-    "First Committee, Eighty-first session -- 16th plenary meeting",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 11th plenary meeting",
-    "Third Committee, Eighty-first session -- 22nd plenary meeting",
-    "Third Committee, Eighty-first session -- 23rd plenary meeting",
+    "General Assembly, Eighty-first session -- 22nd plenary meeting",
+    "General Assembly, Eighty-first session -- 23rd plenary meeting",
+    "First Committee, Eighty-first session -- 17th plenary meeting",
+    "First Committee, Eighty-first session -- 18th plenary meeting",
+    "Third Committee, Eighty-first session -- 24th plenary meeting",
+    "Third Committee, Eighty-first session -- 25th plenary meeting",
     "Fifth Committee, Eighty-first session -- Informal consultations",
-    "Sixth Committee, Eighty-first session -- 23rd plenary meeting",
     "Sixth Committee, Eighty-first session -- 24th plenary meeting",
+    "Sixth Committee, Eighty-first session -- 25th plenary meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Committee on Relations with the Host Country -- 326th and 327th meetings",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "Peacebuilding Commission -- Ninth annual consultative meeting of the Peace and Security Council of the African Union and the Peacebuilding Commission",
-    "Security Council Committee pursuant to resolution 2713 (2023) concerning Al-Shabaab -- Informal consultations",
-    "General Assembly -- 21st plenary meeting",
-    "Security Council -- Consultations of the whole [Closed]",
+    "Security Council Committee established pursuant to resolution 2140 (2014) -- Informal consultations",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
     "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
-    "Group of 77 -- Meeting on Fifth Committee matters"
+    "League of Arab States (LAS),Organization of Islamic Cooperation (OIC) -- Joint meeting of the League of Arab States (LAS) and the Organization of Islamic Cooperation (OIC) on consultations concerning Fourth Committee resolutions (at the deputy permanent representative level)",
+    "Financing for Sustainable Development Office, Department of Economic and Social Affairs -- Informal public dialogue on the 2027 Financing for Sustainable Development Report (organized by Financing for Sustainable Development Office, Department of Economic and Social Affairs) (to be held remotely without physical presence)",
+    "Arab Group -- Meeting (at the ambassadorial level)"
   ]
 }
