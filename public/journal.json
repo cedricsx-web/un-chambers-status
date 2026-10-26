@@ -1,51 +1,68 @@
 {
-  "date": "2026-10-23",
-  "fetched_at": "2026-10-23T16:13:43.223Z",
-  "ny_date": "2026-10-23",
+  "date": "2026-10-26",
+  "fetched_at": "2026-10-26T11:28:38.733Z",
+  "ny_date": "2026-10-26",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-10-23 -- 15 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-10-26 -- 20 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "General Assembly, Eighty-first session -- 24th plenary meeting",
+          "title": "26th plenary meeting",
           "agenda": [],
-          "id": "370a51c1-b5db-4aa1-9c9c-ad7bcec1c4d1",
+          "id": "d7ea98a2-0d0f-49d2-8fd6-7912d9b424f3",
           "isConsultation": false,
           "origOrder": 0
-        },
-        {
-          "time": "3:00 PM",
-          "title": "General Assembly, Eighty-first session -- 25th plenary meeting",
-          "agenda": [],
-          "id": "afee3c8c-398c-49a0-be21-d50df56ea501",
-          "isConsultation": false,
-          "origOrder": 1
         }
       ]
     },
     {
       "room": "Security Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "10251st meeting",
+          "agenda": [],
+          "id": "a744a2bd-c137-42d7-ad1a-cc048cdfcc3f",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "3:00 PM",
+          "title": "10252nd meeting",
+          "agenda": [],
+          "id": "2a2076cf-e7c1-45aa-8eb5-2bff70379af8",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "Followed By",
+          "title": "Consultations of the whole [Closed]",
+          "agenda": [],
+          "id": "7829fef0-3d4e-4bfb-ba06-7c68ce3077ce",
+          "isConsultation": false,
+          "origOrder": 0
+        }
+      ]
     },
     {
       "room": "Trusteeship Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Sixth Committee, Eighty-first session -- 26th plenary meeting",
+          "title": "Sixth Committee, Eighty-first session -- 28th plenary meeting",
           "agenda": [],
-          "id": "c9d67790-18bc-466c-b072-eb0f9e2b5f90",
+          "id": "eb6de2ab-e467-4ada-89e1-77b6521e1945",
           "isConsultation": false,
           "origOrder": 0
         },
         {
           "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- Working Group of the Whole",
+          "title": "Sixth Committee, Eighty-first session -- 36th informal meeting of legal advisers",
           "agenda": [],
-          "id": "bc32afb7-d11b-430e-af45-c75e3261975d",
+          "id": "a19a72df-68bc-44e2-bf64-9c3f1e07f233",
           "isConsultation": false,
           "origOrder": 1
         }
@@ -53,24 +70,38 @@
     },
     {
       "room": "Economic and Social Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "3:00 PM",
+          "title": "Group of 77 -- Meeting (at the ambassadorial level)",
+          "agenda": [],
+          "id": "551a665a-2786-43f8-b2e9-4769b0b55e01",
+          "isConsultation": false,
+          "origOrder": 0
+        }
+      ]
     }
   ],
   "meetings": [
-    "General Assembly, Eighty-first session -- 24th plenary meeting",
-    "General Assembly, Eighty-first session -- 25th plenary meeting",
-    "First Committee, Eighty-first session -- 19th plenary meeting",
-    "First Committee, Eighty-first session -- 20th plenary meeting",
-    "Third Committee, Eighty-first session -- 26th plenary meeting",
-    "Sixth Committee, Eighty-first session -- 26th plenary meeting",
-    "Sixth Committee, Eighty-first session -- Working Group of the Whole",
+    "First Committee, Eighty-first session -- 21st plenary meeting",
+    "First Committee, Eighty-first session -- 22nd plenary meeting",
+    "Third Committee, Eighty-first session -- 27th plenary meeting",
+    "Third Committee, Eighty-first session -- 28th plenary meeting",
+    "Fifth Committee, Eighty-first session -- Informal consultations",
+    "Sixth Committee, Eighty-first session -- 28th plenary meeting",
+    "Sixth Committee, Eighty-first session -- 36th informal meeting of legal advisers",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "United Nations Appeals Tribunal, 2026 Fall session -- Oral pronouncement of the outcome of the United Nations Appeals Tribunal (UNAT) judgments rendered during the 2026 Fall session",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
+    "General Assembly -- 26th plenary meeting",
+    "Security Council -- 10251st meeting",
+    "Security Council -- 10252nd meeting",
+    "Security Council -- Consultations of the whole [Closed]",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
-    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee."
+    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
+    "Group of 77 -- Meeting (at the ambassadorial level)",
+    "Permanent Mission of Italy,Permanent Mission of Namibia,Permanent Mission of Norway,Permanent Mission of the Philippines,UN-Women,African Union,Global Network of Women Peacebuilders (GNWP),Organization for Security and Co-operation in Europe (OSCE),WPS-HA Compact -- Event entitled “The Next Decade of Women, Peace and Security: Consolidating National Action, Regional Collaboration, and Global Accountability” (co-organized by the Permanent Missions of Italy, Namibia, Norway and the Philippines, UN-Women, the African Union, the Global Network of Women Peacebuilders (GNWP), the Organization for Security and Co-operation in Europe (OSCE) and the WPS-HA Compact)"
   ]
 }
