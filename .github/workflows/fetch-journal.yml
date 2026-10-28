@@ -2,11 +2,22 @@ name: Fetch UN Journal
 
 on:
   schedule:
-    - cron: "0 12 * * 1-5"
+    # Times are UTC. GitHub schedules cannot follow New York daylight
+    # saving, so this covers both seasons and the "Check time" step
+    # below keeps only the runs meant for 7, 8 and 9 am New York time.
+    # Minute 7, not 0: GitHub delays or drops runs set on the hour.
+    - cron: "7 11 * * 1-5"
+    - cron: "7 12 * * 1-5"
+    - cron: "7 13 * * 1-5"
+    - cron: "7 14 * * 1-5"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: fetch-journal
+  cancel-in-progress: false
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -15,16 +26,38 @@ env:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
+      - name: Check time
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "Manual run, going ahead"; echo "go=yes" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          # Hour this run was planned for, in UTC, from its cron line
+          UTC_H=$(echo "${{ github.event.schedule }}" | awk '{print $2}')
+          # New York offset right now: 4 in summer, 5 in winter
+          OFF=$(TZ=America/New_York date +%z | cut -c2-3 | sed 's/^0//')
+          NY_H=$((UTC_H - OFF))
+          echo "Planned for ${NY_H}:07 New York time"
+          if [ "$NY_H" -ge 7 ] && [ "$NY_H" -le 9 ]; then
+            echo "go=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "Outside 7-9 am, skipping"; echo "go=no" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Checkout
+        if: steps.gate.outputs.go == 'yes'
         uses: actions/checkout@v4
 
       - name: Setup Node
+        if: steps.gate.outputs.go == 'yes'
         uses: actions/setup-node@v4
         with:
           node-version: 24
 
       - name: Cache Puppeteer browser
+        if: steps.gate.outputs.go == 'yes'
         id: puppeteer-cache
         uses: actions/cache@v4
         with:
@@ -32,6 +65,7 @@ jobs:
           key: puppeteer-chrome-linux-v1
 
       - name: Install Puppeteer and browser
+        if: steps.gate.outputs.go == 'yes'
         run: |
           npm install puppeteer --no-save
           if [ "${{ steps.puppeteer-cache.outputs.cache-hit }}" != "true" ]; then
@@ -39,17 +73,33 @@ jobs:
           fi
 
       - name: Fetch UN Journal and Topics (RSS)
-        run: node scripts/fetch-journal.cjs
+        if: steps.gate.outputs.go == 'yes'
         env:
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
           VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+        run: |
+          for i in 1 2 3; do
+            echo "=== Try $i ==="
+            if node scripts/fetch-journal.cjs; then exit 0; fi
+            if [ "$i" -lt 3 ]; then echo "Failed, waiting 3 minutes"; sleep 180; fi
+          done
+          echo "All 3 tries failed"
+          exit 1
 
       - name: Show result
+        if: steps.gate.outputs.go == 'yes'
         run: cat public/journal.json
 
       - name: Commit changes
+        if: steps.gate.outputs.go == 'yes'
         run: |
           git config user.name "UN Journal Bot"
           git config user.email "bot@un-briefing"
           git add public/journal.json
-          git diff --staged --quiet && echo "No changes" || (git commit -m "Update UN Journal: $(TZ=America/New_York date +'%Y-%m-%d')" && git push)
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update UN Journal: $(TZ=America/New_York date +'%Y-%m-%d')"
+            git pull --rebase origin main
+            git push
+          fi
