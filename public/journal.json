@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-27",
-  "fetched_at": "2026-10-27T17:10:12.262Z",
-  "ny_date": "2026-10-27",
+  "date": "2026-10-28",
+  "fetched_at": "2026-10-28T13:08:37.160Z",
+  "ny_date": "2026-10-28",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-10-27 -- 21 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-10-28 -- 19 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "27th plenary meeting",
+          "title": "28th plenary meeting",
           "agenda": [],
-          "id": "74bf679e-6625-4295-adee-09b7840fd2f7",
+          "id": "9792214b-93a0-4f32-991a-9d278747412b",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -22,26 +22,18 @@
       "room": "Security Council",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "10253rd meeting",
+          "time": "11:00 AM",
+          "title": "10255th meeting [Closed]",
           "agenda": [],
-          "id": "ee845739-b3b1-4f35-ab4d-66d93b03a856",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "Followed By",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "cda1061f-6885-4ed7-994f-858af8227ad3",
+          "id": "cb8a3810-bbd0-4871-9b80-280752282262",
           "isConsultation": false,
           "origOrder": 0
         },
         {
           "time": "3:00 PM",
-          "title": "10254th meeting",
+          "title": "10254th meeting (resumed)",
           "agenda": [],
-          "id": "5a6f9f49-be8f-43d4-91d8-9cb1ca3719d7",
+          "id": "659476f5-fa58-47f4-9e25-1c39553187a3",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -51,66 +43,55 @@
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "3:00 PM",
-          "title": "General Assembly, Eighty-first session -- Informal dialogue with a candidate for the position of the next Secretary-General",
+          "time": "10:00 AM",
+          "title": "Sixth Committee, Eighty-first session -- 30th plenary meeting",
           "agenda": [],
-          "id": "01a1692b-f93a-71e2-8cee-7cc741b0fa5d",
+          "id": "37f6a2bc-f33d-4344-85b9-34bba2b8809f",
           "isConsultation": false,
           "origOrder": 0
         },
         {
-          "time": "10:00 AM",
-          "title": "Sixth Committee, Eighty-first session -- 29th plenary meeting",
+          "time": "3:00 PM",
+          "title": "Sixth Committee, Eighty-first session -- 31st plenary meeting",
           "agenda": [],
-          "id": "c21b5b93-7e8d-4979-801a-f02a503fe59e",
+          "id": "7adc5c4f-be09-4ac3-8fd7-470e9e553eba",
           "isConsultation": false,
-          "origOrder": 0
+          "origOrder": 1
+        },
+        {
+          "time": "4:30 PM",
+          "title": "Sixth Committee, Eighty-first session -- Interactive dialogue",
+          "agenda": [],
+          "id": "a5d25937-86a1-434c-abe8-c27662702b46",
+          "isConsultation": false,
+          "origOrder": 2
         }
       ]
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- 36th informal meeting of legal advisers",
-          "agenda": [],
-          "id": "5e8f88af-f248-4395-91c6-ef7abd2210c4",
-          "isConsultation": false,
-          "origOrder": 1
-        },
-        {
-          "time": "1:15 PM",
-          "title": "United Nations Office on Drugs and Crime (UNODC) -- Informal briefing for Member States by the Executive Director/Director General (organized by the United Nations Office on Drugs and Crime (UNODC))",
-          "agenda": [],
-          "id": "70f893db-0e58-44e9-9055-87ddb40f9bae",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     }
   ],
   "meetings": [
-    "General Assembly, Eighty-first session -- Informal dialogue with a candidate for the position of the next Secretary-General",
-    "First Committee -- 23rd plenary meeting",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 12th plenary meeting",
-    "Third Committee, Eighty-first session -- 29th plenary meeting",
-    "Third Committee, Eighty-first session -- 30th plenary meeting",
+    "First Committee, Eighty-first session -- 24th plenary meeting",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 13th plenary meeting",
+    "Third Committee, Eighty-first session -- 31st plenary meeting",
+    "Third Committee, Eighty-first session -- 32nd plenary meeting",
     "Fifth Committee, Eighty-first session -- Informal consultations",
-    "Fifth Committee, Eighty-first session -- Informal briefings",
-    "Sixth Committee, Eighty-first session -- 29th plenary meeting",
-    "Sixth Committee, Eighty-first session -- 36th informal meeting of legal advisers",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Sixth Committee, Eighty-first session -- 30th plenary meeting",
+    "Sixth Committee, Eighty-first session -- 31st plenary meeting",
+    "Sixth Committee, Eighty-first session -- Interactive dialogue",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "General Assembly -- 27th plenary meeting",
-    "Security Council -- 10253rd meeting",
-    "Security Council -- Consultations of the whole [Closed]",
-    "Security Council -- 10254th meeting",
+    "General Assembly -- 28th plenary meeting",
+    "Security Council -- 10255th meeting [Closed]",
+    "Security Council -- 10254th meeting (resumed)",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
     "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
-    "United Nations Office on Drugs and Crime (UNODC) -- Informal briefing for Member States by the Executive Director/Director General (organized by the United Nations Office on Drugs and Crime (UNODC))"
+    "Group of 77 -- Meeting on Fifth Committee matters"
   ]
 }
