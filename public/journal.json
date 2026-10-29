@@ -1,18 +1,26 @@
 {
-  "date": "2026-10-28",
-  "fetched_at": "2026-10-28T13:08:37.160Z",
-  "ny_date": "2026-10-28",
+  "date": "2026-10-29",
+  "fetched_at": "2026-10-29T16:26:09.048Z",
+  "ny_date": "2026-10-29",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-10-28 -- 19 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-10-29 -- 21 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "28th plenary meeting",
+          "title": "29th plenary meeting",
           "agenda": [],
-          "id": "9792214b-93a0-4f32-991a-9d278747412b",
+          "id": "b9490240-e7d4-4cae-9233-08eb049f3a81",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "3:00 PM",
+          "title": "30th plenary meeting",
+          "agenda": [],
+          "id": "7ddec888-6830-40e2-a371-3a3d8bfb8738",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -22,18 +30,10 @@
       "room": "Security Council",
       "meetings": [
         {
-          "time": "11:00 AM",
-          "title": "10255th meeting [Closed]",
+          "time": "10:00 AM",
+          "title": "10256th meeting",
           "agenda": [],
-          "id": "cb8a3810-bbd0-4871-9b80-280752282262",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "3:00 PM",
-          "title": "10254th meeting (resumed)",
-          "agenda": [],
-          "id": "659476f5-fa58-47f4-9e25-1c39553187a3",
+          "id": "d428355b-ccb0-481c-9405-9bf015ba7792",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -43,55 +43,58 @@
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "Sixth Committee, Eighty-first session -- 30th plenary meeting",
+          "time": "3:00 PM",
+          "title": "Sixth Committee, Eighty-first session -- 32nd plenary meeting",
           "agenda": [],
-          "id": "37f6a2bc-f33d-4344-85b9-34bba2b8809f",
+          "id": "77ee6af6-1e4a-4889-84ff-4c420849c0b6",
           "isConsultation": false,
           "origOrder": 0
         },
         {
-          "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- 31st plenary meeting",
+          "time": "10:00 AM",
+          "title": "Ad Hoc Working Group on Mandate Implementation Review -- Informal consultations",
           "agenda": [],
-          "id": "7adc5c4f-be09-4ac3-8fd7-470e9e553eba",
+          "id": "574306cf-2072-4e1a-bc82-0b767ebaad44",
           "isConsultation": false,
-          "origOrder": 1
-        },
-        {
-          "time": "4:30 PM",
-          "title": "Sixth Committee, Eighty-first session -- Interactive dialogue",
-          "agenda": [],
-          "id": "a5d25937-86a1-434c-abe8-c27662702b46",
-          "isConsultation": false,
-          "origOrder": 2
+          "origOrder": 0
         }
       ]
     },
     {
       "room": "Economic and Social Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- 431st meeting",
+          "agenda": [],
+          "id": "d8df2238-99ad-4446-89c6-2233012824c3",
+          "isConsultation": false,
+          "origOrder": 0
+        }
+      ]
     }
   ],
   "meetings": [
-    "First Committee, Eighty-first session -- 24th plenary meeting",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 13th plenary meeting",
-    "Third Committee, Eighty-first session -- 31st plenary meeting",
-    "Third Committee, Eighty-first session -- 32nd plenary meeting",
+    "First Committee,Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 25th and 14th plenary meetings",
+    "First Committee, Eighty-first session -- 26th plenary meeting",
+    "Third Committee, Eighty-first session -- 33rd plenary meeting",
+    "Third Committee, Eighty-first session -- 34th plenary meeting",
     "Fifth Committee, Eighty-first session -- Informal consultations",
-    "Sixth Committee, Eighty-first session -- 30th plenary meeting",
-    "Sixth Committee, Eighty-first session -- 31st plenary meeting",
-    "Sixth Committee, Eighty-first session -- Interactive dialogue",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Sixth Committee, Eighty-first session -- 32nd plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- 431st meeting",
+    "Ad Hoc Working Group on Mandate Implementation Review -- Informal consultations",
+    "General Assembly -- Informal consultations on the draft resolution on agenda item 74 (a) (Oceans and the law of the sea: Sustainable fisheries)",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "General Assembly -- 28th plenary meeting",
-    "Security Council -- 10255th meeting [Closed]",
-    "Security Council -- 10254th meeting (resumed)",
+    "Peacebuilding Commission -- Expert-level meeting on the Peacebuilding Architecture Review implementation",
+    "General Assembly -- 29th plenary meeting",
+    "General Assembly -- 30th plenary meeting",
+    "Security Council -- 10256th meeting",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
     "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
-    "Group of 77 -- Meeting on Fifth Committee matters"
+    "Group of 77 -- Meeting on Second and Third Committee and related matters"
   ]
 }
