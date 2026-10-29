@@ -100,6 +100,6 @@ jobs:
             echo "No changes"
           else
             git commit -m "Update UN Journal: $(TZ=America/New_York date +'%Y-%m-%d')"
-            git pull --rebase origin main
+            git pull --rebase --autostash origin main
             git push
           fi
