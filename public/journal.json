@@ -1,26 +1,18 @@
 {
-  "date": "2026-10-29",
-  "fetched_at": "2026-10-29T18:56:39.660Z",
-  "ny_date": "2026-10-29",
+  "date": "2026-10-30",
+  "fetched_at": "2026-10-30T12:15:30.134Z",
+  "ny_date": "2026-10-30",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-10-29 -- 21 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-10-30 -- 25 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "29th plenary meeting",
+          "title": "31st plenary meeting",
           "agenda": [],
-          "id": "b9490240-e7d4-4cae-9233-08eb049f3a81",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "3:00 PM",
-          "title": "30th plenary meeting",
-          "agenda": [],
-          "id": "7ddec888-6830-40e2-a371-3a3d8bfb8738",
+          "id": "c2f4e73f-136a-471d-9dc6-5bd7b9b79523",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -31,9 +23,49 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "10256th meeting",
+          "title": "10257th meeting",
           "agenda": [],
-          "id": "d428355b-ccb0-481c-9405-9bf015ba7792",
+          "id": "76cce2da-ea3f-4ce4-bd17-59065329e30a",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "Followed By",
+          "title": "10258th meeting",
+          "agenda": [],
+          "id": "4e08de0a-0345-4a1f-8eb9-3120c91e4155",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "3:00 PM",
+          "title": "10259th meeting",
+          "agenda": [],
+          "id": "b4eae1bd-abcc-4f36-9169-95b5d7083a6e",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "Followed By",
+          "title": "10260th meeting",
+          "agenda": [],
+          "id": "41762a9a-5e8c-4962-933c-18d81ac2fe43",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "4:30 PM",
+          "title": "Briefing for Member States",
+          "agenda": [],
+          "id": "474d8901-4ab8-4ec7-8c46-83623c3b3506",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "Followed By",
+          "title": "10254th meeting (resumed)",
+          "agenda": [],
+          "id": "e8322b41-1705-4c9c-8d60-29d33c8b0527",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -43,58 +75,53 @@
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- 32nd plenary meeting",
+          "time": "10:00 AM",
+          "title": "Sixth Committee, Eighty-first session -- 33rd plenary meeting",
           "agenda": [],
-          "id": "77ee6af6-1e4a-4889-84ff-4c420849c0b6",
+          "id": "6a0bcda6-c6f6-457a-970c-f51db48be193",
           "isConsultation": false,
           "origOrder": 0
         },
         {
-          "time": "10:00 AM",
-          "title": "Ad Hoc Working Group on Mandate Implementation Review -- Informal consultations",
+          "time": "3:00 PM",
+          "title": "Sixth Committee, Eighty-first session -- 34th plenary meeting",
           "agenda": [],
-          "id": "574306cf-2072-4e1a-bc82-0b767ebaad44",
+          "id": "75f47bdc-f9db-47d3-929d-aa86cf54f075",
           "isConsultation": false,
-          "origOrder": 0
+          "origOrder": 1
         }
       ]
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- 431st meeting",
-          "agenda": [],
-          "id": "d8df2238-99ad-4446-89c6-2233012824c3",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     }
   ],
   "meetings": [
-    "First Committee,Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 25th and 14th plenary meetings",
-    "First Committee, Eighty-first session -- 26th plenary meeting",
-    "Third Committee, Eighty-first session -- 33rd plenary meeting",
-    "Third Committee, Eighty-first session -- 34th plenary meeting",
-    "Fifth Committee, Eighty-first session -- Informal consultations",
-    "Sixth Committee, Eighty-first session -- 32nd plenary meeting",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- 431st meeting",
-    "Ad Hoc Working Group on Mandate Implementation Review -- Informal consultations",
+    "First Committee, Eighty-first session -- 27th plenary meeting",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 15th plenary meeting",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- Working Group of the Whole on international cooperation in the peaceful uses of outer space",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 15th plenary meeting (resumed)",
+    "Third Committee, Eighty-first session -- 35th plenary meeting",
+    "Third Committee, Eighty-first session -- 36th plenary meeting",
+    "Sixth Committee, Eighty-first session -- 33rd plenary meeting",
+    "Sixth Committee, Eighty-first session -- 34th plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "General Assembly -- Informal consultations on the draft resolution on agenda item 74 (a) (Oceans and the law of the sea: Sustainable fisheries)",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "Peacebuilding Commission -- Expert-level meeting on the Peacebuilding Architecture Review implementation",
-    "General Assembly -- 29th plenary meeting",
-    "General Assembly -- 30th plenary meeting",
-    "Security Council -- 10256th meeting",
+    "Military Staff Committee -- 2160th meeting (also with virtual participation)",
+    "General Assembly -- 31st plenary meeting",
+    "Security Council -- 10257th meeting",
+    "Security Council -- 10258th meeting",
+    "Security Council -- 10259th meeting",
+    "Security Council -- 10260th meeting",
+    "Security Council -- Briefing for Member States",
+    "Security Council -- 10254th meeting (resumed)",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
     "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
-    "Group of 77 -- Meeting on Second and Third Committee and related matters"
+    "Arab Group -- Meeting (at the deputy permanent representative level)"
   ]
 }
