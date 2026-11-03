@@ -1,26 +1,26 @@
 {
-  "date": "2026-11-02",
-  "fetched_at": "2026-11-02T22:45:21.932Z",
-  "ny_date": "2026-11-02",
+  "date": "2026-11-03",
+  "fetched_at": "2026-11-03T19:23:35.663Z",
+  "ny_date": "2026-11-03",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-02 -- 18 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-03 -- 17 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "33rd plenary meeting",
+          "title": "35th plenary meeting",
           "agenda": [],
-          "id": "11ff2611-6a70-484a-89dc-57d91cad7fd3",
+          "id": "c27bf14a-43c9-43a5-817f-669f1e1e0325",
           "isConsultation": false,
           "origOrder": 0
         },
         {
-          "time": "3:00 PM",
-          "title": "34th plenary meeting",
+          "time": "Followed By",
+          "title": "36th plenary meeting",
           "agenda": [],
-          "id": "d13b61f0-74d3-4b22-990d-f78646930b63",
+          "id": "01a1a245-78d5-7b5a-a811-7c4a2c3da2b8",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -30,18 +30,10 @@
       "room": "Security Council",
       "meetings": [
         {
-          "time": "11:30 AM",
-          "title": "Consultations of the whole [Closed]",
+          "time": "10:00 AM",
+          "title": "10261st meeting",
           "agenda": [],
-          "id": "c37153c5-d725-4a3a-91c3-41798ddf989c",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "3:00 PM",
-          "title": "Briefing to non-Council members",
-          "agenda": [],
-          "id": "c3ed3211-72b5-4d93-9158-7914ee4f3d51",
+          "id": "cc5bc412-3067-4400-9394-657e4bfbc201",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -52,9 +44,9 @@
       "meetings": [
         {
           "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- Working Group of the Whole",
+          "title": "Sixth Committee, Eighty-first session -- 35th plenary meeting",
           "agenda": [],
-          "id": "6616c314-d1ef-4dea-8637-e6054991b5b8",
+          "id": "11c43b40-51d7-4eb1-a998-22b1c7e9dd60",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -66,23 +58,22 @@
     }
   ],
   "meetings": [
-    "First Committee, Eighty-first session -- 28th plenary meeting",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 16th plenary meeting",
-    "Third Committee, Eighty-first session -- 37th plenary meeting",
-    "Third Committee, Eighty-first session -- 38th plenary meeting",
-    "Sixth Committee, Eighty-first session -- Working Group of the Whole",
+    "First Committee -- 29th plenary meeting",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 17th plenary meeting",
+    "Third Committee, Eighty-first session -- Briefing for civil society organizations",
+    "Fifth Committee, Eighty-first session -- Briefing",
+    "Sixth Committee, Eighty-first session -- 35th plenary meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
     "General Assembly -- Informal consultations on the draft resolution on agenda item 74 (a) (Oceans and the law of the sea: Sustainable fisheries)",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "General Assembly -- 33rd plenary meeting",
-    "General Assembly -- 34th plenary meeting",
-    "Security Council -- Consultations of the whole [Closed]",
-    "Security Council -- Briefing to non-Council members",
+    "General Assembly -- 35th plenary meeting",
+    "General Assembly -- 36th plenary meeting",
+    "Security Council -- 10261st meeting",
     "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
     "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
-    "Arab Group -- Meeting (at the ambassadorial level)"
+    "Group of 77 -- Meeting (at the ambassadorial level)"
   ]
 }
