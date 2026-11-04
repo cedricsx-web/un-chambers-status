@@ -1,88 +1,81 @@
 {
-  "date": "2026-11-03",
-  "fetched_at": "2026-11-03T20:29:38.394Z",
-  "ny_date": "2026-11-03",
+  "date": "2026-11-04",
+  "fetched_at": "2026-11-04T13:54:05.679Z",
+  "ny_date": "2026-11-04",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-03 -- 18 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-04 -- 20 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "35th plenary meeting",
-          "agenda": [],
-          "id": "c27bf14a-43c9-43a5-817f-669f1e1e0325",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "Followed By",
-          "title": "36th plenary meeting",
-          "agenda": [],
-          "id": "01a1a245-78d5-7b5a-a811-7c4a2c3da2b8",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "10261st meeting",
-          "agenda": [],
-          "id": "cc5bc412-3067-4400-9394-657e4bfbc201",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "Followed By",
-          "title": "10262nd meeting",
-          "agenda": [],
-          "id": "01a1a2e8-c2db-756f-9594-e9b38d15d067",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- 35th plenary meeting",
+          "time": "10:00 AM",
+          "title": "Sixth Committee, Eighty-first session -- 36th plenary meeting",
           "agenda": [],
-          "id": "11c43b40-51d7-4eb1-a998-22b1c7e9dd60",
+          "id": "56f57dea-bebd-4bda-9237-85af7d65b207",
           "isConsultation": false,
           "origOrder": 0
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Sixth Committee, Eighty-first session -- 37th plenary meeting",
+          "agenda": [],
+          "id": "676691e6-165a-4280-83bb-5ee83f9142a3",
+          "isConsultation": false,
+          "origOrder": 1
         }
       ]
     },
     {
       "room": "Economic and Social Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "Development Coordination Office (DCO) -- Resident Coordinators Global Meeting 2026: Exchange between Member States and Resident Coordinators (organized by the Development Coordination Office (DCO))",
+          "agenda": [],
+          "id": "46ff7fee-5234-4cb1-b5b5-79d3606bc29b",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Development Coordination Office (DCO) -- Resident Coordinators Global Meeting 2026: Exchange between Member States and Resident Coordinators (continued) (organized by the Development Coordination Office (DCO))",
+          "agenda": [],
+          "id": "bf652dc1-cad7-4b17-9b77-741a08c0077e",
+          "isConsultation": false,
+          "origOrder": 0
+        }
+      ]
     }
   ],
   "meetings": [
-    "First Committee -- 29th plenary meeting",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 17th plenary meeting",
-    "Third Committee, Eighty-first session -- Briefing for civil society organizations",
-    "Fifth Committee, Eighty-first session -- Briefing",
-    "Sixth Committee, Eighty-first session -- 35th plenary meeting",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "General Assembly -- Informal consultations on the draft resolution on agenda item 74 (a) (Oceans and the law of the sea: Sustainable fisheries)",
+    "Security Council -- 10263rd meeting",
+    "General Assembly, Eighty-first session -- Informal consultations on the draft resolution on agenda item 74 (a) (Oceans and the law of the sea: Sustainable fisheries)",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 18th plenary meeting",
+    "Third Committee, Eighty-first session -- 39th plenary meeting",
+    "Third Committee, Eighty-first session -- 40th plenary meeting",
+    "Fifth Committee, Eighty-first session -- 8th plenary meeting",
+    "Fifth Committee, Eighty-first session -- Informal consultations",
+    "Sixth Committee, Eighty-first session -- 36th plenary meeting",
+    "Sixth Committee, Eighty-first session -- 37th plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "General Assembly -- 35th plenary meeting",
-    "General Assembly -- 36th plenary meeting",
-    "Security Council -- 10261st meeting",
-    "Security Council -- 10262nd meeting",
-    "First Committee -- Information on the schedule of informal consultations on First Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
     "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
-    "Group of 77 -- Meeting (at the ambassadorial level)"
+    "General Assembly -- Informal consultations on the draft resolution entitled “Cooperation between the United Nations and the Central European Initiative” (under agenda item 128 (u)) (convened by the delegation of Romania)",
+    "Development Coordination Office (DCO) -- Resident Coordinators Global Meeting 2026: Exchange between Member States and Resident Coordinators (organized by the Development Coordination Office (DCO))",
+    "Development Coordination Office (DCO) -- Resident Coordinators Global Meeting 2026: Exchange between Member States and Resident Coordinators (continued) (organized by the Development Coordination Office (DCO))",
+    "Group of 77 -- Meeting on Third Committee and related matters",
+    "Group of 77 -- Meeting on Fifth Committee matters"
   ]
 }
