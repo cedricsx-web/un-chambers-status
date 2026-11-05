@@ -1,9 +1,9 @@
 {
   "date": "2026-11-05",
-  "fetched_at": "2026-11-05T19:48:08.138Z",
+  "fetched_at": "2026-11-05T20:39:36.015Z",
   "ny_date": "2026-11-05",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-05 -- 23 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-05 -- 22 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -50,14 +50,6 @@
           "title": "10266th meeting",
           "agenda": [],
           "id": "01a1a876-03da-718f-8609-2998bcf465a4",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "Followed By",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "01a1a876-03da-7c82-adcc-767464b0df48",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -144,7 +136,6 @@
     "Security Council -- 10264th meeting",
     "Security Council -- 10265th meeting",
     "Security Council -- 10266th meeting",
-    "Security Council -- Consultations of the whole [Closed]",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
