@@ -1,149 +1,69 @@
 {
-  "date": "2026-11-05",
-  "fetched_at": "2026-11-05T21:04:11.138Z",
-  "ny_date": "2026-11-05",
+  "date": "2026-11-06",
+  "fetched_at": "2026-11-06T19:13:16.857Z",
+  "ny_date": "2026-11-06",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-05 -- 22 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-06 -- 17 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "37th plenary meeting",
-          "agenda": [],
-          "id": "48a145b4-e663-4fe6-9ed9-608fe0cdd00d",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "3:00 PM",
-          "title": "38th plenary meeting",
-          "agenda": [],
-          "id": "f8fc36a1-ff7c-49f6-92f7-6cad7a0ed1c6",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "10264th meeting",
-          "agenda": [],
-          "id": "17b11f93-2b07-435e-a884-7a5bdcd1d51a",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "Followed By",
-          "title": "10265th meeting",
-          "agenda": [],
-          "id": "01a1a876-03da-7635-affa-611619edd3f6",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "Followed By",
-          "title": "10266th meeting",
-          "agenda": [],
-          "id": "01a1a876-03da-718f-8609-2998bcf465a4",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "10:00 AM",
-          "title": "Sixth Committee, Eighty-first session -- 38th plenary meeting",
+          "time": "3:00 PM",
+          "title": "General Assembly, Eighty-first session -- Informal dialogue with a candidate for the position of the next Secretary-General",
           "agenda": [],
-          "id": "c0de9f58-c8a2-4a96-81bd-f887534eb924",
+          "id": "a6abeb47-88b8-44ce-9cd4-e99970248d83",
           "isConsultation": false,
           "origOrder": 0
         },
         {
-          "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- 39th plenary meeting",
+          "time": "10:00 AM",
+          "title": "Sixth Committee, Eighty-first session -- 40th plenary meeting",
           "agenda": [],
-          "id": "04bf9bc6-e71f-41aa-9f44-26bb5a81291f",
+          "id": "87859267-2304-44f3-a237-7f2f03a9ed81",
           "isConsultation": false,
-          "origOrder": 1
+          "origOrder": 0
         },
         {
           "time": "Followed By",
           "title": "Sixth Committee, Eighty-first session -- Working Group of the Whole",
           "agenda": [],
-          "id": "01a1a72f-8890-7696-87fd-2e3c80d176a1",
+          "id": "01a1ac5c-7ccc-79dd-8026-c9b42bc592f7",
           "isConsultation": false,
-          "origOrder": 2
+          "origOrder": 1
         }
       ]
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Development Coordination Office (DCO) -- Resident Coordinators Global Meeting 2026: Resident Coordinators System Support in Africa — Exchange between African States and Resident Coordinators (organized by the Development Coordination Office (DCO))",
-          "agenda": [],
-          "id": "771581a8-0b6f-4c51-8631-ba9133e8c31f",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "12:00 PM",
-          "title": "Development Coordination Office (DCO) -- Resident Coordinators Global Meeting 2026: Resident Coordinators System Support in Eastern Europe — Exchange between Eastern European States and Resident Coordinators (organized by the Development Coordination Office (DCO))",
-          "agenda": [],
-          "id": "cce2ea0b-7ec0-470e-844b-03c7408e767b",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "2:00 PM",
-          "title": "Development Coordination Office (DCO) -- Resident Coordinators Global Meeting 2026: Resident Coordinators System Support in Asia and the Pacific — Exchange between Asia-Pacific States and Resident Coordinators (organized by the Development Coordination Office (DCO))",
-          "agenda": [],
-          "id": "4129793a-5824-4217-a791-82561a6fc734",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "4:00 PM",
-          "title": "Development Coordination Office (DCO) -- Resident Coordinators Global Meeting 2026: Resident Coordinators System Support in Latin America and the Caribbean — Exchange between Latin American and Caribbean States and Resident Coordinators (organized by the Development Coordination Office (DCO))",
-          "agenda": [],
-          "id": "ef665385-7a82-4dac-a51f-2c768b794cae",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     }
   ],
   "meetings": [
+    "General Assembly, Eighty-first session -- Informal dialogue with a candidate for the position of the next Secretary-General",
     "General Assembly, Eighty-first session -- Informal consultations on the draft resolution on agenda item 74 (a) (Oceans and the law of the sea: Sustainable fisheries)",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 19th plenary meeting",
-    "Fifth Committee, Eighty-first session -- Informal consultations",
-    "Sixth Committee, Eighty-first session -- 38th plenary meeting",
-    "Sixth Committee, Eighty-first session -- 39th plenary meeting",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 20th plenary meeting",
+    "Fifth Committee, Eighty-first session -- 9th plenary meeting",
+    "Sixth Committee, Eighty-first session -- 40th plenary meeting",
     "Sixth Committee, Eighty-first session -- Working Group of the Whole",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "General Assembly -- 37th plenary meeting",
-    "General Assembly -- 38th plenary meeting",
-    "Security Council -- 10264th meeting",
-    "Security Council -- 10265th meeting",
-    "Security Council -- 10266th meeting",
+    "Security Council Committee pursuant to resolutions 1267 (1999), 1989 (2011) and 2253 (2015) concerning Islamic State in Iraq and the Levant (Da’esh), Al-Qaida and associated individuals, groups, undertakings and entities -- Informal consultations",
+    "Security Council Committee established pursuant to resolution 1533 (2004) concerning the Democratic Republic of the Congo -- Informal consultations",
+    "Security Council Committee established pursuant to resolution 2140 (2014) -- Informal consultations",
+    "Security Council Committee pursuant to resolution 2745 (2024) -- Informal consultations",
+    "Military Staff Committee -- 2161st meeting (also with virtual participation)",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
-    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
-    "Development Coordination Office (DCO) -- Resident Coordinators Global Meeting 2026: Resident Coordinators System Support in Africa — Exchange between African States and Resident Coordinators (organized by the Development Coordination Office (DCO))",
-    "Development Coordination Office (DCO) -- Resident Coordinators Global Meeting 2026: Resident Coordinators System Support in Eastern Europe — Exchange between Eastern European States and Resident Coordinators (organized by the Development Coordination Office (DCO))",
-    "Development Coordination Office (DCO) -- Resident Coordinators Global Meeting 2026: Resident Coordinators System Support in Asia and the Pacific — Exchange between Asia-Pacific States and Resident Coordinators (organized by the Development Coordination Office (DCO))",
-    "Development Coordination Office (DCO) -- Resident Coordinators Global Meeting 2026: Resident Coordinators System Support in Latin America and the Caribbean — Exchange between Latin American and Caribbean States and Resident Coordinators (organized by the Development Coordination Office (DCO))",
-    "Permanent Mission of Japan,Permanent Mission of Chile,Permanent Mission of Maldives,Permanent Mission of Sri Lanka,Permanent Mission of Thailand,United Nations Educational, Scientific and Cultural Organization (UNESCO),United Nations Institute for Training and Research (UNITAR),United Nations Office for Disaster Risk Reduction,Group of Friends for Disaster Risk Reduction -- Event entitled “Be Tsunami Ready: Resilience Starts with You” (on the occasion of World Tsunami Awareness Day) (co-organized by the Permanent Mission of Japan and the United Nations Office for Disaster Risk Reduction, in collaboration with the Permanent Missions of Chile, Maldives, Sri Lanka and Thailand, the Co-Chairs of the Group of Friends for Disaster Risk Reduction, the United Nations Educational, Scientific and Cultural Organization (UNESCO) and the United Nations Institute for Training and Research (UNITAR))"
+    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee."
   ]
 }
