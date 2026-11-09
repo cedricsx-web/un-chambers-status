@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-06",
-  "fetched_at": "2026-11-06T20:25:25.575Z",
-  "ny_date": "2026-11-06",
+  "date": "2026-11-09",
+  "fetched_at": "2026-11-09T14:22:38.146Z",
+  "ny_date": "2026-11-09",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-06 -- 17 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-09 -- 13 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -11,36 +11,20 @@
     },
     {
       "room": "Security Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "Security Council -- 10267th meeting",
+          "agenda": [],
+          "id": "dfebe567-cfee-4bb6-932f-d030ac8172b5",
+          "isConsultation": false,
+          "origOrder": 0
+        }
+      ]
     },
     {
       "room": "Trusteeship Council",
-      "meetings": [
-        {
-          "time": "3:00 PM",
-          "title": "General Assembly, Eighty-first session -- Informal dialogue with a candidate for the position of the next Secretary-General",
-          "agenda": [],
-          "id": "a6abeb47-88b8-44ce-9cd4-e99970248d83",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "10:00 AM",
-          "title": "Sixth Committee, Eighty-first session -- 40th plenary meeting",
-          "agenda": [],
-          "id": "87859267-2304-44f3-a237-7f2f03a9ed81",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "Followed By",
-          "title": "Sixth Committee, Eighty-first session -- Working Group of the Whole",
-          "agenda": [],
-          "id": "01a1ac5c-7ccc-79dd-8026-c9b42bc592f7",
-          "isConsultation": false,
-          "origOrder": 1
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
@@ -48,22 +32,18 @@
     }
   ],
   "meetings": [
-    "General Assembly, Eighty-first session -- Informal dialogue with a candidate for the position of the next Secretary-General",
-    "General Assembly, Eighty-first session -- Informal consultations on the draft resolution on agenda item 74 (a) (Oceans and the law of the sea: Sustainable fisheries)",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 20th plenary meeting",
-    "Fifth Committee, Eighty-first session -- 9th plenary meeting",
-    "Sixth Committee, Eighty-first session -- 40th plenary meeting",
-    "Sixth Committee, Eighty-first session -- Working Group of the Whole",
+    "Security Council -- 10267th meeting",
+    "General Assembly, Eighty-first session -- Informal consultations on the draft resolution on agenda item 74 (Oceans and the law of the sea)",
+    "Fifth Committee, Eighty-first session -- Informal consultations",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Special Committee on Peacekeeping Operations -- Working Group of the Whole",
+    "Special Committee on Peacekeeping Operations -- Informal briefing by the Department of Peace Operations",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "Security Council Committee pursuant to resolutions 1267 (1999), 1989 (2011) and 2253 (2015) concerning Islamic State in Iraq and the Levant (Da’esh), Al-Qaida and associated individuals, groups, undertakings and entities -- Informal consultations",
-    "Security Council Committee established pursuant to resolution 1533 (2004) concerning the Democratic Republic of the Congo -- Informal consultations",
-    "Security Council Committee established pursuant to resolution 2140 (2014) -- Informal consultations",
-    "Security Council Committee pursuant to resolution 2745 (2024) -- Informal consultations",
-    "Military Staff Committee -- 2161st meeting (also with virtual participation)",
+    "Peacebuilding Commission -- Expert-level meeting on working methods",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
-    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee."
+    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
+    "United Nations Sustainable Development Group System-wide Evaluation Office -- Informal briefing on the United Nations Sustainable Development Group System-wide Evaluation Office (organized by the United Nations Sustainable Development Group System-wide Evaluation Office)"
   ]
 }
