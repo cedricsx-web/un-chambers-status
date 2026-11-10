@@ -1,22 +1,39 @@
 {
-  "date": "2026-11-09",
-  "fetched_at": "2026-11-09T23:24:54.822Z",
-  "ny_date": "2026-11-09",
+  "date": "2026-11-10",
+  "fetched_at": "2026-11-10T13:13:49.950Z",
+  "ny_date": "2026-11-10",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-09 -- 13 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-10 -- 15 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "39th plenary meeting",
+          "agenda": [],
+          "id": "2056e6f5-6e70-4082-a6fd-7d937e865891",
+          "isConsultation": false,
+          "origOrder": 0
+        }
+      ]
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10267th meeting",
+          "title": "10268th meeting",
           "agenda": [],
-          "id": "dfebe567-cfee-4bb6-932f-d030ac8172b5",
+          "id": "6328e546-ea64-43c0-823f-26651195f61f",
+          "isConsultation": false,
+          "origOrder": 0
+        },
+        {
+          "time": "Followed By",
+          "title": "Consultations of the whole [Closed]",
+          "agenda": [],
+          "id": "01a1c228-0590-74e8-8bec-56b3be2d3638",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -32,18 +49,20 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10267th meeting",
     "General Assembly, Eighty-first session -- Informal consultations on the draft resolution on agenda item 74 (Oceans and the law of the sea)",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 21st plenary meeting",
+    "Third Committee, Eighty-first session -- 41st plenary meeting",
+    "Third Committee, Eighty-first session -- 42nd plenary meeting",
+    "Fifth Committee, Eighty-first session -- 10th plenary meeting",
     "Fifth Committee, Eighty-first session -- Informal consultations",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Special Committee on Peacekeeping Operations -- Working Group of the Whole",
-    "Special Committee on Peacekeeping Operations -- Informal briefing by the Department of Peace Operations",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "Peacebuilding Commission -- Expert-level meeting on working methods",
+    "General Assembly -- 39th plenary meeting",
+    "Security Council -- 10268th meeting",
+    "Security Council -- Consultations of the whole [Closed]",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
-    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
-    "United Nations Sustainable Development Group System-wide Evaluation Office -- Informal briefing on the United Nations Sustainable Development Group System-wide Evaluation Office (organized by the United Nations Sustainable Development Group System-wide Evaluation Office)"
+    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee."
   ]
 }
