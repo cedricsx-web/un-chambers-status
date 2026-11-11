@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-10",
-  "fetched_at": "2026-11-10T20:47:38.510Z",
-  "ny_date": "2026-11-10",
+  "date": "2026-11-11",
+  "fetched_at": "2026-11-11T13:10:00.604Z",
+  "ny_date": "2026-11-11",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-10 -- 15 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-11 -- 11 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "39th plenary meeting",
+          "title": "General Assembly, Eighty-first session -- 40th plenary meeting",
           "agenda": [],
-          "id": "2056e6f5-6e70-4082-a6fd-7d937e865891",
+          "id": "5dcf30ae-70f8-4a70-9379-6650fbde5595",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -20,24 +20,7 @@
     },
     {
       "room": "Security Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "10268th meeting",
-          "agenda": [],
-          "id": "6328e546-ea64-43c0-823f-26651195f61f",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "Followed By",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "01a1c228-0590-74e8-8bec-56b3be2d3638",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Trusteeship Council",
@@ -49,20 +32,16 @@
     }
   ],
   "meetings": [
+    "General Assembly, Eighty-first session -- 40th plenary meeting",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 22nd plenary meeting",
+    "Second Committee, Eighty-first session -- 19th plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "General Assembly, Eighty-first session -- Informal consultations on the draft resolution on agenda item 74 (Oceans and the law of the sea)",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 21st plenary meeting",
-    "Third Committee, Eighty-first session -- 41st plenary meeting",
-    "Third Committee, Eighty-first session -- 42nd plenary meeting",
-    "Fifth Committee, Eighty-first session -- 10th plenary meeting",
-    "Fifth Committee, Eighty-first session -- Informal consultations",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "General Assembly -- 39th plenary meeting",
-    "Security Council -- 10268th meeting",
-    "Security Council -- Consultations of the whole [Closed]",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Third Committee -- Information on the schedule of informal consultations on Third Committee draft proposals is available on iGov.",
-    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee."
+    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
+    "Group of 77 -- Meeting on Fifth Committee matters"
   ]
 }
