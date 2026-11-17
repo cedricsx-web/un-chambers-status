@@ -1,39 +1,22 @@
 {
-  "date": "2026-11-16",
-  "fetched_at": "2026-11-16T23:22:44.870Z",
-  "ny_date": "2026-11-16",
+  "date": "2026-11-17",
+  "fetched_at": "2026-11-17T14:46:24.643Z",
+  "ny_date": "2026-11-17",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-16 -- 14 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-17 -- 12 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "41st plenary meeting",
-          "agenda": [],
-          "id": "b7814dad-9de9-48ea-b462-069297faa138",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "10273rd meeting",
+          "title": "Security Council -- 10274th meeting",
           "agenda": [],
-          "id": "4d9d7ebd-2221-4eb8-ab15-b48cd3eebed4",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "Followed By",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "ebaf71c6-755d-48bd-ac2d-3de345894d06",
+          "id": "614b8c51-9734-4a53-bb4e-b2f0bb6f9846",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -45,38 +28,19 @@
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Conference on the Establishment of a Middle East Zone Free of Nuclear Weapons and Other Weapons of Mass Destruction, Seventh session -- 1st meeting",
-          "agenda": [],
-          "id": "e7151048-21da-4de9-9472-605c19a84e02",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "3:00 PM",
-          "title": "Conference on the Establishment of a Middle East Zone Free of Nuclear Weapons and Other Weapons of Mass Destruction, Seventh session -- 2nd meeting",
-          "agenda": [],
-          "id": "09e6bef8-5aa8-404b-8803-6bc2e21e11d1",
-          "isConsultation": false,
-          "origOrder": 1
-        }
-      ]
+      "meetings": []
     }
   ],
   "meetings": [
-    "General Assembly, Eighty-first session -- Informal consultations on the draft resolution on agenda item 74 (Oceans and the law of the sea)",
-    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 26th plenary meeting",
-    "Fifth Committee, Eighty-first session -- 11th plenary meeting",
-    "Fifth Committee, Eighty-first session -- Informal consultations",
+    "Security Council -- 10274th meeting",
+    "Special Political and Decolonization Committee (Fourth Committee), Eighty-first session -- 27th plenary meeting",
+    "Third Committee, Eighty-first session -- 45th plenary meeting",
+    "Third Committee, Eighty-first session -- 46th plenary meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Conference on the Establishment of a Middle East Zone Free of Nuclear Weapons and Other Weapons of Mass Destruction, Seventh session -- 1st meeting",
-    "Conference on the Establishment of a Middle East Zone Free of Nuclear Weapons and Other Weapons of Mass Destruction, Seventh session -- 2nd meeting",
+    "Conference on the Establishment of a Middle East Zone Free of Nuclear Weapons and Other Weapons of Mass Destruction, Seventh session -- 3rd meeting",
+    "Conference on the Establishment of a Middle East Zone Free of Nuclear Weapons and Other Weapons of Mass Destruction, Seventh session -- 4th meeting",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "General Assembly -- 41st plenary meeting",
-    "Security Council -- 10273rd meeting",
-    "Security Council -- Consultations of the whole [Closed]",
+    "Peacebuilding Commission -- Expert-level meeting on Peacebuilding Fund Strategy",
     "Special Political and Decolonization Committee (Fourth Committee) -- Information on the schedule of informal consultations on Fourth Committee draft proposals is available on the e-deleGATE portal of the Committee.",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
     "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee."
