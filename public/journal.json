@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-19",
-  "fetched_at": "2026-11-19T22:07:16.996Z",
-  "ny_date": "2026-11-19",
+  "date": "2026-11-20",
+  "fetched_at": "2026-11-20T14:18:44.498Z",
+  "ny_date": "2026-11-20",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-19 -- 12 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-20 -- 10 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -16,17 +16,9 @@
           "time": "10:00 AM",
           "title": "Security Council -- Consultations of the whole",
           "agenda": [],
-          "id": "f056052d-43ee-430e-ae7c-0e5111181e39",
+          "id": "873f17f9-695e-4a5a-a8e2-2f25bc86339d",
           "isConsultation": true,
           "origOrder": 0
-        },
-        {
-          "time": "3:00 PM",
-          "title": "Security Council -- 10276th meeting",
-          "agenda": [],
-          "id": "deb628bd-e695-47ac-8f3e-e85cf2b6f3fe",
-          "isConsultation": false,
-          "origOrder": 1
         }
       ]
     },
@@ -34,10 +26,10 @@
       "room": "Trusteeship Council",
       "meetings": [
         {
-          "time": "3:00 PM",
-          "title": "Global Dialogue on Artificial Intelligence Governance -- Informal consultations on the 2027 Global Dialogue on Artificial Intelligence Governance (co-chaired by the Permanent Representative of the Republic of Korea and the Permanent Representative of Saint Kitts and Nevis)",
+          "time": "10:00 AM",
+          "title": "Sixth Committee, Eighty-first session -- 42nd plenary meeting",
           "agenda": [],
-          "id": "571a85c3-8be6-41d1-bc5e-dfe06a7cffe6",
+          "id": "f1cf98cb-9177-4708-a39d-e76cb586f85c",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -50,16 +42,14 @@
   ],
   "meetings": [
     "Security Council -- Consultations of the whole",
-    "Security Council -- 10276th meeting",
-    "Fifth Committee, Eighty-first session -- Informal consultation",
-    "Third Committee, Eighty-first session -- 49th plenary meeting",
-    "Third Committee, Eighty-first session -- 50th plenary meeting",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Conference on the Establishment of a Middle East Zone Free of Nuclear Weapons and Other Weapons of Mass Destruction, Seventh session -- 6th meeting",
+    "Sixth Committee, Eighty-first session -- 42nd plenary meeting",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
+    "Conference on the Establishment of a Middle East Zone Free of Nuclear Weapons and Other Weapons of Mass Destruction, Seventh session -- 7th meeting",
+    "Conference on the Establishment of a Middle East Zone Free of Nuclear Weapons and Other Weapons of Mass Destruction, Seventh session -- 8th meeting",
     "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "Security Council Committee established pursuant to resolution 1988 (2011) -- Informal consultations",
+    "Security Council Committee established pursuant to resolution 2653 (2022) concerning Haiti -- Informal consultations",
+    "Military Staff Committee -- 2163rd meeting",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
-    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee.",
-    "Global Dialogue on Artificial Intelligence Governance -- Informal consultations on the 2027 Global Dialogue on Artificial Intelligence Governance (co-chaired by the Permanent Representative of the Republic of Korea and the Permanent Representative of Saint Kitts and Nevis)"
+    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee."
   ]
 }
