@@ -1,64 +1,63 @@
 {
-  "date": "2026-11-20",
-  "fetched_at": "2026-11-20T21:46:36.388Z",
-  "ny_date": "2026-11-20",
+  "date": "2026-11-23",
+  "fetched_at": "2026-11-23T14:53:45.637Z",
+  "ny_date": "2026-11-23",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-20 -- 11 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-23 -- 9 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "10:00 AM",
+          "title": "42nd plenary meeting",
+          "agenda": [],
+          "id": "71970ae8-1d13-4056-a5f6-189e94b31357",
+          "isConsultation": false,
+          "origOrder": 0
+        }
+      ]
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- Consultations of the whole",
+          "title": "10277th meeting",
           "agenda": [],
-          "id": "873f17f9-695e-4a5a-a8e2-2f25bc86339d",
-          "isConsultation": true,
+          "id": "8a991c50-2846-4df3-aed9-0c65b967579c",
+          "isConsultation": false,
           "origOrder": 0
         }
       ]
     },
     {
       "room": "Trusteeship Council",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "Sixth Committee, Eighty-first session -- 42nd plenary meeting",
-          "agenda": [],
-          "id": "f1cf98cb-9177-4708-a39d-e76cb586f85c",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "3:00 PM",
-          "title": "Sixth Committee, Eighty-first session -- 43rd plenary meeting",
-          "agenda": [],
-          "id": "01a1fa05-4ff5-7ae8-bdbe-b7818ff51332",
-          "isConsultation": false,
-          "origOrder": 1
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Economic and Social Council",
-      "meetings": []
+      "meetings": [
+        {
+          "time": "3:00 PM",
+          "title": "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- Special meeting in observance of the International Day of Solidarity with the Palestinian People",
+          "agenda": [],
+          "id": "11dc3470-6a86-4a93-92d0-02ff3b84837f",
+          "isConsultation": false,
+          "origOrder": 0
+        }
+      ]
     }
   ],
   "meetings": [
-    "Security Council -- Consultations of the whole",
-    "Sixth Committee, Eighty-first session -- 42nd plenary meeting",
-    "Sixth Committee, Eighty-first session -- 43rd plenary meeting",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
-    "Conference on the Establishment of a Middle East Zone Free of Nuclear Weapons and Other Weapons of Mass Destruction, Seventh session -- 7th meeting",
-    "Conference on the Establishment of a Middle East Zone Free of Nuclear Weapons and Other Weapons of Mass Destruction, Seventh session -- 8th meeting",
-    "Commission on the Limits of the Continental Shelf, Sixty-eighth session -- Meetings of the subcommissions",
-    "Security Council Committee established pursuant to resolution 2653 (2022) concerning Haiti -- Informal consultations",
-    "Military Staff Committee -- 2163rd meeting",
+    "Second Committee, Eighty-first session -- 20th plenary meeting",
+    "Fifth Committee, Eighty-first session -- 12th plenary meeting",
+    "Fifth Committee, Eighty-first session -- Informal consultations",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- Special meeting in observance of the International Day of Solidarity with the Palestinian People",
+    "General Assembly -- 42nd plenary meeting",
+    "Security Council -- 10277th meeting",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
-    "Sixth Committee -- Information on the schedule of informal consultations on Sixth Committee draft proposals is available on the website of the Committee."
+    "Permanent Mission of Austria,Permanent Mission of Belgium,Permanent Mission of Colombia,Permanent Mission of the Dominican Republic,Permanent Mission of Ecuador,Permanent Mission of Hungary,Permanent Mission of Italy,Permanent Mission of Japan,Permanent Mission of Kenya,Permanent Mission of Liberia,Permanent Mission of Morocco,Permanent Mission of Peru,Permanent Mission of Saudi Arabia,United Nations Office on Drugs and Crime (UNODC) -- High-level event entitled “Organized Crime in the Twenty-first Century: A Growing Threat to International Peace and Security, Development and Human Rights” (on the occasion of the International Day for the Prevention of and Fight against All Forms of Transnational Organized Crime (15 November)) (co-organized by the Permanent Missions of Austria, Belgium, Colombia, the Dominican Republic, Ecuador, Hungary, Italy, Japan, Kenya, Liberia, Morocco, Peru and Saudi Arabia and the United Nations Office on Drugs and Crime (UNODC))"
   ]
 }
