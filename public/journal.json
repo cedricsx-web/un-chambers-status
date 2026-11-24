@@ -1,39 +1,22 @@
 {
-  "date": "2026-11-23",
-  "fetched_at": "2026-11-24T01:38:31.795Z",
-  "ny_date": "2026-11-23",
+  "date": "2026-11-24",
+  "fetched_at": "2026-11-24T14:47:19.582Z",
+  "ny_date": "2026-11-24",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-23 -- 10 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-24 -- 5 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
-      "meetings": [
-        {
-          "time": "10:00 AM",
-          "title": "42nd plenary meeting",
-          "agenda": [],
-          "id": "71970ae8-1d13-4056-a5f6-189e94b31357",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     },
     {
       "room": "Security Council",
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "10277th meeting",
+          "title": "Security Council -- 10278th meeting",
           "agenda": [],
-          "id": "8a991c50-2846-4df3-aed9-0c65b967579c",
-          "isConsultation": false,
-          "origOrder": 0
-        },
-        {
-          "time": "4:00 PM",
-          "title": "Consultations of the whole [Closed]",
-          "agenda": [],
-          "id": "01a208f3-5dfd-7ef6-b2cb-173a35704c99",
+          "id": "716fde2e-a1e1-4acf-9bd8-1f7334ecfc03",
           "isConsultation": false,
           "origOrder": 0
         }
@@ -45,28 +28,14 @@
     },
     {
       "room": "Economic and Social Council",
-      "meetings": [
-        {
-          "time": "3:00 PM",
-          "title": "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- Special meeting in observance of the International Day of Solidarity with the Palestinian People",
-          "agenda": [],
-          "id": "11dc3470-6a86-4a93-92d0-02ff3b84837f",
-          "isConsultation": false,
-          "origOrder": 0
-        }
-      ]
+      "meetings": []
     }
   ],
   "meetings": [
-    "Second Committee, Eighty-first session -- 20th plenary meeting",
-    "Fifth Committee, Eighty-first session -- 12th plenary meeting",
-    "Fifth Committee, Eighty-first session -- Informal consultations",
+    "Security Council -- 10278th meeting",
+    "Second Committee, Eighty-first session -- 21st plenary meeting",
+    "Second Committee, Eighty-first session -- 22nd plenary meeting",
     "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
-    "Committee on the Exercise of the Inalienable Rights of the Palestinian People -- Special meeting in observance of the International Day of Solidarity with the Palestinian People",
-    "General Assembly -- 42nd plenary meeting",
-    "Security Council -- 10277th meeting",
-    "Security Council -- Consultations of the whole [Closed]",
-    "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov.",
-    "Permanent Mission of Austria,Permanent Mission of Belgium,Permanent Mission of Colombia,Permanent Mission of the Dominican Republic,Permanent Mission of Ecuador,Permanent Mission of Hungary,Permanent Mission of Italy,Permanent Mission of Japan,Permanent Mission of Kenya,Permanent Mission of Liberia,Permanent Mission of Morocco,Permanent Mission of Peru,Permanent Mission of Saudi Arabia,United Nations Office on Drugs and Crime (UNODC) -- High-level event entitled “Organized Crime in the Twenty-first Century: A Growing Threat to International Peace and Security, Development and Human Rights” (on the occasion of the International Day for the Prevention of and Fight against All Forms of Transnational Organized Crime (15 November)) (co-organized by the Permanent Missions of Austria, Belgium, Colombia, the Dominican Republic, Ecuador, Hungary, Italy, Japan, Kenya, Liberia, Morocco, Peru and Saudi Arabia and the United Nations Office on Drugs and Crime (UNODC))"
+    "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov."
   ]
 }
