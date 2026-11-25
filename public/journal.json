@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-24",
-  "fetched_at": "2026-11-24T23:28:12.130Z",
-  "ny_date": "2026-11-24",
+  "date": "2026-11-25",
+  "fetched_at": "2026-11-25T14:36:05.720Z",
+  "ny_date": "2026-11-25",
   "source": "journal-api.un.org",
-  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-24 -- 5 meetings",
+  "note": "Live from https://journal-api.un.org/api/v2/meetings/all/2026-11-25 -- 7 meetings",
   "chambers": [
     {
       "room": "General Assembly Hall",
@@ -14,11 +14,19 @@
       "meetings": [
         {
           "time": "10:00 AM",
-          "title": "Security Council -- 10278th meeting",
+          "title": "Security Council -- Consultations of the whole",
           "agenda": [],
-          "id": "716fde2e-a1e1-4acf-9bd8-1f7334ecfc03",
-          "isConsultation": false,
+          "id": "3b16387a-85e9-462e-94a1-783553fcc141",
+          "isConsultation": true,
           "origOrder": 0
+        },
+        {
+          "time": "3:00 PM",
+          "title": "Security Council -- 10278th meeting (resumed)",
+          "agenda": [],
+          "id": "01a20f78-5925-7448-a999-1b5b4f2e96f1",
+          "isConsultation": false,
+          "origOrder": 1
         }
       ]
     },
@@ -32,10 +40,12 @@
     }
   ],
   "meetings": [
-    "Security Council -- 10278th meeting",
-    "Second Committee, Eighty-first session -- 21st plenary meeting",
-    "Second Committee, Eighty-first session -- 22nd plenary meeting",
-    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (also with virtual participation)",
+    "Security Council -- Consultations of the whole",
+    "Security Council -- 10278th meeting (resumed)",
+    "Second Committee, Eighty-first session -- 23rd plenary meeting",
+    "Second Committee, Eighty-first session -- 24th plenary meeting",
+    "Fifth Committee, Eighty-first session -- Informal consultations",
+    "Advisory Committee on Administrative and Budgetary Questions -- Meeting (to be held via video-teleconference)",
     "Second Committee -- Information on the schedule of informal consultations on Second Committee draft proposals is available on the e-deleGATE portal of the Committee and on iGov."
   ]
 }
